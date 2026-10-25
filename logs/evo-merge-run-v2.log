@@ -1,0 +1,51 @@
+[{"stream_name":"stderr","time":6.723543848,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":6.723588445,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":7.657201035,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.657224373,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.657229126,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.657233295,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.280224806,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.280253162,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.280259526,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.280263734,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":18.836357547,"data":"code in /kaggle/working/evo-merge | resumed runs: ['cmaes_seed0', 'ga_seed0', 'random_seed0']\n"}
+,{"stream_name":"stdout","time":22.259207279,"data":"name, memory.total [MiB]\r\n"}
+,{"stream_name":"stdout","time":22.259240449,"data":"Tesla T4, 15360 MiB\r\n"}
+,{"stream_name":"stdout","time":22.259251584,"data":"Tesla T4, 15360 MiB\r\n"}
+,{"stream_name":"stdout","time":55.488871515,"data":"\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m                                             [100%]\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":55.488941496,"data":"\u001b[32m\u001b[32m\u001b[1m28 passed\u001b[0m\u001b[32m in 31.60s\u001b[0m\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":60.447977967,"data":"{'ga_seed0': True, 'cmaes_seed0': True}\n"}
+,{"stream_name":"stdout","time":60.498950087,"data":"[GPU 0] python -m evomerge.evaluate --config configs/qwen_hindi_math.json --baselines --recipes runs/ga_seed0 runs/cmaes_seed0 runs/random_seed0 --out results/test_recipes\n"}
+,{"stream_name":"stdout","time":930.487831636,"data":" 0.26 h | test_recipes.log: ga_seed0             task_arithmetic  acc=0.224  (600s)\n"}
+,{"stream_name":"stdout","time":1830.49505714,"data":" 0.51 h | test_recipes.log: cmaes_seed0          task_arithmetic  acc=0.212  (639s)\n"}
+,{"stream_name":"stdout","time":2010.496439422,"data":"test_recipes.log: exit code 0 | random_seed0         task_arithmetic  acc=0.216  (570s)\n"}
+,{"stream_name":"stdout","time":2010.496471094,"data":"name,method,split,n,max_new_tokens,accuracy,seconds,config_from\n"}
+,{"stream_name":"stdout","time":2010.496476832,"data":"parent_a,task_arithmetic,test_main,250,1024,0.18,813,a\n"}
+,{"stream_name":"stdout","time":2010.496491699,"data":"parent_b,task_arithmetic,test_main,250,1024,0.22,606,a\n"}
+,{"stream_name":"stdout","time":2010.496495671,"data":"average,task_arithmetic,test_main,250,1024,0.26,675,a\n"}
+,{"stream_name":"stdout","time":2010.496499304,"data":"task_arithmetic,task_arithmetic,test_main,250,1024,0.26,720,a\n"}
+,{"stream_name":"stdout","time":2010.496502626,"data":"ties,ties,test_main,250,1024,0.244,645,a\n"}
+,{"stream_name":"stdout","time":2010.496505916,"data":"dare_ties,dare_ties,test_main,250,1024,0.24,693,a\n"}
+,{"stream_name":"stdout","time":2010.496509462,"data":"\n"}
+,{"stream_name":"stdout","time":2010.496512694,"data":"name,method,split,n,max_new_tokens,accuracy,seconds,config_from\n"}
+,{"stream_name":"stdout","time":2010.496536491,"data":"ga_seed0,task_arithmetic,test_main,250,1024,0.224,600,a\n"}
+,{"stream_name":"stdout","time":2010.496540553,"data":"cmaes_seed0,task_arithmetic,test_main,250,1024,0.212,639,a\n"}
+,{"stream_name":"stdout","time":2010.496543931,"data":"random_seed0,task_arithmetic,test_main,250,1024,0.216,570,a\n"}
+,{"stream_name":"stdout","time":2010.496547322,"data":"\n"}
+,{"stream_name":"stdout","time":2012.345707984,"data":"figures written to figures/\r\n"}
+,{"stream_name":"stdout","time":2012.540789794,"data":"ALL DONE\n"}
+,{"stream_name":"stderr","time":2014.887072325,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":2014.88709777,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":2015.052394275,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":2015.052438649,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":2015.804515997,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":2015.890207647,"data":"[NbConvertApp] Writing 670921 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":2018.268703828,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":2018.798168763,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":2018.798191161,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":2018.798431028,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":2018.798669427,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":2018.798896438,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":2018.799097097,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":2018.799328153,"data":"[NbConvertApp] Writing 308336 bytes to __results__.html\n"}
+]

@@ -1,0 +1,65 @@
+{
+ "name": "average",
+ "method": "task_arithmetic",
+ "split": "train_main",
+ "n": 8,
+ "accuracy": 0.25,
+ "records": [
+  {
+   "id": "train_main/6924",
+   "gold": 12.0,
+   "pred": 9.0,
+   "correct": false,
+   "output": "To solve this problem, we need to determine the number of males among the participants in a gender equality competition. Let's break it down step by step:\n\n1. **Identify the total number of participants:**\n   The total number of participants is given as 18.\n\n2. **Understand the distribution of genders:**\n   - Half of the participants are women.\n   - The other half are men.\n\n3. **Calculate the number of women:**\n   Since half of the participants are women:\n   \\[\n   \\text{Number of women} = \\frac{\\text{Total number of participants}}{2} = \\frac{18}{2} = 9\n   \\]\n\n4. **Determine the number of men:**\n   The remaining participants must be men because they make up the other half:\n   \\[\n   \\text{Number of men} = \\text{Total number of participants} - \\text{Number of women} = 18 - 9 = 9\n   \\]\n\nTherefore, the number of male participants is \\(\\boxed{9}\\)."
+  },
+  {
+   "id": "train_main/3843",
+   "gold": 2.0,
+   "pred": 3.0,
+   "correct": false,
+   "output": "To determine how many pieces of paper are left after Nanshi cuts them into smaller pieces, we need to follow these steps:\n\n1. **Initial Number of Pieces**: Nanshi starts with a single piece of paper.\n\n2. **First Cut**: She cuts the paper into 8 equal parts.\n   - After this cut, she has \\(8\\) pieces of paper.\n\n3. **Second Cut**: She gives half of these pieces to Orsini.\n   - Half of 8 is \\(4\\).\n   - So, Orsini gets \\(4\\) pieces, leaving her with \\(8 - 4 = 4\\) pieces.\n\n4. **Third Cut**: She then gives one-fourth of the remaining pieces to Karl.\n   - One-fourth of 4 is \\(1\\).\n   - So, Karl gets \\(1\\) piece, leaving her with \\(4 - 1 = 3\\) pieces.\n\nTherefore, the number of pieces of paper left with Nanshi is \\(\\boxed{3}\\)."
+  },
+  {
+   "id": "train_main/3208",
+   "gold": 92.0,
+   "pred": 92.0,
+   "correct": true,
+   "output": "To determine the total number of pens that the person has, we need to calculate the number of pens bought on each day and then sum them up.\n\n1. **Sundays**: The person buys 20 pens.\n   \\[\n   \\text{Pens on Sunday} = 20\n   \\]\n\n2. **Mondays**: The person buys 18 pens.\n   \\[\n   \\text{Pens on Monday} = 18\n   \\]\n\n3. **Tuesdays**: On Tuesday, the person buys three times as many pens as she did on Monday.\n   \\[\n   \\text{Pens on Tuesday} = 3 \\times 18 = 54\n   \\]\n\nNow, we add the number of pens bought on each day:\n\\[\n\\text{Total pens} = \\text{Pens on Sunday} + \\text{Pens on Monday} + \\text{Pens on Tuesday}\n\\]\n\\[\n\\text{Total pens} = 20 + 18 + 54\n\\]\n\\[\n\\text{Total pens} = 92\n\\]\n\nThus, the total number of pens the person has is \\(\\boxed{92}\\)."
+  },
+  {
+   "id": "train_main/6017",
+   "gold": 600000.0,
+   "pred": 2000.0,
+   "correct": false,
+   "output": "To solve this problem, we need to calculate the total distance Stephen traveled. We know that he climbed up a mountain of height \\(40,000\\) feet and then descended through ten rounds of terrain.\n\nFirst, let's determine the average height Stephen climbed per round:\n\\[\n\\text{Average height per round} = \\frac{\\text{Total height}}{\\text{Number of rounds}}\n\\]\nGiven that there are ten rounds:\n\\[\n\\text{Average height per round} = \\frac{40,000 \\text{ feet}}{10} = 4,000 \\text{ feet}\n\\]\n\nNext, since Stephen climbs up at an average height of \\(4,000\\) feet per round, we can find out how many rounds it took him to reach the top of the mountain:\n\\[\n\\text{Number of rounds to climb up} = \\frac{\\text{Height of the mountain}}{\\text{Average height per round}}\n\\]\n\\[\n\\text{Number of rounds to climb up} = \\frac{40,000 \\text{ feet}}{4,000 \\text{ feet/round}} = 10 \\text{ rounds}\n\\]\n\nNow, we need to consider both the ascent and descent. Since he descends through ten rounds, each round represents half of his descent (since he ascends for one round and descends for another):\n\\[\n\\text{Descent per round} = \\frac{4,000 \\text{ feet}}{2} = 2,000 \\text{ feet}\n\\]\n\nThe total distance Stephen traveled is the sum of the distances he ascended and descended:\n\\[\n\\text{Total distance} = (\\text{Ascent per round} + \\text{Descent per round}) \\"
+  },
+  {
+   "id": "train_main/4530",
+   "gold": 24.0,
+   "pred": 54.0,
+   "correct": false,
+   "output": "1. **Identify the given information:**\n   - Total number of questions (40).\n   - Ela got 4 incorrect answers.\n   - Marianne got \\( \\frac{3}{2} \\) times as many correct answers as Ela.\n\n2. **Calculate the number of correct answers for Ela:**\n   - Since Ela got 4 incorrect answers out of 40:\n     \\[\n     \\text{Correct answers for Ela} = 40 - 4 = 36\n     \\]\n\n3. **Determine the relationship between Marianne's and Ela's correct answers:**\n   - According to the problem, Marianne got \\( \\frac{3}{2} \\) times as many correct answers as Ela.\n   - Let \\( M \\) be Marianne's score in terms of the number of correct answers.\n   - Therefore:\n     \\[\n     M = \\frac{3}{2} \\times 36\n     \\]\n\n4. **Perform the multiplication:**\n   \\[\n   M = \\frac{3}{2} \\times 36 = \\frac{3 \\times 36}{2} = \\frac{108}{2} = 54\n   \\]\n\n5. **Conclusion:**\n   - Marianne scored 54 points.\n\n\\(\\boxed{54}\\) is the final answer."
+  },
+  {
+   "id": "train_main/3335",
+   "gold": 86.0,
+   "pred": 86.0,
+   "correct": true,
+   "output": "To solve this problem, we need to determine the test scores of Mark and Margaret based on the given information.\n\nFirst, let's denote:\n- \\( M \\) as Mark's average score.\n- \\( R \\) as Margaret's average score.\n\nFrom the problem statement, we know:\n\\[ M = 90 \\]\n\nMark scored 10% less than his average score:\n\\[ \\text{Mark's score} = M - (0.10 \\times M) = 90 - 0.10 \\times 90 = 90 - 9 = 81 \\]\n\nMargaret scored 5 points more than Mark:\n\\[ \\text{Margaret's score} = \\text{Mark's score} + 5 = 81 + 5 = 86 \\]\n\nThus, the test score for Margaret is:\n\\[\n\\boxed{86}\n\\]"
+  },
+  {
+   "id": "train_main/4120",
+   "gold": 2.0,
+   "pred": 16.0,
+   "correct": false,
+   "output": "To determine the number of shooting stars that Sam counted at night, we need to follow these steps:\n\n1. **Identify the given information:**\n   - Bridget counted 14 shooting stars.\n   - Reinhold counted two fewer than Bridget.\n   - Saim counted four more than Reinhold.\n\n2. **Calculate the number of shooting stars Reinhold counted:**\n   - Reinhold counted \\( 14 - 2 = 12 \\) shooting stars.\n\n3. **Calculate the number of shooting stars Saim counted:**\n   - Saim counted \\( 12 + 4 = 16 \\) shooting stars.\n\nTherefore, the total number of shooting stars counted by Saim is \\(\\boxed{16}\\)."
+  },
+  {
+   "id": "train_main/2585",
+   "gold": 51.0,
+   "pred": 3.0,
+   "correct": false,
+   "output": "To determine how much the police officers have to pay for the jute bags, we need to consider two scenarios: those who have been with the force for at least one year and those who have been with the force for more than three years. Let's break it down step-by-step:\n\n1. **Calculate the cost for officers with less than three years of service:**\n   - The base price is $85 per bag.\n   - They get a discount of 20%.\n   - Discount amount = \\( 85 \\times 0.20 = 17 \\) dollars.\n   - Total cost for these officers = \\( 85 - 17 = 68 \\) dollars.\n\n2. **Calculate the cost for officers with at least three years of service:**\n   - The base price is still $85 per bag.\n   - They get an additional 25% off on top of the 20% discount they already have.\n   - First, apply the 20% discount:\n     - Discounted price after first discount = \\( 85 - (85 \\times 0.20) = 85 - 17 = 68 \\) dollars.\n   - Now apply the additional 25% discount:\n     - Additional discount amount = \\( 68 \\times 0.25 = 17 \\) dollars.\n     - Final discounted price = \\( 68 - 17 = 51 \\) dollars.\n\n3. **Determine which group has fewer officers:**\n   - We don't know exactly how many officers fall into each category, but we can infer that since there are no specific numbers given, we'll assume the question implies both groups exist in equal proportions or some other reasonable distribution.\n   - If we assume equal proportions, then half of the officers"
+  }
+ ]
+}

@@ -1,0 +1,457 @@
+{
+ "name": "parent_a",
+ "method": "task_arithmetic",
+ "split": "train_main",
+ "n": 64,
+ "accuracy": 0.140625,
+ "records": [
+  {
+   "id": "train_main/5858",
+   "gold": 1068.0,
+   "pred": 1068.0,
+   "correct": true,
+   "output": "1. पहले मैरियन की बाइक की कीमत 356 डॉलर है।\n\n2. अब स्टेफनी की बाइक की कीमत दोगुनी है। जो भी वास्तविक रूप से एक गुणा है, लेकिन आइए इसे ध्यान में रखें। \n\n3. इस प्रकार, स्टेफनी की बाइक की कीमत = 356 × 2 = 712 डॉलर।\n\n4. अब दोनों बाइकों की कुल कीमत = मैरियन की कीमत + स्टेफनी की कीमत\n   = 356 + 712 = 1068 डॉलर।\n\n5. इसलिए, उनकी बाइक की कुल कीमत 1068 डॉलर है।\n\n boxed{1068}"
+  },
+  {
+   "id": "train_main/4126",
+   "gold": 6.0,
+   "pred": 6.0,
+   "correct": true,
+   "output": "To calculate the discount amount, we need to subtract the original price from the sale price. \n\nStep 1: Identify the original price (before discount) and the sale price.\nOriginal Price = $22\nSale Price = $16\n\nStep 2: Subtract the sale price from the original price to find the discount amount.\nDiscount Amount = Original Price - Sale Price\n                   = $22 - $16\n                   = $6\n\nTherefore, the discount amount is $6.\n\nFinal Answer: The discount amount is $\\boxed{6}$."
+  },
+  {
+   "id": "train_main/6130",
+   "gold": 10.0,
+   "pred": 2.0,
+   "correct": false,
+   "output": "1. यह प्रश्न आपको दो विधियों से जटिलता और गणना की आवश्यकता को बढ़ाया है:\n\n   a) इस प्रश्न को आसानी से हल करने के लिए, हेराक्लेस की उम्र को चारों ओर विभाजित करना चाहिए।\n\n   b) फिर इस प्रश्न को आसानी से हल करने के लिए, हेराक्लेस की उम्र को चारों ओर विभाजित करना चाहिए।\n\n2. इस प्रश्न को हल करने के लिए, हेराक्लेस की उम्र को चारों ओर विभाजित करने के लिए निम्नलिखित तरीके से कर सकते हैं:\n\n   - इस प्रश्न को आसानी से हल करने के लिए, हेराक्लेस की उम्र को चारों ओर विभाजित करने के लिए निम्नलिखित तरीके से कर सकते हैं:\n     - इस प्रश्न को आसानी से हल करने के लिए, हेराक्लेस की उम्र को चारों ओर विभाजित करने के �"
+  },
+  {
+   "id": "train_main/7277",
+   "gold": 480.0,
+   "pred": 560.0,
+   "correct": false,
+   "output": "To solve this problem, let's break it down into steps:\n\n1. **Define Variables:**\n   - Let \\( x \\) be the price of one jute jacket.\n   - Then, the price of one jelly bean is \\( \\frac{x}{4} \\).\n\n2. **Set Up Equations:**\n   - The total cost for jackets is \\( 6x \\).\n   - The total cost for jelly beans is \\( 4 \\times \\frac{x}{4} = x \\).\n   - Therefore, the equation representing the total cost is:\n     \\[\n     6x + x = 560\n     \\]\n\n3. **Solve for \\( x \\):**\n   - Combine like terms:\n     \\[\n     7x = 560\n     \\]\n   - Divide both sides by 7 to isolate \\( x \\):\n     \\[\n     x = \\frac{560}{7}\n     \\]\n     \\[\n     x = 80\n     \\]\n\n4. **Calculate Total Cost for Jackets:**\n   - Now that we know the price of one jacket (\\( x = 80 \\)):\n     \\[\n     \\text{Total cost for jackets} = 6x = 6 \\times 80 = 480\n     \\]\n\n5. **Calculate Total Cost for Jelly Beans:**\n   - We already calculated the total cost for jelly beans as \\( x = 80 \\):\n     \\[\n     \\text{Total cost for jelly beans} = x = 80\n     \\]\n\n6. **Find the Combined Total Cost:**\n   - Add the costs together:\n     \\[\n     \\text{Combined total cost} = 480 + 80 = 560\n     \\]\n\nTherefore, the combined total cost of all items is \\(\\boxed{560}\\)."
+  },
+  {
+   "id": "train_main/6924",
+   "gold": 12.0,
+   "pred": 13.5,
+   "correct": false,
+   "output": "यदि कुल 18 प्रतियोगी हैं और गायन प्रतियोगिता में एक तिहाई प्रतियोगी महिलाएँ हैं, तो इसे निम्नलिखित रूप में समझ सकते हैं:\n\n1. तिहाई प्रतियोगी महिलाएँ: 1/4 * 18 = 4.5\n\n2. अंश प्रतियोगी पुरुष: 1 - (एक तिहाई प्रतियोगी महिलाएँ) = 1 - 4.5 = 0.5\n\n3. अंश प्रतियोगी पुरुष: 0.5 * 18 = 9\n\nअब, आइए देखें कि आपको वह प्रतियोगी पुरुष कितने हैं:\n\n- तिहाई प्रतियोगी महिलाएँ: 4.5\n- अंश प्रतियोगी पुरुष: 9\n\nअभी जोड़ें:\n4.5 + 9 = 13.5\n\nइस प्रकार, आपको जानते हैं कि उनमें 13.5 प्रतियोगी पुरुष हैं।\n\nआपको यह भी जानना चाहिए कि यह एक शेष छोटा अंश है जो गायन प्रतियोगिता में नहीं था। इसलिए, आपको जा�"
+  },
+  {
+   "id": "train_main/3843",
+   "gold": 2.0,
+   "pred": 7.25,
+   "correct": false,
+   "output": "मैं इस प्रश्न को आगे चलते हूँ:\n\n1. नैन्सी ने एक पाई खरीदी जिसे 8 टुकड़ों में काटा गया था।\n\n2. वह अपने शेष भाग को दोनों दोनों लोगों (और डार्सी) को दिया।\n\n3. और डार्सी को दिया 1/2 टुकड़ा।\n\n4. इसलिए उन्होंने अपने शेष भाग को कर्मचारी को दिया।\n\n5. कर्मचारी को दिया 1/4 टुकड़ा।\n\n6. इसलिए नैन्सी को बचे टुकड़े = 8 - 1/2 - 1/4\n\n7. इसे समाप्ति करने के लिए यह घटाकर रखें:\n   8 - 1/2 - 1/4 = 8 - 0.5 - 0.25 = 7.25\n\nअतः नैन्सी को बचे टुकड़े 7.25 टुकड़े हैं।"
+  },
+  {
+   "id": "train_main/5824",
+   "gold": 52.0,
+   "pred": 7.0,
+   "correct": false,
+   "output": "1. बैरी के पास 10.00 डाइम हैं।\n2. वह अपने छोटे भाई डैन के पास आधी राशि है। इसलिए डैन के पास 5.00 डाइम हैं (10.00 / 2 = 5.00)।\n3. डैन के पास 5.00 डाइम हैं।\n4. फिर डैन चाहता है दो डाइम खरीदने के लिए।\n5. इसलिए डैन के पास अब 7.00 डाइम हैं (5.00 + 2 = 7.00)।\n\nअभी तक डैन के पास 7.00 डाइम हैं।"
+  },
+  {
+   "id": "train_main/6466",
+   "gold": 1890.0,
+   "pred": 1890.0,
+   "correct": true,
+   "output": "To calculate the total cost of buying all the flowers, we need to follow these steps:\n\n1. **Calculate the total number of flowers:**\n   - Fruits: 250\n   - Vegetables: 375\n   - Herbs: 320\n   \n   Total number of flowers = 250 + 375 + 320\n\n2. **Multiply the total number of flowers by the price per flower:**\n   - Price per flower = €2\n   \n   Total cost = (Total number of flowers) × (Price per flower)\n\nLet's perform the calculations:\n\n1. **Total number of flowers:**\n   \\[\n   250 + 375 + 320 = 945\n   \\]\n\n2. **Total cost:**\n   \\[\n   945 \\times 2 = 1890\n   \\]\n\nSo, the total cost for buying all the flowers is **€1890**."
+  },
+  {
+   "id": "train_main/1491",
+   "gold": 100.0,
+   "pred": 7.0,
+   "correct": false,
+   "output": "यहाँ हम अपने विश्लेषण को चलाएँ:\n\n1. पहले दिन में बिक्री का भुगतान: 400 संगमरमर\n\n2. बीस ग्राहक आए: 15 संगमरमर प्रति ग्राहक\n\n3. इसलिए उन्हें बिक्री के रूप में घटाएँ: \n   400 - (15 × 10) = 400 - 150 = 250 संगमरमर\n\n4. इस प्रकार दुकान में बचे हुए संगमरमर:\n   250 + 150 = 400 संगमरमर\n\nअभी तक हम दुकान में बचे हुए संगमरमर की गणना कर थे। अब यह भी जाना चाहिए कि दुकान में कितने संगमरमर बचे हैं जब बीस ग्राहक आए। \n\n5. यह भी जाना चाहिए कि बीस ग्राहक आए: 15 संगमरमर प्रति ग्राहक\n\n6. इसलिए उन्हें दुकान में बचे हुए संगमरमर की गणना करें:\n   400 - (15 × 10) = 400 - 150 = 250 संगमरमर\n\n7. इस प्रकार दुक"
+  },
+  {
+   "id": "train_main/1204",
+   "gold": 200.0,
+   "pred": 8.0,
+   "correct": false,
+   "output": "1. अपनी दी गई संख्या को ध्यान में रखें: आकाशगंगा में 20 ग्रह हैं।\n\n2. उसी संख्या को ग्रहों की संख्या के बराबर ग्रहों की संख्या में विभाजित करें:\n   - 20 ग्रह / 8 = 2.5\n\n3. इस प्रकार, 20 ग्रह में 8 ग्रहों की संख्या के बराबर ग्रहों की संख्या होगी।\n\n4. इस प्रकार, 20 ग्रह में 8 ग्रहों की संख्या के बराबर ग्रहों की संख्या होगी।\n\n5. इस प्रकार, 20 ग्रह में 8 ग्रहों की संख्या के बराबर ग्रहों की संख्या होगी।\n\n6. इस प्रकार, 20 ग्रह में 8 ग्रहों की संख्या के बराबर ग्रहों की संख्या होगी।\n\n7. इस प्रकार, 20 ग्रह में 8 ग्रहों की संख्या के बराबर ग्रहों की संख्या होगी।\n\n8. इस प्रकार, 20 ग्रह में 8 ग्रहों की संख्या के बर"
+  },
+  {
+   "id": "train_main/3208",
+   "gold": 92.0,
+   "pred": 92.0,
+   "correct": true,
+   "output": "Step 1: Determine the number of pens bought on each day.\n- On Soma (Sundays), she buys 20 pens.\n- On Monday (Mangal), she buys 18 pens.\n- On Tuesday (Budh), she buys three times as many pens as on Mangal. So, she buys \\(3 \\times 18 = 54\\) pens.\n\nStep 2: Calculate the total number of pens bought over these days.\n- Total pens = Pens on Sunday + Pens on Monday + Pens on Tuesday\n- Total pens = 20 + 18 + 54\n\nStep 3: Perform the addition to find the total number of pens.\n- Total pens = 20 + 18 + 54 = 92\n\nTherefore, the total number of pens in her possession is 92. The final answer is \\(\\boxed{92}\\)."
+  },
+  {
+   "id": "train_main/1218",
+   "gold": 297.0,
+   "pred": 54.0,
+   "correct": false,
+   "output": "मौजूदा मापन: \n- जॉन के नाइक्स की कीमत = 150 डॉलर\n- जॉन के वर्क बूट की कीमत = 120 डॉलर\n\nभुगतान की गणना:\n\n1. टैक्स की दर = 10%\n   टैक्स की राशि = 10% * (150 + 120) = 10/100 * 270 = 27 डॉलर\n\n2. जॉन के नाइक्स की भुगतान:\n   नाइक्स की भुगतान = 150 * 10/100 = 1500/100 = 15 डॉलर\n\n3. जॉन के वर्क बूट की भुगतान:\n   वर्क बूट की भुगतान = 120 * 10/100 = 1200/100 = 12 डॉलर\n\n4. यहाँ से भुगतान की गणना:\n   भुगतान = नाइक्स की भुगतान + वर्क बूट की भुगतान + टैक्स की भुगतान\n          = 15 + 12 + 27 = 54 डॉलर\n\nअंतिम भुगतान: जॉन ने 54 डॉलर की भुगतान की."
+  },
+  {
+   "id": "train_main/7097",
+   "gold": 87.0,
+   "pred": 42.0,
+   "correct": false,
+   "output": "1. प्रत्येक पॉल ने 45 कुकीज़ खरीदने वाले पॉल की तुलना में 3 कम कुकीज़ खरीदीं।\n\n2. इसलिए, पॉल ने 45 - 3 = 42 कुकीज़ खरीदीं।\n\n3. अब, पॉल और उसकी बहन पाउला कुछ कुकीज़ खरीदने के लिए कुकी की दुकान पर गए।\n\n4. इसलिए, कुल कुकीज़ की संख्या = पॉल की कुकीज़ + पाउला की कुकीज़\n\n5. पॉल की कुकीज़: 42\n   पाउला की कुकीज़: 42 (यहाँ जोड़ा जाता है क्योंकि उनके बीच भी कुकीज़ खरीदना है)\n\n6. कुल कुकीज़ की संख्या: 42 + 42 = 84\n\n7. फिर, आइए यहाँ जानें कि उनके पास कुल कुकीज़ कितनी हैं:\n\n   पॉल ने 45 कुकीज़ खरीदने वाले पॉल की तुलना में 3 कम कुकीज़ खरीदीं।\n\n   इसलिए, पॉल ने 45 - 3 = 42"
+  },
+  {
+   "id": "train_main/6689",
+   "gold": 1800.0,
+   "pred": 300.0,
+   "correct": false,
+   "output": "To determine how many bottles of soup Mark is donating, we need to follow these steps:\n\n1. **Determine the number of people served per day:**\n   - Mark serves 30 people each day.\n\n2. **Calculate the total amount of money collected from one person:**\n   - Each person pays $10 for a bottle of soup.\n\n3. **Calculate the total amount of money collected from all people served in one day:**\n   - Total money = Number of people × Money per person\n   - Total money = 30 people × $10/person\n\n4. **Convert the total money into the number of bottles donated:**\n   - Since each bottle costs $1, the number of bottles donated is equal to the total money collected.\n\nLet's perform the calculations:\n\n1. Number of people served per day = 30\n2. Money paid per person = $10\n3. Total money collected = 30 people × $10/person = $300\n\nTherefore, Mark donates 300 bottles of soup per day.\n\nThe final answer is:\n\\(\\boxed{300}\\)"
+  },
+  {
+   "id": "train_main/2793",
+   "gold": 120.0,
+   "pred": 40.0,
+   "correct": false,
+   "output": "1. लारा चार बेकिंग ट्रे का उपयोग करके कुकीज़ पका रही है।\n\n2. वह एक बेकिंग ट्रे पर कुकीज़ की पाँच पंक्तियाँ रखती है।\n\n3. इसमें पंक्ति 1 में कुकीज़ 6 से शुरू होती है।\n\n4. अब पंक्ति 2 में कुकीज़ 7 से शुरू होती है।\n\n5. अब पंक्ति 3 में कुकीज़ 8 से शुरू होती है।\n\n6. अब पंक्ति 4 में कुकीज़ 9 से शुरू होती है।\n\n7. अब पंक्ति 5 में कुकीज़ 10 से शुरू होती है।\n\n8. इस प्रकार पंक्ति 1-5 में कुकीज़ की पाँच पंक्तियाँ रखी गई हैं।\n\n9. इन पंक्तियों में कुकीज़ की कुल संख्या = 6 + 7 + 8 + 9 + 10 = 40\n\nअभी तक आपको दिखाई दी गई है कि लारा चार बेकिंग ट्रे का उपयोग करके कुकीज़ पका रही है।"
+  },
+  {
+   "id": "train_main/905",
+   "gold": 480.0,
+   "pred": 30.0,
+   "correct": false,
+   "output": "1. पहले, यदि सू एक मशीन की देखरेख करती है और इसमें 30 डिब्बे सोडा का उत्पादन करती है, तो यह भी सू के लिए अच्छा आवश्यक है।\n\n2. फिर, यदि सू कारखाने में काम करती है और हर 30 मिनट में एक मशीन की देखरेख करती है, तो यह भी सू के लिए अच्छा आवश्यक है।\n\n3. अब, यदि एक मशीन 8 घंटे में कितने डिब्बे सोडा का उत्पादन कर सकती है, तो यह भी सू के लिए अच्छा आवश्यक है।\n\n4. इसलिए, यदि सू कारखाने में काम करती है और हर 30 मिनट में एक मशीन की देखरेख करती है, तो यह भी सू के लिए अच्छा आवश्यक है।\n\n5. इसलिए, एक मशीन 8 घंटे में कितने डिब्बे सोडा का उत्पादन कर सकती है:\n\n   8 घंटे / 30 मिनट ="
+  },
+  {
+   "id": "train_main/4508",
+   "gold": 2600.0,
+   "pred": 3100.0,
+   "correct": false,
+   "output": "यह प्रश्न का उत्तर देखें:\n\n1. एक यूट्यूब वीडियो को 3000 लाइक्स और 100 से अधिक आधे से अधिक डिसलाइक्स मिले।\n\n2. यहाँ आधे से अधिक जैसे \"100\" है। इसलिए यह बताता है कि डिसलाइक्स की संख्या लगभग 100 से अधिक है।\n\n3. वीडियो को 1000 से अधिक डिसलाइक्स और 0 से अधिक लाइक्स मिलते हैं।\n\n4. यहाँ लाइक्स की संख्या 0 है।\n\n5. यहाँ डिसलाइक्स की संख्या 100 से अधिक है।\n\n6. इसलिए वीडियो में डिसलाइक्स की संख्या 100 से अधिक है।\n\n7. इसलिए वीडियो में डिसलाइक्स की संख्या 3000 + 100 = 3100 है।\n\nअतः वीडियो में डिसलाइक्स की संख्या 3100 है।"
+  },
+  {
+   "id": "train_main/6017",
+   "gold": 600000.0,
+   "pred": 145600.0,
+   "correct": false,
+   "output": "To calculate the total distance Stephen traveled, we need to consider both his ascent and descent. Let's break it down step-by-step:\n\n### Step 1: Calculate the Ascent Distance\nStephen ascended from 10 rounds of a trek up to an elevation of 40,000 feet.\n\n- Each round is approximately 2 miles (since 1 mile = 5280 feet).\n- Therefore, each round is \\( 2 \\times 5280 = 10,560 \\) feet.\n- For 10 rounds:\n  \\[\n  10 \\text{ rounds} \\times 10,560 \\text{ feet/round} = 105,600 \\text{ feet}\n  \\]\n\n### Step 2: Calculate the Descent Distance\nStephen descended back down to sea level.\n\n- The total height he ascended was 40,000 feet.\n- To find the descent, subtract this from sea level (which is typically considered as 0 feet):\n  \\[\n  40,000 \\text{ feet} - 0 \\text{ feet} = 40,000 \\text{ feet}\n  \\]\n\n### Step 3: Total Distance Traveled\nThe total distance Stephen traveled includes both the ascent and the descent:\n\\[\n105,600 \\text{ feet (ascent)} + 40,000 \\text{ feet (descent)} = 145,600 \\text{ feet}\n\\]\n\nTherefore, the total distance Stephen traveled is **145,600 feet**."
+  },
+  {
+   "id": "train_main/4530",
+   "gold": 24.0,
+   "pred": 5.0,
+   "correct": false,
+   "output": "1. निश्चित बातें:\n   - एला को 4 गलत उत्तर मिले\n   - मैरियन को एला के आधे से अधिक 6 अंक मिले\n\n2. इसे निर्धारित करें:\n   - एला का स्कोर = 4 गलत उत्तर × 1 अंक/गलत उत्तर = 4 × 1 = 4 अंक\n   - मैरियन का स्कोर = 6 अंक × (एला का स्कोर / 2) = 6 × (4 / 2) = 6 × 2 = 12 अंक\n\n3. यहाँ भी निर्धारित करें:\n   - एला का स्कोर = 4 अंक + 4 गलत उत्तर × 1 अंक/गलत उत्तर = 4 + 4 × 1 = 8 अंक\n   - मैरियन का स्कोर = 12 अंक + 4 गलत उत्तर × 1 अंक/गलत उत्तर = 12 + 4 × 1 = 16 अंक\n\n4. फिर यह निर्धारित करें:\n   - मैरियन का स्कोर = 16 अंक + 4 गलत उत्तर × 1 अंक/गलत उत्तर = 16 + 4 × 1 = 20 अंक\n\n5. अंतिम निर्धारण:\n   - मैरियन"
+  },
+  {
+   "id": "train_main/702",
+   "gold": 27.0,
+   "pred": 192.0,
+   "correct": false,
+   "output": "1. आइए सबसे पहले लिली के खाते में भारतीय धन को घटाइं:\n   - लिली के खाते में लगभग 55 डॉलर थे\n\n2. वह एक शर्ट पर 7 डॉलर खर्च किए। इसे घटाइं:\n   - 55 - 7 = 48 डॉलर\n\n3. फिर वह दूसरी दुकान पर गई और एक शर्ट पर जितना खर्च किया, उससे तीन गुना अधिक खर्च किया। इसे घटाइं:\n   - 48 + (48 × 3) = 48 + 144 = 192 डॉलर\n\n4. इस प्रकार, लिली के खाते में अब 192 डॉलर बचे हैं।\n\nअभी तक आप लिखे हैं: लिली के खाते में 192 डॉलर बचे हैं।\n\nआशा है, आप इस प्रश्न को समझ लिया और उत्तर लिख सकते हैं।"
+  },
+  {
+   "id": "train_main/4974",
+   "gold": 160.0,
+   "pred": 128.0,
+   "correct": false,
+   "output": "To calculate how much John makes in a week from streaming, we need to break down the problem into smaller steps:\n\n1. **Determine the number of days he streams each week:**\n   - He has a 3-day break.\n   - Therefore, he streams for \\(7 - 3 = 4\\) days per week.\n\n2. **Calculate his daily earnings:**\n   - On each day he streams, he earns $4 (since he earns $4 per hour).\n   - There are 8 hours in a day, so his hourly rate is \\(4 \\text{ dollars/hour} \\times 8 \\text{ hours/day} = 32 \\text{ dollars/day}\\).\n\n3. **Calculate his weekly earnings:**\n   - Since he streams for 4 days a week at an hourly rate of $32:\n     \\[\n     \\text{Weekly Earnings} = 4 \\text{ days/week} \\times \\$32/\\text{day}\n     \\]\n   - Performing the multiplication:\n     \\[\n     4 \\times 32 = 128 \\text{ dollars/week}\n     \\]\n\nTherefore, John makes $128 in a week from streaming. The final answer is $\\boxed{128}$ dollars."
+  },
+  {
+   "id": "train_main/405",
+   "gold": 8.0,
+   "pred": 1.0,
+   "correct": false,
+   "output": "1. अपनी नदी की चौड़ाई: 42 फीट\n\n2. नाव की चौड़ाई: 3 फीट\n\n3. नदी के किनारे की दूरी: 2 फीट\n\n4. नावों की संख्या: \n\n   - इसके लिए नदी की चौड़ाई को नावों की संख्या गुणा करें:\n     42 फीट × n = 3 फीट × n\n   \n   - इसके लिए नदी के किनारे की दूरी को नावों की संख्या गुणा करें:\n     2 फीट × n = 3 फीट × n\n   \n5. आइए दोनों समीकरणों को समान स्थिति में रखें:\n\n   42n = 3n + 6\n   \n6. इसके लिए दोनों समीकरण को समाप्त करें:\n\n   42n - 3n = 6\n   39n = 6\n   n = 6 / 39\n   n ≈ 0.1538\n   \n7. नावों की संख्या लगभग 1 नौकाएं होगी।\n\nअतः, 42 फीट चौड़ी नदी में 1 नौकाएं दौड़ सकती हैं।"
+  },
+  {
+   "id": "train_main/3250",
+   "gold": 6.0,
+   "pred": 1200.0,
+   "correct": false,
+   "output": "To determine how much James has earned from selling the stickers, we need to follow these steps:\n\n1. **Calculate the total number of stickers:**\n   - Each pack contains 30 stickers.\n   - There are 4 packs.\n   - Total stickers = Number of packs × Stickers per pack\n   - Total stickers = 4 × 30 = 120 stickers\n\n2. **Determine the cost per sticker:**\n   - The cost of each sticker is $10.\n\n3. **Calculate the total earnings:**\n   - Total earnings = Total stickers × Cost per sticker\n   - Total earnings = 120 × $10 = $1200\n\nTherefore, James earns a total of $1200 from selling the stickers. \n\nThe final answer is $\\boxed{1200}$."
+  },
+  {
+   "id": "train_main/2527",
+   "gold": 123.0,
+   "pred": 96.0,
+   "correct": false,
+   "output": "यह समस्या को हल करने के लिए निम्न अवधारणाओं का उपयोग करें:\n\n1. इनडोर टेबल में कुल कुर्सियाँ: 9 × 10 = 90 कुर्सियाँ\n\n2. आउटडोर टेबल में कुल कुर्सियाँ: 11 × 3 = 33 कुर्सियाँ\n\n3. कुल कुर्सियाँ: 90 + 33 = 123 कुर्सियाँ\n\nअब दृष्टि का विचार: इनडोर टेबल और आउटडोर टेबल के बीच कुछ कुर्सियाँ शामिल हैं। इन जोड़े गए कुर्सियाँ कुल कुर्सियों में भी शामिल हैं। \n\n4. इनडोर टेबल और आउटडोर टेबल के बीच कुल कुर्सियाँ: 9 × 3 = 27 कुर्सियाँ\n\n5. कुल कुर्सियाँ: 123 - 27 = 96 कुर्सियाँ\n\nइसलिए, कुल कुर्सियाँ 96 हैं।\n\nअभी तक आपको यह जानकारी मददगार होगी: कुल कुर्सियाँ 96 हैं।"
+  },
+  {
+   "id": "train_main/3690",
+   "gold": 340.0,
+   "pred": 360.0,
+   "correct": false,
+   "output": "To solve this problem, let's break it down into steps:\n\n1. **Determine the current age of Sandee:**\n   - We know that Sandee's monthly phone bill is now ten times her current age.\n   - Let's denote Sandee's current age as \\( A \\).\n   - Therefore, the current monthly phone bill = \\( 10A \\).\n\n2. **Calculate the future age of Sandee:**\n   - In two years, Sandee will be \\( A + 2 \\) years old (since we are considering only the next two years for calculation purposes).\n   - According to the problem, in two years, her age will be three times what it is currently.\n\n3. **Set up the equation based on the given information:**\n   - If she is currently \\( A \\) years old, then in two years she will be \\( A + 2 \\) years old.\n   - The problem states that in two years, her age will be three times her current age:\n     \\[\n     A + 2 = 3A\n     \\]\n\n4. **Solve for \\( A \\):**\n   - Rearrange the equation to isolate \\( A \\):\n     \\[\n     A + 2 = 3A \\\\\n     2 = 3A - A \\\\\n     2 = 2A \\\\\n     A = 1\n     \\]\n   - So, Sandee's current age is 1 year.\n\n5. **Calculate the current monthly phone bill:**\n   - Since the current monthly phone bill is $10 per year, we multiply this by 12 months:\n     \\[\n     \\text{Current Monthly Phone Bill} = 10 \\times 12 = \\$120\n     \\]\n\n6. **Calculate the future monthly phone bill:**\n   - In two years, Sandee will be \\( 1 + 2 = 3 \\) years old.\n   - Her future monthly phone bill will be three times her current monthly phone bill:\n     \\[\n     \\text{Future Monthly Phone Bill} = 3 \\times 120 = \\$360\n     \\]\n\nTherefore, the future monthly phone bill for Sandee will be $\\boxed{360}$."
+  },
+  {
+   "id": "train_main/5145",
+   "gold": 86.0,
+   "pred": 85.0,
+   "correct": false,
+   "output": "1. **पहले अवधि:**\n   - कक्षा में 40% लड़के हैं।\n   - इसलिए 60% लड़कियां हैं (100% - 40%).\n\n2. **दूसरे अवधि:**\n   - प्रतिशत समान हैं जबकि दोनों परीक्षा में विभाजन आयाम नहीं हैं।\n\n3. **गणित परीक्षा में औसत छूट:**\n   - लड़के को 80% मिलता है।\n   - लड़कियां को 90% मिलती हैं।\n\n4. **औसत छूट ज्ञात करना:**\n   - औसत छूट = (लड़के का औसत + लड़कियां का औसत) / 2\n   - औसत छूट = (80% + 90%) / 2\n   - औसत छूट = 170% / 2\n   - औसत छूट = 85%\n\n**अभीष्ट उत्तर:** \n\\boxed{85\\%}"
+  },
+  {
+   "id": "train_main/4661",
+   "gold": 77.0,
+   "pred": 77.0,
+   "correct": true,
+   "output": "To calculate the total cost of upgrading the rice mill, we need to consider both the cost of replacing the motors (nobes) and the cost of adding the pumps.\n\n1. **Cost of replacing the motors:**\n   - Number of motors replaced = 18\n   - Cost per motor = $2.5\n\n   Total cost for motors:\n   \\[\n   18 \\times 2.5 = 45\n   \\]\n\n2. **Cost of adding the pumps:**\n   - Number of pumps added = 8\n   - Cost per pump = $4\n\n   Total cost for pumps:\n   \\[\n   8 \\times 4 = 32\n   \\]\n\n3. **Total cost:**\n   Add the costs from steps 1 and 2:\n   \\[\n   45 + 32 = 77\n   \\]\n\nTherefore, the total amount spent on upgrading the rice mill is $\\boxed{77}$."
+  },
+  {
+   "id": "train_main/3335",
+   "gold": 86.0,
+   "pred": 85.0,
+   "correct": false,
+   "output": "1. जहाँ पिछले हफ्ते के स्पेनिश टेस्ट में औसत स्कोर 90 था।\n\n2. मार्को ने औसत टेस्ट स्कोर से 10 प्रतिशत कम अंक प्राप्त किए। \n\n3. इसलिए मार्को की वजह से अंक कमी हुई।\n\n4. मार्गरेट ने मार्को से 5 अधिक अंक प्राप्त किए।\n\n5. इसलिए मार्गरेट की वजह से अंक बढ़े।\n\n6. आइए देखें कि मार्गरेट की अंकों कैसे बदल गई:\n\n   - मार्को की अंक: 90 × (100 - 10) / 100 = 80\n   - मार्गरेट की अंक: 80 + 5 = 85\n\n7. इसलिए मार्गरेट को उनके टेस्ट में 85 अंक मिले।\n\n\\boxed{85}"
+  },
+  {
+   "id": "train_main/1875",
+   "gold": 1.0,
+   "pred": 12.0,
+   "correct": false,
+   "output": "To solve this problem, we need to calculate the time it takes for both the horse and the rider to catch up with the elephant. Let's break down the steps:\n\n1. **Determine the relative speed of the horse and the rider:**\n   - The horse runs at 25 miles per hour.\n   - The rider runs at 20 miles per hour.\n   - Therefore, their combined speed is \\(25 + 20 = 45\\) miles per hour.\n\n2. **Calculate the distance between them initially:**\n   - The elephant starts running away from them after 15 minutes (which is 0.25 hours).\n   - In that time, the elephant covers a distance of \\(20 \\times 0.25 = 5\\) miles.\n\n3. **Set up the equation to find the time when they meet:**\n   - Let \\(t\\) be the number of hours it takes for the horse and the rider to catch up with the elephant.\n   - During this time, the horse will cover \\(25t\\) miles.\n   - The total distance covered by the horse and the rider together in \\(t\\) hours is \\(45t\\).\n   - Since the elephant has already run 5 miles, the total distance covered by the horse and the rider must equal the initial distance plus the distance the elephant ran:\n     \\[\n     45t = 5 + 20t\n     \\]\n\n4. **Solve for \\(t\\):**\n   - Subtract \\(20t\\) from both sides:\n     \\[\n     25t = 5\n     \\]\n   - Divide both sides by 25:\n     \\[\n     t = \\frac{5}{25} = 0.2 \\text{ hours}\n     \\]\n\nSo, it will take 0.2 hours or 12 minutes for the horse and the rider to catch up with the elephant."
+  },
+  {
+   "id": "train_main/35",
+   "gold": 36.0,
+   "pred": 5.0,
+   "correct": false,
+   "output": "1. दिए गए विषय: श्री सांचेज़ के ग्रेड 5 के लिए अंतिम ग्रेड प्राप्त छात्रों की संख्या\n\n2. ध्यान रखें:\n   - इस प्रश्न में श्री सांचेज़ के ग्रेड 5 के लिए अंतिम ग्रेड प्राप्त छात्रों की संख्या भी नहीं दिए गए हैं।\n   - उनके ग्रेड 5 में 60 छात्र हैं।\n\n3. आवश्यक जाँच:\n   - इस प्रश्न में श्री सांचेज़ के ग्रेड 5 के लिए अंतिम ग्रेड प्राप्त छात्रों की संख्या नहीं दिए गए हैं।\n   - इसलिए इस प्रश्न को निर्धारित करने के लिए उनके ग्रेड 5 में 60 छात्र की संख्या का अनुमान लगभग खोजना होगा।\n\n4. अनुमान लगभग खोजना:\n   - श्री सांचेज़ के ग्रेड 5 में 60 छात्र हैं।\n   - इसलिए उनके ग्रेड 5 के लिए अंतिम ग्रेड प"
+  },
+  {
+   "id": "train_main/5419",
+   "gold": 60.0,
+   "pred": 60.0,
+   "correct": true,
+   "output": "1. **Identify the given information:**\n   - In 2004, there were some children in the orphanage.\n   - In 2005, half as many children came to the orphanage compared to 2004.\n   - In 2006, two-thirds of the children who came in 2005 also came to the orphanage.\n   - There were 20 children in the orphanage in 2006.\n\n2. **Determine the number of children who came to the orphanage in 2005:**\n   - Let \\( x \\) be the number of children who came to the orphanage in 2004.\n   - According to the problem, in 2005, half as many children came:\n     \\[\n     \\frac{x}{2} = \\text{number of children in 2005}\n     \\]\n\n3. **Express the number of children who came to the orphanage in 2006 in terms of \\( x \\):**\n   - Two-thirds of the children from 2005 also came to the orphanage in 2006:\n     \\[\n     \\frac{2}{3} \\times \\frac{x}{2} = \\text{number of children in 2006}\n     \\]\n   - Simplifying this expression:\n     \\[\n     \\frac{x}{3} = 20\n     \\]\n\n4. **Solve for \\( x \\):**\n   - Multiply both sides by 3 to isolate \\( x \\):\n     \\[\n     x = 20 \\times 3\n     \\]\n     \\[\n     x = 60\n     \\]\n\n5. **Conclusion:**\n   - Therefore, there were 60 children in the orphanage in 2004.\n\n\\(\\boxed{60}\\)"
+  },
+  {
+   "id": "train_main/5632",
+   "gold": 15.0,
+   "pred": 4.0,
+   "correct": false,
+   "output": "1. इस प्रश्न को हल करने के लिए, आइए तुरंत गणना करें:\n\n   - शो में एपिसोडों की संख्या: 90\n   - एपिसोड की लंबाई: 20 मिनट\n\n2. तुरंत एपिसोड की लंबाई को दिनों में बदलें:\n   20 मिनट / 60 मिनट/घंटा = 1/3 घंटा (या 20 मिनट)\n\n3. तुरंत एपिसोड की लंबाई को दिनों में बदलें:\n   1/3 घंटा * 24 घंटा/दिन = 8 घंटा\n\n4. तुरंत एपिसोड की लंबाई को दिनों में बदलें:\n   8 घंटा / 2 घंटा/दिन = 4 दिन\n\n5. इस प्रकार, टॉम दिन में दो घंटे शो देखने में बिता सकता है, तो उसे शो देखने को पूरा करने में 4 दिन लगेंगे।\n\nअभी तक आप भी चाहते हैं और यह गणना करने का फैसला दें।"
+  },
+  {
+   "id": "train_main/1425",
+   "gold": 10.0,
+   "pred": 2.0,
+   "correct": false,
+   "output": "To solve this problem, let's break it down into steps:\n\n1. Calculate the number of cakes baked by Beta in a full hour:\n   - Beta bakes 10 cakes per hour.\n\n2. Calculate the number of cakes baked by Beta during her break (2 hours):\n   - Since she breaks for 2 hours, we need to calculate how many cakes she would have made if she hadn't stopped.\n   - In 2 hours, she would normally bake: 2 * 10 = 20 cakes.\n   - However, since she stops baking for 2 hours, only half of those cakes are counted towards the total.\n   - So, the actual number of cakes baked is: 20 / 2 = 10 cakes.\n\n3. Calculate the number of cakes baked by Dorra in a full hour:\n   - Dorra bakes 8 cakes per hour.\n\n4. Calculate the number of cakes baked by Dorra during her break (2 hours):\n   - Similarly, Dorra also takes a 2-hour break.\n   - She would normally bake: 2 * 8 = 16 cakes.\n   - Again, only half of these cakes count towards the total because she stops baking for 2 hours.\n   - So, the actual number of cakes baked is: 16 / 2 = 8 cakes.\n\n5. Determine the difference between the number of cakes baked by Beta and Dorra after their breaks:\n   - The difference is: 10 (Beta) - 8 (Dorra) = 2 cakes.\n\nTherefore, after their breaks, there will be 2 more cakes baked by Beta than by Dorra. \n\nThe final answer is: 2 cakes"
+  },
+  {
+   "id": "train_main/3569",
+   "gold": 1550.0,
+   "pred": 15000.0,
+   "correct": false,
+   "output": "1. **प्रारम्भिक स्थिति:**\n   - टंकी में पानी की गणना:\n     \\[\n     6000 \\text{ लीटर} + 2000 \\text{ लीटर} = 8000 \\text{ लीटर}\n     \\]\n\n2. **वाष्पीकृत चरण:**\n   - वाष्पीकृत लीटर की गणना:\n     \\[\n     8000 \\text{ लीटर} - 3500 \\text{ लीटर} = 4500 \\text{ लीटर}\n     \\]\n\n3. **बारिश चरण:**\n   - बारिश की गणना:\n     \\[\n     350 \\text{ लीटर/10 मिनट} \\times 30 मिनट = 10500 \\text{ लीटर}\n     \\]\n   - इसलिए, बारिश के बाद टंकी में लीटर की गणना:\n     \\[\n     4500 \\text{ लीटर} + 10500 \\text{ लीटर} = 15000 \\text{ लीटर}\n     \\]\n\n**अभीष्ट उत्तर:** टंकी में 15000 लीटर होते हैं।"
+  },
+  {
+   "id": "train_main/1293",
+   "gold": 117.0,
+   "pred": 28.8,
+   "correct": false,
+   "output": "To determine how much money Jime and Airin will give to the cashier, we need to calculate the discounted prices for each of their purchases based on the given discounts.\n\nFirst, let's calculate Jime's purchase:\n- Original price: $15.00\n- Discount rate: 10%\n- Discount amount: \\( 15.00 \\times \\frac{10}{100} = 1.50 \\)\n- Discounted price: \\( 15.00 - 1.50 = 13.50 \\)\n\nNext, let's calculate Airin's purchase:\n- Original price: $17.00\n- Discount rate: 10%\n- Discount amount: \\( 17.00 \\times \\frac{10}{100} = 1.70 \\)\n- Discounted price: \\( 17.00 - 1.70 = 15.30 \\)\n\nNow, we add both amounts together to find out how much they will give to the cashier:\n\\[ 13.50 + 15.30 = 28.80 \\]\n\nTherefore, Jime and Airin will give a total of **$28.80** to the cashier."
+  },
+  {
+   "id": "train_main/1269",
+   "gold": 4400.0,
+   "pred": 4400.0,
+   "correct": true,
+   "output": "To calculate the total revenue for the day, we need to multiply each type of return by its respective charge and then sum them up. Here's the step-by-step calculation:\n\n1. Calculate the revenue from government returns:\n   - Charge per government return: $50\n   - Number of government returns: 60\n   - Revenue from government returns = $50 × 60 = $3,000\n\n2. Calculate the revenue from state returns:\n   - Charge per state return: $30\n   - Number of state returns: 20\n   - Revenue from state returns = $30 × 20 = $600\n\n3. Calculate the revenue from intercity returns:\n   - Charge per intercity return: $80\n   - Number of intercity returns: 10\n   - Revenue from intercity returns = $80 × 10 = $800\n\n4. Sum up all the revenues:\n   Total revenue = Revenue from government returns + Revenue from state returns + Revenue from intercity returns\n                  = $3,000 + $600 + $800\n                  = $4,400\n\nTherefore, the total revenue for the day is $4,400. The final answer is $\\boxed{4400}$."
+  },
+  {
+   "id": "train_main/5913",
+   "gold": 6.0,
+   "pred": 1.45,
+   "correct": false,
+   "output": "1. जूलिया को पार्टी के लिए 6 केक बनाने थे।\n\n2. प्रत्येक केक को मिलाने में 12 मिनट लगते हैं।\n   - इसलिए 6 केकों को मिलाने में 6 × 12 = 72 मिनट लगेंगे।\n\n3. मिश्रण की तुलना में 9 मिनट अधिक बेक करने की आवश्यकता होती है।\n   - इसलिए 6 केकों को मिश्रण करने में (72 + 9) = 81 मिनट लगेगा।\n\n4. फिर इसे ठंडा होने और सजाने में 6 मिनट अधिक लगेंगे।\n   - इसलिए 6 केकों को ठंडा होने और सजाने में (81 + 6) = 87 मिनट लगेगा।\n\n5. 87 मिनट को घंटों में बदल:\n   - 87 ÷ 60 = 1.45 घंटे\n\n6. इसलिए, सभी 6 केक बनाने में 1.45 घंटे लगेंगे।\n\nअतः, जूलिया को पार्टी के लिए 6 केक बनाने में 1.45 घंटे लगेंगे।"
+  },
+  {
+   "id": "train_main/5531",
+   "gold": 4625.0,
+   "pred": 4625.0,
+   "correct": true,
+   "output": "To calculate the total medical bill for Doctor Kate, we need to consider all the costs mentioned in the question. Let's break it down step by step:\n\n1. **Hospital Stay Cost:**\n   - The hospital stays cost $900 per day.\n   - Doctor Kate is staying there for 3 days.\n   - Total hospital stay cost = $900/day × 3 days = $2700.\n\n2. **Specialist Fees:**\n   - Two specialists are required for a total of 15 minutes each.\n   - Each specialist fee is $250 per hour.\n   - Since they work for 15 minutes (which is 0.25 hours), the cost per specialist is:\n     $250/hour × 0.25 hours = $62.50.\n   - For two specialists, the total cost is:\n     $62.50/specialist × 2 specialists = $125.\n\n3. **Ambulance Service Fee:**\n   - The ambulance service fee is $1800.\n\nNow, let's add up all these costs to get the total medical bill:\n\nTotal medical bill = Hospital stay cost + Specialist fees + Ambulance service fee\nTotal medical bill = $2700 + $125 + $1800\nTotal medical bill = $4625\n\nTherefore, the total medical bill for Doctor Kate is $\\boxed{4625}$."
+  },
+  {
+   "id": "train_main/4687",
+   "gold": 20.0,
+   "pred": 30.0,
+   "correct": false,
+   "output": "1. यदि डेलानी देर से उठती है और 7.50 बजे पिक-अप पॉइंट पर पहुंचती है, तो इसे रोजगाँधी के दौरान चाहिए।\n\n2. डेलानी को स्कूल के लिए निकलने के लिए आवश्यक समय 8:00 बजे है। इसलिए वह 7:30 बजे खुली होगी।\n\n3. वह अपने घर से पिक-अप पॉइंट तक पहुंचने में 30 मिनट लगते हैं। \n\n4. इसलिए वह 7:30 बजे खुली होगी और 7:60 बजे पिक-अप पॉइंट पर पहुंचेगी।\n\n5. इसलिए वह 7:60 - 7:30 = 30 मिनट बस छूट गई।\n\nFinal Answer: डेलानी देर से उठती है और 7:50 बजे पिक-अप पॉइंट पर पहुंचती है। वह 30 मिनट बस छूट गई।"
+  },
+  {
+   "id": "train_main/607",
+   "gold": 375000.0,
+   "pred": 250000.0,
+   "correct": false,
+   "output": "वह एक मिलियन सेफ मून टोकन खरीदे हैं। उसके 4 भाई-बहन हैं। वह उनमें से आधे को अपने पास रखना चाहती है और शेष टोकन को अपने भाई-बहनों के बीच विभाजित करना चाहती है।\n\nइसे विभाजित करने के बाद, उसके पास अपने किसी भी भाई-बहन की तुलना में कितने अधिक टोकन होंगे?\n\n1. गणना करें: एक मिलियन = 1000000\n   इसलिए, 1 मिलियन सेफ मून टोकन = 1000000 टोकन\n\n2. उसके 4 भाई-बहन को विभाजित करें:\n   आधे भाई-बहन = 1/4 * 1000000 = 250000 टोकन\n   शेष भाई-बहन = 3/4 * 1000000 = 750000 टोकन\n\n3. विभाजित करने के बाद टोकनों की तुलना में:\n   उसके आधे भाई-बहन की टोकनों = 250000 टोकन\n   उसके शेष �"
+  },
+  {
+   "id": "train_main/5008",
+   "gold": 56.0,
+   "pred": 32.0,
+   "correct": false,
+   "output": "यह सवाल का उत्तर देने के लिए निम्न विधि का इस्तेमाल किया जा सकता है:\n\n1. लाल गम्बल की संख्या: 16\n\n2. लाल गम्बल की आधी: 16 / 2 = 8\n\n3. नीले गम्बल की संख्या: 8 * 4 = 32\n\n4. नीले गम्बल की आधी: 32 / 2 = 16\n\n5. नीले गम्बल की संख्या: 16 + 16 = 32\n\nअब आप नीचे दिए गए चित्र में उत्तर देने का एक ऐसा भाषण दे सकते हैं:\n\n\"मशीन में 16 लाल गम्बल होते हैं। इनमें लाल गम्बल की आधी (8) होती हैं। इन आधी को नीले गम्बल की संख्या में गुज़रती है। इसलिए, नीले गम्बल की संख्या 8 * 4 = 32 होती है। इन नीले गम्बलों को लाल गम्बलों की संख्या में गुज़रती है। इसलिए, नीले गम्बलों की संख्या 32 +"
+  },
+  {
+   "id": "train_main/5567",
+   "gold": 1600.0,
+   "pred": 33600.0,
+   "correct": false,
+   "output": "1. **समय विभाजन**: हमें इस प्रश्न को आधारित धारणाओं के आधार पर विभाजित करना है।\n\n2. **पहले छह लोगों की जेली बीन्स**: इन लोगों में से प्रत्येक ने पिछले चार लोगों की तुलना में दोगुनी जेली बीन्स ली। इसलिए, पहले छह लोगों की जेली बीन्स = 6 * (2/3) * 8000 = 32000.\n\n3. **अंतिम चार लोगों की जेली बीन्स**: इन लोगों में से प्रत्येक ने 400 जेली बीन्स ली। इसलिए, अंतिम चार लोगों की जेली बीन्स = 400 * 4 = 1600.\n\n4. **कंटेनर में जेली बीन्स**: इन दो प्रकार की जेली बीन्सों को जोड़ने पर उतनी जेली बीन्स रहेंगी। इसलिए, कंटेनर में जेली बीन्स = 32000 + 1600 = 33600.\n\n**उत्तर:** कंटेनर में जेली बीन"
+  },
+  {
+   "id": "train_main/3830",
+   "gold": 13.0,
+   "pred": 6.0,
+   "correct": false,
+   "output": "1. आइए हम इस प्रश्न को बढ़ावा देते हैं:\n\n   \"ZYX सिंड्रोम का निदान करने की संभावना है कि कितने रोगियों को मनोवैज्ञानिक ZYX सिंड्रोम का निदान करने की संभावना है?\"\n\n2. जबकि आपको यह भी जाना है कि यह शब्द 'ZYX' नहीं है और यह एक गणितीय सिंड्रोम है।\n\n3. यदि आपको यह भी जाना है कि यह शब्द 'ZYX' एक गणितीय सिंड्रोम है जो विशेष रूप से विश्वास और ध्यान के लिए उपयोग किया जाता है।\n\n4. यह शब्द 'ZYX' एक गणितीय सिंड्रोम है जो विश्वास और ध्यान के लिए उपयोग किया जाता है।\n\n5. यह शब्द 'ZYX' एक गणितीय सिंड्रोम है जो विश्वास और ध्यान के लिए उपयोग किया जाता है।\n\n6. यह शब्द 'ZYX' एक गणित"
+  },
+  {
+   "id": "train_main/1257",
+   "gold": 8000.0,
+   "pred": 5.0,
+   "correct": false,
+   "output": "1. आइए एलिस के निवेश की घटनाओं को देखें:\n   - एलिस को 2000 रूपये दिए जाते हैं\n   - इसके बाद एलिस अपना सारा पैसा शेयर बाजार में डालती है\n   - फिर एलिस अपने पैसे को दोगुना कर देती है\n\n2. इसलिए, एलिस के निवेश के लिए अभी भी चारी:\n   - शेयर बाजार में डालने: 2000 रूपये\n   - दोगुना करने: 2000 × 2 = 4000 रूपये\n\n3. इसलिए, एलिस के निवेश के लिए कुल धन: \n   2000 + 4000 = 6000 रूपये\n\n4. आइए बॉब के निवेश की घटनाओं को देखें:\n   - बॉब अचल संपत्ति में निवेश करता है\n   - बॉब के निवेश के लिए अभी भी चारी:\n     - निवेश: 2000 रूपये\n     - पांच गुना कमाएँ: 2000 × 5 = 10000 रूपये\n\n5"
+  },
+  {
+   "id": "train_main/3835",
+   "gold": 280.0,
+   "pred": 4.0,
+   "correct": false,
+   "output": "1. आइए इस प्रयोग के दौरान कुल चूहों की संख्या ज्ञात करें:\n\n   बिली चूहों से शुरू करती हैं और प्रत्येक में 6 पिल्ले होते हैं। इसलिए कुल चूहों की संख्या = 8\n\n2. उसी चूहे में पिल्ले बड़े होते हैं और उनमें से प्रत्येक में 4 पिल्ले होते हैं। इसलिए बड़े पिल्ले की संख्या = 8 × 4/6 = 3.33 (अधिकतर चूहों में बड़े पिल्ले होते हैं)\n\n3. फिर प्रत्येक वयस्क चूहा भीड़भाड़ के तनाव के कारण अपने 2 पिल्लों को खा जाता है। इसलिए वयस्क चूहे की संख्या = 8 - 3.33 = 4.67 (अधिकतर चूहों में वयस्क चूहे होते हैं)\n\n4. इसलिए बचे हुए चूहे की संख्या = कुल चूहों - बड़े पिल्ले - वयस्क चूहे"
+  },
+  {
+   "id": "train_main/5579",
+   "gold": 296.0,
+   "pred": 220.0,
+   "correct": false,
+   "output": "To solve this problem, we need to break it down into steps:\n\n1. **Calculate the number of marks Amaya got in Mathematics:**\n   - Given that she got 20 fewer marks in Mathematics than in Art.\n   - Let's denote the total marks in Art as \\( A \\).\n   - Therefore, the marks in Mathematics (\\( M \\)) can be expressed as:\n     \\[\n     M = A - 20\n     \\]\n\n2. **Determine the marks in Arithmetic (Sanskrit):**\n   - She got 10 more marks in Arithmetic than in Sangeet.\n   - Let's denote the total marks in Sangeet as \\( S \\).\n   - Therefore, the marks in Arithmetic (\\( Ar \\)) can be expressed as:\n     \\[\n     Ar = S + 10\n     \\]\n\n3. **Given information about Arithmetic marks:**\n   - We know that she scored 70 marks in Arithmetic.\n\n4. **Find the total marks in Arithmetic:**\n   - Since \\( Ar = 70 \\), we have:\n     \\[\n     S + 10 = 70\n     \\]\n   - Solving for \\( S \\):\n     \\[\n     S = 70 - 10 = 60\n     \\]\n\n5. **Total marks in all subjects combined:**\n   - Now, let's find the total marks in all subjects combined.\n   - Total marks in Art (\\( A \\)):\n     \\[\n     A = 70 + 20 = 90\n     \\]\n   - Total marks in Arithmetic (\\( Ar \\)):\n     \\[\n     Ar = 70\n     \\]\n   - Total marks in Sangeet (\\( S \\)):\n     \\[\n     S = 60\n     \\]\n\n6. **Summing up all the marks:**\n   - The total marks in all subjects is:\n     \\[\n     A + Ar + S = 90 + 70 + 60 = 220\n     \\]\n\nTherefore, the total marks Amaya got in all subjects combined is 220. \n\n\\(\\boxed{220}\\)"
+  },
+  {
+   "id": "train_main/6389",
+   "gold": 34.0,
+   "pred": 24.0,
+   "correct": false,
+   "output": "1. जमा करें: वेटरन्स पार्क में वेटरन्स पार्क की तरह कचरे के डिब्बों की संख्या आधे से अधिक 8 थी।\n\n2. गुणवत्ता का ध्यान रखें: इसे वेटरन्स पार्क में 24 कचरे के डिब्बे के आधे से अधिक कहा जाता है। \n\n3. चरण 1 और चरण 2 को जोड़ें: 8 + (24/2) = 8 + 12 = 20\n\n4. अभीष्ट जटिलता का ध्यान रखें: इसे वेटरन्स पार्क में 24 कचरे के डिब्बे के आधे से अधिक कहा जाता है। इसलिए, इसे वेटरन्स पार्क में 24 कचरे के डिब्बे के आधे से अधिक कहा जाता है।\n\n5. अभीष्ट जटिलता का ध्यान रखें: इसे वेटरन्स पार्क में 24 कचरे के डिब्बे के आधे से अधिक कहा जाता है। इसलिए, इसे वेटरन्स पार्क में 24 कचरे के डि�"
+  },
+  {
+   "id": "train_main/7284",
+   "gold": 16.0,
+   "pred": 5.0,
+   "correct": false,
+   "output": "1. आइए तालिया के घर से खेल के बाद किराने की दुकान पर जाने की योजना बनाए जाती है:\n\n   - तालिया के घर से 3 मील दूर किराने की दुकान पर जाने की योजना बनी है।\n\n2. इसके बाद तालिया अपने घर से 8 मील दूर किराने की दुकान पर जाने की योजना बनी है।\n\n3. इसलिए, तालिया के घर से शुरू होकर समाप्त होने तक कितने मील की गाड़ी चलाती है?\n\n4. यदि तालिया के घर से 3 मील और अपने घर से 8 मील दूर किराने की दुकान पर जाने की योजना बनी है, तो यह भी तालिया के घर से शुरू होकर समाप्त होने तक कितने मील की गाड़ी चलाती है?\n\n   3 मील + 8 मील = 11 मील\n\n5. इसलिए, तालिया के घर से शुरू होकर समाप्त होने तक कि�"
+  },
+  {
+   "id": "train_main/5081",
+   "gold": 595.0,
+   "pred": 3.0,
+   "correct": false,
+   "output": "To solve this problem, we need to break it down into smaller steps:\n\n1. **Determine the weight of the person who kept their own bag inside:**\n   - The total weight of the person is given as 140 pounds.\n\n2. **Calculate the weight of the person's bag:**\n   - Since the person kept their own bag inside, the weight of the bag must be equal to the person's weight.\n   - Therefore, the weight of the bag = 140 pounds.\n\n3. **Determine the weight of the other bags:**\n   - We know that each bag contains 2/3 of its capacity.\n   - Let's denote the full capacity of a bag as \\( C \\).\n   - Then, the weight of one bag when filled with 2/3 of its capacity would be:\n     \\[\n     \\text{Weight of one bag} = \\frac{2}{3}C\n     \\]\n\n4. **Calculate the number of bags:**\n   - There are 6 people in total, so there are 5 bags (since one person keeps their own bag).\n\n5. **Set up an equation for the total weight:**\n   - Each of the 5 bags has a weight of \\(\\frac{2}{3}C\\), and since they all contain 2/3 of their capacity, the total weight can be expressed as:\n     \\[\n     \\text{Total weight} = 5 \\times \\left( \\frac{2}{3}C \\right)\n     \\]\n   - Simplify this expression:\n     \\[\n     \\text{Total weight} = \\frac{10}{3}C\n     \\]\n\n6. **Relate the total weight to the known values:**\n   - We know from step 1 that the total weight is also equal to the sum of the weights of the 6 people plus the weight of the 5 bags.\n   - The total weight of the 6 people is:\n     \\[\n     6 \\times 140 = 840 \\text{ pounds}\n     \\]\n   - So, the equation becomes:\n     \\[\n     \\frac{10}{3}C + 840 = \\text{Total weight}\n     \\]\n\n7. **Solve for \\( C \\):**\n   - Rearrange the equation to isolate \\( C \\):\n     \\[\n     \\frac{10}{3}C = \\text"
+  },
+  {
+   "id": "train_main/4120",
+   "gold": 2.0,
+   "pred": 7.04,
+   "correct": false,
+   "output": "वह प्रश्न का उत्तर है: चार\n\nबड़े विस्तार से इस प्रश्न को हल करने के लिए:\n\n1. जोड़ें: रेजिनाल्ड ने 12 शूटिंग सितारों की गणना की (14 - 2 = 12), जबकि सैम ने 16 शूटिंग सितारों की गणना की (14 + 2 = 16).\n\n2. भाग लें: रेजिनाल्ड ने 12/16 * 100% = 75% और सैम ने 16/12 * 100% = 133.33% शूटिंग सितारों की गणना की.\n\n3. घटाएं: रेजिनाल्ड की गणना छोटी थी, जिसका अनुपात 75/133.33 ≈ 0.56 है।\n\n4. अनुपात घटाएं: यदि रेजिनाल्ड की गणना 0.56 अनुपात थी, तो सैम की गणना 1 - 0.56 = 0.44 अनुपात थी।\n\n5. अनुपात गुणा करें: 16 * 0.44 = 7.04 शूटिंग सितारों की गणना की।\n\nइस प्रकार, सैम ने रा�"
+  },
+  {
+   "id": "train_main/689",
+   "gold": 18.0,
+   "pred": 78.2,
+   "correct": false,
+   "output": "1. जहाँ बारे में थोड़ा भी जाना चाहिए: \n   - एक उबर राइड की कीमत = 22 डॉलर\n   - एक लिफ्ट सवारी की कीमत = 22 + 3 = 25 डॉलर\n   - एक टैक्सी सवारी की कीमत = 22 + 4 = 26 डॉलर\n\n2. ट्रेवर एक टैक्सी डाउनटाउन लेता है। \n\n3. टैक्सी ड्राइवर को सवारी की मूल लागत का 20% सुझाव देता है। \n\n4. सुझाव की लागत = 20% * 26 डॉलर = 0.20 * 26 = 5.20 डॉलर\n\n5. ट्रेवर की कुल लागत = उबर सवारी की कीमत + लिफ्ट सवारी की कीमत + टैक्सी सवारी की कीमत + सुझाव की लागत\n   = 22 + 25 + 26 + 5.20 = 78.20 डॉलर\n\n6. इसलिए, राइड डाउनटाउन की कुल लागत 78.20 डॉलर है।"
+  },
+  {
+   "id": "train_main/778",
+   "gold": 2020.0,
+   "pred": 1100.0,
+   "correct": false,
+   "output": "To solve this problem, we need to calculate the total amount of money James Amazon has left after making all these purchases. Let's break it down step by step:\n\n1. **Initial Amount**: James starts with $3000.\n\n2. **TV Purchase**:\n   - Cost: $700\n   - Remaining: $3000 - $700 = $2300\n\n3. **Bike Purchase (First Bike)**:\n   - Cost: $500\n   - Remaining: $2300 - $500 = $1800\n\n4. **Bike Purchase (Second Bike) at a higher price**:\n   - First bike cost: $500\n   - Second bike cost: $500 * 1.20 = $600\n   - Total for second bike purchase: $600\n   - Remaining: $1800 - $600 = $1200\n\n5. **T-shirt Purchase**:\n   - Cost: $100\n   - Remaining: $1200 - $100 = $1100\n\nSo, after all these transactions, James Amazon has $1100 remaining in his wallet.\n\nThe final answer is $\\boxed{1100}$."
+  },
+  {
+   "id": "train_main/1333",
+   "gold": 10.0,
+   "pred": 5.0,
+   "correct": false,
+   "output": "1. जब लुईस केक बनाने के लिए कुल 60 केक आवश्यकता है, तो वह आधे से अधिक केक बनाती है।\n\n2. अगले दिन, वह फिर से गणना करती है कि उसके पास बनाने के लिए कितने केक बचे हैं और इस राशि का एक तिहाई बेक करती है। \n\n3. इस तरह की गणना करते हुए, वह अपने आधे केक को भाग देती है। इसलिए, वह अपने आधे केक को भाग देने के बाद अपने आधे केक को अपने आधे केक के बराबर बचाता है।\n\n4. इसलिए, वह अपने आधे केक को भाग देने के बाद अपने आधे केक को अपने आधे केक के बराबर बचाता है। इसलिए, वह अपने आधे केक को भाग देने के बाद अपने आधे केक को अपने आधे केक के बराबर बचाता है।\n\n5. इसलिए, वह अपने आधे"
+  },
+  {
+   "id": "train_main/5791",
+   "gold": 5.0,
+   "pred": 4.0,
+   "correct": false,
+   "output": "1. दिए गए बातें:\n   - पिछले साल: 4 डॉलर प्रति मील\n   - यह आज: 2.75 डॉलर प्रति मील\n   - पिछले साल के विजेता की तुलना में एलरॉय की तुलना में अधिक मील चलेंगे\n\n2. अपनी तुलना में एलरॉय की तुलना में अधिक मील चलने की गणना करें:\n\n   अधिक मील = (एलरॉय की तुलना में अधिक मील) / (पिछले साल के विजेता की तुलना में अधिक मील)\n   \n3. अब ध्यान दें कि यह अभी भी एलरॉय की तुलना में अधिक मील चलने की गणना करना है। इसलिए यह अभी भी एलरॉय की तुलना में अधिक मील चलने की गणना करें:\n\n   अधिक मील = (2.75 डॉलर प्रति मील) / (4 डॉलर प्रति मील)\n\n4. अभी भी एलरॉय की तुलना में अधिक मील चलने की गणना करें:\n\n   अधिक मील = "
+  },
+  {
+   "id": "train_main/247",
+   "gold": 27.0,
+   "pred": 9.0,
+   "correct": false,
+   "output": "1. चलिए वह दृश्य लेकर जाता है और भीड़ के लिए डालता है।\n\n2. वह दूध की बोतल में 50 गोलियां हैं।\n\n3. वह पहले 2 दिनों के लिए तीन बार 2 गोलियां लेता है।\n\n4. इससे पहले कि अगले 3 दिनों के लिए इस राशि को आधा कर देता है।\n\n5. इसलिए वह पहले 2 दिनों के लिए तीन बार 2 गोलियां लेता है, जिसमें टोनी को दांतों में बहुत दर्द है।\n\n6. इससे पहले कि अगले 3 दिनों के लिए इस राशि को आधा कर देता है।\n\n7. इसलिए वह पहले 2 दिनों के लिए तीन बार 2 गोलियां लेता है, जिसमें टोनी को दांतों में बहुत दर्द है।\n\n8. इससे पहले कि अगले 3 दिनों के लिए इस राशि को आधा कर देता है।\n\n9. इ"
+  },
+  {
+   "id": "train_main/2585",
+   "gold": 51.0,
+   "pred": 51.0,
+   "correct": true,
+   "output": "To determine how much the police officers have to pay for the jute bags, we need to calculate the cost based on their tenure. Let's break it down step by step:\n\n1. **Calculate the base price:**\n   - The base price of each jute bag is $85.\n\n2. **Determine the discount for those with less than three years of service:**\n   - For those who have less than three years of service, they get a 20% discount.\n   - Discount amount = 20% of $85 = \\( 0.20 \\times 85 = $17 \\)\n   - Therefore, the discounted price for these officers = $85 - $17 = $68\n\n3. **Determine the additional discount for those with at least three years of service:**\n   - For those who have at least three years of service, they get an extra 25% off the already discounted price.\n   - Additional discount amount = 25% of $68 = \\( 0.25 \\times 68 = $17 \\)\n   - Therefore, the final price for these officers = $68 - $17 = $51\n\n4. **Conclusion:**\n   - Officers with less than three years of service will pay $68 per jute bag.\n   - Officers with at least three years of service will pay $51 per jute bag.\n\nSo, the final answer is that the officers with less than three years of service will pay $68 per jute bag, while those with at least three years of service will pay $51 per jute bag."
+  },
+  {
+   "id": "train_main/5957",
+   "gold": 7.0,
+   "pred": 6.67,
+   "correct": false,
+   "output": "1. **Sundays (सोमवार):**\n   - इन दिनों की आवश्यकताएँ:\n     - प्रत्येक स्थल: 7 पक्षी\n\n2. **Mondays (मंगलवार):**\n   - इन दिनों की आवश्यकताएँ:\n     - प्रत्येक स्थल: 5 पक्षी\n\n3. **Tuesdays (बुधवार):**\n   - इन दिनों की आवश्यकताएँ:\n     - प्रत्येक स्थल: 8 पक्षी\n\n4. **Step-by-step Calculation:**\n\n   - **Total number of days:** 3 (Sundays + Mondays + Tuesdays)\n   \n   - **Average number of plants per day:**\n     \\[\n     \\text{Average} = \\frac{\\text{Sum of average numbers}}{\\text{Number of days}}\n     \\]\n     \\[\n     \\text{Average} = \\frac{(7 + 5 + 8)}{3}\n     \\]\n     \\[\n     \\text{Average} = \\frac{20}{3} \\approx 6.67\n     \\]\n\n   - **Conclusion:**\n     - इन दिनों की जगहों पर केंद्र ने प्रत्येक स्थल पर औसतन 6.67 पक्षी देखे।\n\n**Final Answer:**\n\\(\\boxed{6.67}\\)"
+  },
+  {
+   "id": "train_main/5949",
+   "gold": 565.0,
+   "pred": 3.0,
+   "correct": false,
+   "output": "1. आइए इन सभी चरणों को ध्यान में रखें:\n\n   - लोगान के पिता ने 50 डिब्बों की डिलीवरी मिली।\n   - प्रत्येक डिब्बे में 20 जार है।\n   - विशेष सप्ताह में जाती थी तो उन्हें 20 कार्टन कम मिलती थी।\n   - उतारने के दौरान, 5 डिब्बों में से प्रत्येक में 3 जार क्षतिग्रस्त हो गए थे।\n   - एक डिब्बा पूरी तरह से क्षतिग्रस्त हो गया था।\n\n2. अब इन चरणों को घटाएँ:\n\n   - प्रत्येक डिब्बे में 20 जार हैं।\n   - विशेष सप्ताह में जाती थी तो उन्हें 20 कार्टन कम मिलती थी।\n   - उतारने के दौरान, 5 डिब्बों में से प्रत्येक में 3 जार क्षतिग्रस्त हो गए थे।\n   - एक डिब्बा पूरी तरह से क्षतिग्रस्त हो गया था।\n\n3. अब �"
+  },
+  {
+   "id": "train_main/415",
+   "gold": 78.0,
+   "pred": 30.0,
+   "correct": false,
+   "output": "1. आइए हम इस चरण को ध्यान में रखें:\n\n   - 7 सप्ताह की उम्र में पिल्ला का वजन 6 पाउंड था.\n   - 9 सप्ताह की उम्र में वजन में दोगुना हो गया.\n   - 3 महीने की उम्र में वजन में दोगुना हो गया.\n   - 5 महीने की उम्र में वजन में दोगुना हो गया.\n   - अंत में वयस्क वजन 30 पाउंड और जोड़कर अपने अंतिम वयस्क वजन तक पहुँच गया.\n\n2. इस चरण को घटनाओं का योगफल खोजें:\n\n   - 7 सप्ताह की उम्र में: 6 पाउंड\n   - 9 सप्ताह की उम्र में: 6 × 2 = 12 पाउंड\n   - 3 महीने की उम्र में: 12 × 2 = 24 पाउंड\n   - 5 महीने की उम्र में: 24 × 2 = 48 पाउंड\n\n3. इन घटनाओं का योगफल खोजें:\n\n   6 + 12 + 24 + 48 = 90 पाउंड\n\n4. अंत में वयस्क वजन 30 पाउंड औ"
+  },
+  {
+   "id": "train_main/2520",
+   "gold": 72600.0,
+   "pred": 3000.0,
+   "correct": false,
+   "output": "To solve this problem, let's break it down into steps:\n\n1. We know that the Grannada Airmass has 3000 more aircraft carriers than the Rockford Airmass.\n\n2. The Rockford Airmass has 400 fewer aircraft carriers than the Grannada Airmass.\n\n3. Let's denote:\n   - R = number of aircraft carriers in the Rockford Airmass\n   - G = number of aircraft carriers in the Grannada Airmass\n\nFrom these relationships, we can write two equations:\nR + 3000 = G (Equation 1)\nG - R = 400 (Equation 2)\n\nNow, let's solve for R using Equation 1:\nR = G - 3000\n\nSubstitute this expression for R into Equation 2:\n(G - 3000) - R = 400\nG - 3000 - (G - 3000) = 400\nG - 3000 - G + 3000 = 400\n-3000 = 400\n\nThis equation doesn't make sense because it results in a negative value. This indicates an error in our initial setup or interpretation. \n\nLet's correct our approach:\n\nWe need to find the total number of aircraft carriers in both air masses combined.\n\nUsing Equation 1: \nR = G - 3000\n\nAnd from Equation 2:\nG = R + 400\n\nSubstituting G from Equation 2 into Equation 1:\nR = (R + 400) - 3000\nR = R + 400 - 3000\nR = R - 2600\n\nThis also doesn't make sense as it implies zero aircraft carriers in the Rockford Airmass.\n\nRevisiting the problem statement, we realize there might be a misunderstanding. The question asks about the difference between the two air masses rather than their individual totals.\n\nGiven the information provided, if we assume the question is asking how many more aircraft carriers are in the Grannada Airmass compared to the Rockford Airmass, then:\n\nGrannada Airmass > Rockford Airmass by 3000 aircraft carriers.\n\nTherefore, the final answer is:\n\\boxed{3000}"
+  },
+  {
+   "id": "train_main/24",
+   "gold": 62.0,
+   "pred": 7.0,
+   "correct": false,
+   "output": "1. आइए लेकर बढ़िया क्रेडिट धन जो मैरी को अपनी खरीदारी करती है, जो 100 डॉलर है।\n\n2. वह अगली खरीदारी यात्रा से पहले क्रेडिट धन भुगतान करना चाहती है।\n\n3. वह अगली खरीदारी यात्रा से पहले क्रेडिट धन भुगतान करने के लिए क्रेडिट धन की छोटी भुगतान करना चाहती है।\n\n4. वह अगली खरीदारी यात्रा से पहले क्रेडिट धन की छोटी भुगतान करने के लिए क्रेडिट धन की छोटी भुगतान करना चाहती है।\n\n5. वह अगली खरीदारी यात्रा से पहले क्रेडिट धन की छोटी भुगतान करने के लिए क्रेडिट धन की छोटी भुगतान करना चाहती है।\n\n6. इसलिए, मैरी को अगली खरीदारी यात्रा से पहले क्रेडिट धन की छोटी भुगतान करना चाहिए।\n\n7."
+  },
+  {
+   "id": "train_main/5224",
+   "gold": 15.0,
+   "pred": 7.0,
+   "correct": false,
+   "output": "1. अपठित भाग: हैमंड ने संगमरमर से पूर्ण आकार की मूर्तियां नक्काशी की।\n\n2. वजन और संख्या:\n   - पहली मूर्ति: 10 पाउंड\n   - दूसरी मूर्ति: 18 पाउंड\n   - शेष दो मूर्तियों: इनका वजन एक समान है\n\n3. वजन और संख्या का अनुमान:\n   - पहली मूर्ति: 10 पाउंड\n   - दूसरी मूर्ति: 18 पाउंड\n   - शेष दो मूर्तियों: 10 + 18 = 28 पाउंड\n\n4. वजन और संख्या का अनुमान (दूसरी मूर्ति):\n   - दूसरी मूर्ति: 28 / 2 = 14 पाउंड\n\n5. वजन और संख्या का अनुमान (शेष दो मूर्तियों):\n   - शेष दो मूर्तियों: 28 / 2 = 14 पाउंड\n\n6. वजन और संख्या का अनुमान (बाकी प्रत्येक मूर्ति):\n   - बाकी प्रत्येक मूर्ति: 14 / 2 = 7 पाउंड"
+  },
+  {
+   "id": "train_main/2355",
+   "gold": 44.0,
+   "pred": 29.0,
+   "correct": false,
+   "output": "वहाँ जोड़िए:\n\n- प्रत्येक बड़े बॉक्स को सील करने के लिए 4 फीट पैकिंग टेप लगता है।\n- प्रत्येक मध्यम बॉक्स को सील करने के लिए 2 फीट पैकिंग टेप लगता है।\n- प्रत्येक छोटे बॉक्स को सील करने के लिए 1 फीट पैकिंग टेप लगता है।\n\nअब वहाँ गुणा करें:\n\n- दो बड़े बॉक्स: 4 × 2 = 8 टेप\n- आठ मध्यम बॉक्स: 8 × 2 = 16 टेप\n- पांच छोटे बॉक्स: 5 × 1 = 5 टेप\n\nअब इन सभी अंकों को जोड़ें:\n\n8 + 16 + 5 = 29 टेप\n\nइसलिए, डेबी ने आज दोपहर दोपहर दो बड़े बॉक्स, आठ मध्यम बॉक्स और पांच छोटे बॉक्स पैक किए। उसने कुल 29 टेप का उपयोग किया।"
+  },
+  {
+   "id": "train_main/5809",
+   "gold": 80.0,
+   "pred": 690.0,
+   "correct": false,
+   "output": "To determine how many kilograms of cricket balls Deril should remove to stay under the weight limit, we need to follow these steps:\n\n1. Calculate the total weight of all items in the bag:\n   - Each cricket ball weighs 20 kg.\n   - There are 15 cricket balls.\n\n   Total weight of cricket balls = 15 * 20 kg = 300 kg\n\n2. Calculate the total weight of the bags containing hatta (cricket bats):\n   - Each bag contains 5 kg.\n   - There are 4 such bags.\n\n   Total weight of hatta bags = 4 * 5 kg = 20 kg\n\n3. Calculate the total weight of the bags containing shoes:\n   - Each bag contains 5 kg.\n   - There are 12 such bags.\n\n   Total weight of shoe bags = 12 * 5 kg = 60 kg\n\n4. Calculate the total weight of the bags containing lac (lacquer):\n   - Each bag contains 30 kg.\n   - There are 10 such bags.\n\n   Total weight of lac bags = 10 * 30 kg = 300 kg\n\n5. Sum up the weights from each category to get the total weight of everything in the bag:\n   Total weight = Weight of cricket balls + Weight of hatta bags + Weight of shoe bags + Weight of lac bags\n                = 300 kg + 20 kg + 60 kg + 300 kg\n                = 780 kg\n\n6. Subtract the maximum allowed weight for the bag (which is 90 kg) from the total weight to find out how much more weight can be added without exceeding the limit:\n   Remaining capacity = Maximum allowed weight - Total weight\n                      = 90 kg - 780 kg\n                      = -690 kg\n\nSince the remaining capacity is negative (-690 kg), it means that Deril already exceeds the weight limit by 690 kg. Therefore, he needs to remove at least 690 kg of items to stay under the weight limit.\n\nFinal Answer: Deril should remove 690 kilograms of items to stay under the weight limit."
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "name": "dare_ties",
+ "method": "dare_ties",
+ "split": "train_main",
+ "n": 8,
+ "accuracy": 0.375,
+ "records": [
+  {
+   "id": "train_main/6924",
+   "gold": 12.0,
+   "pred": 9.0,
+   "correct": false,
+   "output": "To determine the number of males in the competition, we can follow these steps:\n\n1. **Identify the total number of participants:**\n   The problem states that there are a total of 18 participants.\n\n2. **Understand the gender distribution:**\n   - Half of the participants are women.\n   - The other half are men.\n\n3. **Calculate the number of women:**\n   Since half of the participants are women:\n   \\[\n   \\text{Number of women} = \\frac{\\text{Total number of participants}}{2} = \\frac{18}{2} = 9\n   \\]\n\n4. **Calculate the number of men:**\n   The remaining half of the participants are men:\n   \\[\n   \\text{Number of men} = \\frac{\\text{Total number of participants}}{2} = \\frac{18}{2} = 9\n   \\]\n\n5. **Conclusion:**\n   Therefore, the number of male participants is \\(9\\).\n\nThus, the number of males in the competition is \\(\\boxed{9}\\)."
+  },
+  {
+   "id": "train_main/3843",
+   "gold": 2.0,
+   "pred": 8.0,
+   "correct": false,
+   "output": "To determine how many pieces of paper Nainsi has left after giving some to her friends, we need to follow these steps:\n\n1. **Determine the total number of pieces initially:**\n   Nainsi bought a pack of 8 pieces.\n\n2. **Calculate the number of pieces given to each friend:**\n   - She gave \\( \\frac{1}{2} \\) piece to Orsini.\n   - She gave \\( \\frac{1}{4} \\) piece to Karl.\n\n3. **Find the total number of pieces given away:**\n   \\[\n   \\text{Total pieces given away} = \\frac{1}{2} + \\frac{1}{4}\n   \\]\n\n4. **Add the fractions:**\n   To add these fractions, find a common denominator:\n   \\[\n   \\frac{1}{2} = \\frac{2}{4}\n   \\]\n   So,\n   \\[\n   \\frac{1}{2} + \\frac{1}{4} = \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4}\n   \\]\n\n5. **Subtract the total pieces given away from the initial number of pieces:**\n   \\[\n   \\text{Pieces remaining} = 8 - \\frac{3}{4}\n   \\]\n\n6. **Convert 8 into a fraction with the same denominator as \\( \\frac{3}{4} \\):**\n   \\[\n   8 = \\frac{32}{4}\n   \\]\n\n7. **Perform the subtraction:**\n   \\[\n   \\frac{32}{4} - \\frac{3}{4} = \\frac{32 - 3}{4} = \\frac{29}{4}\n   \\]\n\n8. **Convert the improper fraction back to a"
+  },
+  {
+   "id": "train_main/3208",
+   "gold": 92.0,
+   "pred": 92.0,
+   "correct": true,
+   "output": "To determine the total number of pens that the person has, we need to calculate the number of pens she bought each day and then sum them up.\n\nFirst, let's find out how many pens she bought on Monday:\n- She bought 20 pens on Monday.\n- On Tuesday (Mangal), she bought 18 pens.\n- On Wednesday (Budh), she bought three times as many pens as she did on Mangal. So, she bought \\(3 \\times 18 = 54\\) pens on Wednesday.\n\nNow, let's add up all the pens she bought over these three days:\n\\[ 20 \\text{ (Monday)} + 18 \\text{ (Tuesday)} + 54 \\text{ (Wednesday)} = 92 \\]\n\nTherefore, the total number of pens she has is \\(\\boxed{92}\\)."
+  },
+  {
+   "id": "train_main/6017",
+   "gold": 600000.0,
+   "pred": 800000.0,
+   "correct": false,
+   "output": "To determine the total distance Stephen traveled, we need to calculate the sum of the distances he covered on each trip. Let's break it down step by step.\n\n1. **Calculate the height covered in one round trip:**\n   - The height of the mountain is 40,000 feet.\n   - Each round trip consists of going up and coming back down.\n   - Therefore, the height covered in one round trip is:\n     \\[\n     2 \\times 40,000 = 80,000 \\text{ feet}\n     \\]\n\n2. **Determine the average height covered per trip:**\n   - Stephen made 10 trips.\n   - The total height covered over all trips is \\(10 \\times 80,000 = 800,000\\) feet.\n   - The average height covered per trip is:\n     \\[\n     \\frac{800,000}{10} = 80,000 \\text{ feet}\n     \\]\n\n3. **Calculate the total distance traveled:**\n   - Since each trip covers an average height of 80,000 feet, the total distance traveled is also 80,000 feet for each trip multiplied by the number of trips (which is 10).\n   - Therefore, the total distance traveled is:\n     \\[\n     10 \\times 80,000 = 800,000 \\text{ feet}\n     \\]\n\nThus, the total distance Stephen traveled is \\(\\boxed{800000}\\) feet."
+  },
+  {
+   "id": "train_main/4530",
+   "gold": 24.0,
+   "pred": 4.0,
+   "correct": false,
+   "output": "1. **समझाने का प्रयास:**\n   - एला को 4 गलत उत्तर मिले।\n   - मैरियन को एला के आधे से अधिक 6 अंक मिले।\n\n2. **देखें इस प्रश्न के बारे में:**\n   - यह प्रश्न भारतीय सांख्यिकी परीक्षा (CBSE) के लिए शामिल है।\n\n3. **व्याख्या करें:**\n   - CBSE परीक्षा में गलत उत्तर का वजह था कि वह अपने अभ्यास का अधिक अच्छा रूप नहीं था।\n   - यह व्यापक विषय है जिसमें विभिन्न प्रश्न हो सकती हैं।\n\n4. **उत्तर देने का विचार:**\n   - यह व्यापक विषय है जिसमें विभिन्न प्रश्न हो सकती ह�"
+  },
+  {
+   "id": "train_main/3335",
+   "gold": 86.0,
+   "pred": 86.0,
+   "correct": true,
+   "output": "To determine Margret's test score, we need to follow these steps:\n\n1. **Calculate Mark's Test Score:**\n   - The average test score for the previous week was 90.\n   - Mark scored 10% less than this average.\n   \n   First, calculate 10% of the average:\n   \\[\n   10\\% \\text{ of } 90 = 0.10 \\times 90 = 9\n   \\]\n   \n   Then subtract this from the average:\n   \\[\n   90 - 9 = 81\n   \\]\n\n2. **Determine Margret's Test Score:**\n   - Margret scored 5 more points than Mark.\n   \n   Add 5 to Mark's score:\n   \\[\n   81 + 5 = 86\n   \\]\n\nTherefore, Margret's test score is \\(\\boxed{86}\\)."
+  },
+  {
+   "id": "train_main/4120",
+   "gold": 2.0,
+   "pred": 15.0,
+   "correct": false,
+   "output": "To determine the number of shooting stars that Sam counted, we need to follow these steps:\n\n1. **Identify the given information:**\n   - Bridget counted 14 shooting stars.\n   - Reinhold counted two fewer than Bridget.\n   - Saim counted three more than Reinhold.\n\n2. **Calculate the number of shooting stars Reinhold counted:**\n   - Reinhold counted \\( 14 - 2 = 12 \\) shooting stars.\n\n3. **Calculate the number of shooting stars Saim counted:**\n   - Saim counted \\( 12 + 3 = 15 \\) shooting stars.\n\nTherefore, the total number of shooting stars counted by Saim is \\(\\boxed{15}\\)."
+  },
+  {
+   "id": "train_main/2585",
+   "gold": 51.0,
+   "pred": 51.0,
+   "correct": true,
+   "output": "To determine how much the police officers have to pay for the jute bags, we need to calculate the cost based on their service tenure. Let's break it down step by step:\n\n1. **Calculate the base price of the jute bags:**\n   The base price is given as $85.\n\n2. **Determine the discount for those who have at least three years of service:**\n   For these officers, there is a 20% discount.\n   \n   Discount amount = \\( 85 \\times \\frac{20}{100} = 85 \\times 0.20 = 17 \\)\n   \n   Therefore, the discounted price for these officers is:\n   \\[\n   85 - 17 = 68\n   \\]\n\n3. **Determine the additional discount for those who have more than three years of service:**\n   For these officers, there is an additional 25% discount on top of the 20% discount.\n   \n   Additional discount amount = \\( 68 \\times \\frac{25}{100} = 68 \\times 0.25 = 17 \\)\n   \n   Therefore, the final price for these officers is:\n   \\[\n   68 - 17 = 51\n   \\]\n\nSo, the total amount that the police officers have to pay for the jute bags is \\(\\boxed{51}\\)."
+  }
+ ]
+}

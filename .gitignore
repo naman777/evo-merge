@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# local plumbing checks and duplicates
+runs/smoke_*/
+figures/smoke/
+figures/kaggle/
+results/_*/
+
+# model weights and caches never belong here
+*.safetensors
+*.bin
+*.pt
+.cache/

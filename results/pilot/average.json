@@ -1,0 +1,457 @@
+{
+ "name": "average",
+ "method": "task_arithmetic",
+ "split": "train_main",
+ "n": 64,
+ "accuracy": 0.25,
+ "records": [
+  {
+   "id": "train_main/5858",
+   "gold": 1068.0,
+   "pred": 1068.0,
+   "correct": true,
+   "output": "To determine the total cost of both bikes, we need to follow these steps:\n\n1. Identify the cost of Marianne's bike.\n2. Calculate the cost of Stephanie's bike based on the given information.\n3. Add the costs together to find the total.\n\nStep 1: The cost of Marianne's bike is $356.\n\nStep 2: Since Stephanie's bike costs twice as much as Marianne's bike, we calculate:\n\\[ \\text{Cost of Stephanie's bike} = 2 \\times \\text{Cost of Marianne's bike} = 2 \\times 356 = 712 \\]\n\nStep 3: Now, add the costs of both bikes to get the total cost:\n\\[ \\text{Total cost} = \\text{Cost of Marianne's bike} + \\text{Cost of Stephanie's bike} = 356 + 712 = 1068 \\]\n\nTherefore, the total cost of both bikes is \\(\\boxed{1068}\\)."
+  },
+  {
+   "id": "train_main/4126",
+   "gold": 6.0,
+   "pred": 6.0,
+   "correct": true,
+   "output": "To determine the discount amount, we need to follow these steps:\n\n1. **Identify the original price of the shirt:**\n   The original price is given as $22.\n\n2. **Identify the selling price of the shirt:**\n   The selling price is given as $16.\n\n3. **Calculate the discount amount:**\n   The discount amount can be found by subtracting the selling price from the original price.\n   \n   \\[\n   \\text{Discount Amount} = \\text{Original Price} - \\text{Selling Price}\n   \\]\n   \n   Substituting the given values:\n   \n   \\[\n   \\text{Discount Amount} = 22 - 16 = 6\n   \\]\n\nTherefore, the discount amount is $\\boxed{6}$ dollars."
+  },
+  {
+   "id": "train_main/6130",
+   "gold": 10.0,
+   "pred": 13.0,
+   "correct": false,
+   "output": "To solve this problem, we need to set up an equation based on the information given. Let's denote Hérodoteus' current age as \\( x \\) years.\n\nAccording to the problem:\n1. In 7 years, Hérodoteus will be 7 years older than Odysseus.\n2. In 3 years, Hérodoteus will be twice as old as Odysseus is now.\n\nWe can translate these statements into mathematical equations:\n\n1. In 7 years, Hérodoteus' age will be \\( x + 7 \\).\n2. In 3 years, Hérodoteus' age will be \\( x - 3 \\).\n\nFrom the first statement, we have:\n\\[ x + 7 = 2(x - 3) \\]\n\nExpanding and simplifying this equation:\n\\[ x + 7 = 2x - 6 \\]\n\\[ 7 + 6 = 2x - x \\]\n\\[ 13 = x \\]\n\nSo, Hérodoteus is currently 13 years old.\n\nNow let's verify this solution using the second statement:\n- In 3 years, Hérodoteus will be \\( 13 + 3 = 16 \\) years old.\n- According to the problem, in 3 years, Hérodoteus should be twice as old as Odysseus is now. Since Odysseus is currently \\( x - 3 = 10 \\) years old (because \\( x = 13 \\)), then in 3 years, he would be \\( 10 + 3 = 13 \\) years old, which matches our calculation of 16 if we consider his age at that time.\n\nTherefore, the correct interpretation confirms that Hérodoteus is indeed 13 years old now. The final answer is:\n\\[\n\\boxed{13}\n\\]"
+  },
+  {
+   "id": "train_main/7277",
+   "gold": 480.0,
+   "pred": 80.0,
+   "correct": false,
+   "output": "To solve this problem, we need to determine the cost of both jugs (jackets) and jars. Let's break it down step-by-step:\n\n### Step 1: Define Variables\nLet \\( J \\) be the price of one jug.\nLet \\( R \\) be the price of one jar.\n\n### Step 2: Set Up Equations Based on Given Information\n\n#### Equation for Total Cost:\nThe total cost of buying 6 jugs and 4 jars is Rs. 560. Therefore,\n\\[ 6J + 4R = 560 \\]\n\n#### Equation for Price Relationship Between Jars and Jugs:\nWe are given that the price of a jar is 1/4th the price of a jug. This can be written as:\n\\[ R = \\frac{1}{4}J \\]\n\n### Step 3: Substitute the Price Relationship into the First Equation\n\nSubstitute \\( R = \\frac{1}{4}J \\) into the first equation:\n\\[ 6J + 4\\left(\\frac{1}{4}J\\right) = 560 \\]\nSimplify inside the parentheses:\n\\[ 6J + J = 560 \\]\nCombine like terms:\n\\[ 7J = 560 \\]\n\n### Step 4: Solve for \\( J \\)\n\nDivide both sides by 7:\n\\[ J = \\frac{560}{7} \\]\n\\[ J = 80 \\]\n\nSo, the price of one jug is Rs. 80.\n\n### Step 5: Find the Price of One Jar Using the Price Relationship\n\nUsing \\( R = \\frac{1}{4}J \\):\n\\[ R = \\frac{1}{4}(80) \\]\n\\[ R = 20 \\]\n\nThus, the price of one jar is Rs. 20.\n\n### Final Answer\nThe prices of the jugs and jars are:\n- **Price of one jug:** Rs. 80\n- **Price of one jar:** Rs. 20\n\nTherefore, the final answer is:\n\\[\n\\boxed{\\text{Rs. 80 for a jug and Rs. 20 for a jar}}\n\\]"
+  },
+  {
+   "id": "train_main/6924",
+   "gold": 12.0,
+   "pred": 9.0,
+   "correct": false,
+   "output": "To solve this problem, we need to determine the number of males among the participants in a gender equality competition. Let's break it down step by step:\n\n1. **Identify the total number of participants:**\n   The total number of participants is given as 18.\n\n2. **Understand the distribution of genders:**\n   - Half of the participants are women.\n   - The other half are men.\n\n3. **Calculate the number of women:**\n   Since half of the participants are women:\n   \\[\n   \\text{Number of women} = \\frac{\\text{Total number of participants}}{2} = \\frac{18}{2} = 9\n   \\]\n\n4. **Determine the number of men:**\n   The remaining participants must be men because they make up the other half:\n   \\[\n   \\text{Number of men} = \\text{Total number of participants} - \\text{Number of women} = 18 - 9 = 9\n   \\]\n\nTherefore, the number of male participants is \\(\\boxed{9}\\)."
+  },
+  {
+   "id": "train_main/3843",
+   "gold": 2.0,
+   "pred": 3.0,
+   "correct": false,
+   "output": "To determine how many pieces of paper are left after Nanshi cuts them into smaller pieces, we need to follow these steps:\n\n1. **Initial Number of Pieces**: Nanshi starts with a single piece of paper.\n\n2. **First Cut**: She cuts the paper into 8 equal parts.\n   - After this cut, she has \\(8\\) pieces of paper.\n\n3. **Second Cut**: She gives half of these pieces to Orsini.\n   - Half of 8 is \\(4\\).\n   - So, she gives away \\(4\\) pieces and keeps \\(4\\) pieces for herself.\n\n4. **Third Cut**: She then gives one-fourth of her remaining pieces to Karl.\n   - One-fourth of 4 is \\(1\\).\n   - So, she gives away \\(1\\) piece and keeps \\(3\\) pieces for herself.\n\n5. **Final Count**: The number of pieces of paper left with Nanshi is \\(3\\).\n\nThus, the number of pieces of paper that are left is \\(\\boxed{3}\\)."
+  },
+  {
+   "id": "train_main/5824",
+   "gold": 52.0,
+   "pred": 7.0,
+   "correct": false,
+   "output": "To determine how many dice Dan has, we need to follow these steps:\n\n1. **Identify the initial amount of money:**\n   - The total amount of money in Baire's possession is \\( \\$10.00 \\).\n\n2. **Determine the fraction of money that Dan receives from his brother:**\n   - Dan gets half of the money from his brother.\n\n3. **Calculate the amount of money Dan receives:**\n   - Half of \\( \\$10.00 \\) is calculated as:\n     \\[\n     \\frac{1}{2} \\times 10 = 5 \\text{ dollars}\n     \\]\n\n4. **Add the additional dice given by their father:**\n   - Their father gives Dan an extra 2 dice.\n   \n5. **Calculate the total number of dice Dan has:**\n   - Initially, Dan had no dice.\n   - He received 5 dollars worth of dice from his brother.\n   - His father gave him 2 more dice.\n   - Therefore, the total number of dice Dan has is:\n     \\[\n     0 + 5 + 2 = 7 \\text{ dice}\n     \\]\n\nThus, the total number of dice Dan has is \\(\\boxed{7}\\)."
+  },
+  {
+   "id": "train_main/6466",
+   "gold": 1890.0,
+   "pred": 1890.0,
+   "correct": true,
+   "output": "To calculate the total cost of buying all the flowers, we need to follow these steps:\n\n1. **Calculate the total number of each type of flower:**\n   - Tulips: 250\n   - Carnations: 375\n   - Roses: 320\n\n2. **Determine the price per flower for each type:**\n   - Tulip: 2€\n   - Carnation: 2€\n   - Rose: 2€\n\n3. **Multiply the number of each type of flower by its respective price:**\n\n   For tulips:\n   \\[\n   250 \\text{ tulips} \\times 2\\text{€/tulip} = 500\\text{€}\n   \\]\n\n   For carnations:\n   \\[\n   375 \\text{ carnations} \\times 2\\text{€/carnation} = 750\\text{€}\n   \\]\n\n   For roses:\n   \\[\n   320 \\text{ roses} \\times 2\\text{€/rose} = 640\\text{€}\n   \\]\n\n4. **Add up the costs of all types of flowers to get the total amount spent:**\n   \\[\n   500\\text{€} + 750\\text{€} + 640\\text{€} = 1890\\text{€}\n   \\]\n\nTherefore, the total amount spent on buying all the flowers is \\(\\boxed{1890}\\) euros."
+  },
+  {
+   "id": "train_main/1491",
+   "gold": 100.0,
+   "pred": 0.0,
+   "correct": false,
+   "output": "To determine how many grams of rice are left in the store after the transactions, we need to follow these steps:\n\n1. **Initial Amount**: The initial amount of rice in the store is 400 grams.\n\n2. **Transactions**:\n   - First transaction: 27 customers buy 15 grams each.\n     \\[\n     27 \\times 15 = 405 \\text{ grams}\n     \\]\n   - Second transaction: 36 customers buy 15 grams each.\n     \\[\n     36 \\times 15 = 540 \\text{ grams}\n     \\]\n\n3. **Calculate Total Sold**:\n   - Sum the total grams sold from both transactions:\n     \\[\n     405 + 540 = 945 \\text{ grams}\n     \\]\n\n4. **Final Calculation**:\n   - Subtract the total grams sold from the initial amount:\n     \\[\n     400 - 945 = -545 \\text{ grams}\n     \\]\n\nSince it's not possible to have a negative number of grams, this indicates that there were more customers than available rice. Therefore, all 400 grams were sold out before any new customers arrived.\n\nThus, the final answer is:\n\\[\n\\boxed{0}\n\\] grams of rice remain in the store."
+  },
+  {
+   "id": "train_main/1204",
+   "gold": 200.0,
+   "pred": 160.0,
+   "correct": false,
+   "output": "To solve this problem, we need to determine the total number of solar systems (saur mandal) and planets in the Milky Way galaxy. We know that there are 20 stars in the Milky Way and each star has an average of 8 planetary systems around it.\n\nHere's a step-by-step breakdown:\n\n1. **Determine the number of planetary systems per star:**\n   Each star has approximately 8 planetary systems.\n\n2. **Calculate the total number of planetary systems for all stars:**\n   Since there are 20 stars and each star has 8 planetary systems:\n   \\[\n   \\text{Total planetary systems} = 20 \\times 8 = 160\n   \\]\n\n3. **Understand the relationship between planetary systems and solar systems:**\n   In our model, each planetary system is associated with one solar system. Therefore, the total number of solar systems will be equal to the total number of planetary systems.\n\n4. **Conclusion:**\n   The total number of solar systems (saur mandal) and planets in the Milky Way galaxy is:\n   \\[\n   \\boxed{160}\n   \\]"
+  },
+  {
+   "id": "train_main/3208",
+   "gold": 92.0,
+   "pred": 92.0,
+   "correct": true,
+   "output": "To determine the total number of pens that the person has, we need to calculate the number of pens bought each day and then sum them up.\n\n1. **Sundays**: The person buys 20 pens.\n   \\[\n   \\text{Pens on Sunday} = 20\n   \\]\n\n2. **Mondays**: The person buys 18 pens.\n   \\[\n   \\text{Pens on Monday} = 18\n   \\]\n\n3. **Tuesdays**: On Tuesday, the person buys three times as many pens as she did on Monday.\n   \\[\n   \\text{Pens on Tuesday} = 3 \\times 18 = 54\n   \\]\n\nNow, let's add up all the pens:\n\\[\n\\text{Total pens} = \\text{Pens on Sunday} + \\text{Pens on Monday} + \\text{Pens on Tuesday}\n\\]\n\\[\n\\text{Total pens} = 20 + 18 + 54\n\\]\n\\[\n\\text{Total pens} = 92\n\\]\n\nThus, the total number of pens the person has is \\(\\boxed{92}\\)."
+  },
+  {
+   "id": "train_main/1218",
+   "gold": 297.0,
+   "pred": 297.0,
+   "correct": true,
+   "output": "To determine how much John spent in total, we need to calculate the cost of each item he bought and then sum these amounts.\n\n1. **Calculate the cost of the jacket:**\n   - The price of the jacket is $120.\n   - There are no additional discounts mentioned for the jacket, so the cost remains $120.\n\n2. **Calculate the cost of the shirt:**\n   - The price of the shirt is $150.\n   - Again, there are no additional discounts mentioned for the shirt, so the cost remains $150.\n\n3. **Calculate the tax on the jackets:**\n   - The tax rate is 10%.\n   - Tax amount = \\( 120 \\times 0.10 = 12 \\) dollars.\n\n4. **Calculate the tax on the shirts:**\n   - The tax rate is 10%.\n   - Tax amount = \\( 150 \\times 0.10 = 15 \\) dollars.\n\n5. **Sum up all the costs including taxes:**\n   - Total cost of jackets = $120 + $12 (tax) = $132.\n   - Total cost of shirts = $150 + $15 (tax) = $165.\n   - Total expenditure = $132 + $165 = $297.\n\nTherefore, the total amount John spent is \\(\\boxed{297}\\)."
+  },
+  {
+   "id": "train_main/7097",
+   "gold": 87.0,
+   "pred": 93.0,
+   "correct": false,
+   "output": "To determine the total number of quilts Pol and his wife Pauline bought together, we need to follow these steps:\n\n1. Identify how many quilts Pol bought.\n2. Determine how many fewer quilts Pol bought compared to his wife.\n3. Calculate the total number of quilts.\n\nStep 1: Pol bought 45 quilts.\nStep 2: Pol bought 3 fewer quilts than his wife.\nStep 3: To find out how many quilts his wife bought, we add 3 to the number of quilts Pol bought:\n\\[ 45 + 3 = 48 \\]\nSo, Pauline bought 48 quilts.\n\nNow, we add the number of quilts Pol bought to the number of quilts his wife bought to get the total number of quilts they both bought:\n\\[ 45 + 48 = 93 \\]\n\nTherefore, the total number of quilts they have is \\(\\boxed{93}\\)."
+  },
+  {
+   "id": "train_main/6689",
+   "gold": 1800.0,
+   "pred": 1800.0,
+   "correct": true,
+   "output": "To determine how many cups of soup Mark donates to the orphanages, we need to follow these steps:\n\n1. **Calculate the total number of people served:**\n   - There are 6 orphanages.\n   - Each orphanage has 30 children.\n   - Therefore, the total number of people served is:\n     \\[\n     6 \\text{ orphanages} \\times 30 \\text{ children/orphanage} = 180 \\text{ children}\n     \\]\n\n2. **Determine the cost per person for a cup of soup:**\n   - The cost per person for a cup of soup is Rs. 10.\n\n3. **Calculate the total amount donated:**\n   - Since there are 180 children and each child gets one cup of soup at Rs. 10 per cup, the total donation is:\n     \\[\n     180 \\text{ children} \\times 10 \\text{ Rs/cup} = 1800 \\text{ Rs}\n     \\]\n\nThus, the total amount of money Mark donates to the orphanages is \\(\\boxed{1800}\\) rupees."
+  },
+  {
+   "id": "train_main/2793",
+   "gold": 120.0,
+   "pred": 30.0,
+   "correct": false,
+   "output": "To determine how many cookies are baked using the given information, let's break down the problem step by step:\n\n1. **Understanding the Problem:**\n   - There is a bakery that uses 5 baking trays.\n   - Each tray has 6 cookies on it.\n\n2. **Calculating Total Cookies per Tray:**\n   - Since each tray holds 6 cookies, we can calculate the total number of cookies for one tray:\n     \\[\n     6 \\text{ cookies/tray}\n     \\]\n\n3. **Calculating Total Cookies for All Trays:**\n   - The bakery uses 5 trays in total. Therefore, to find the total number of cookies baked, we multiply the number of cookies per tray by the number of trays:\n     \\[\n     5 \\text{ trays} \\times 6 \\text{ cookies/tray} = 30 \\text{ cookies}\n     \\]\n\nThus, the total number of cookies baked is \\(\\boxed{30}\\)."
+  },
+  {
+   "id": "train_main/905",
+   "gold": 480.0,
+   "pred": 60.0,
+   "correct": false,
+   "output": "To determine how many sodas a machine can produce in one hour given that it takes 30 minutes to make one batch of 30 cans, we need to follow these steps:\n\n1. **Calculate the number of batches produced per hour:**\n   - Since there are 60 minutes in an hour, we divide the total time available (60 minutes) by the time it takes to complete one batch (30 minutes).\n   \\[\n   \\text{Number of batches per hour} = \\frac{60 \\text{ minutes}}{30 \\text{ minutes/batch}} = 2 \\text{ batches/hour}\n   \\]\n\n2. **Determine the number of cans produced per hour:**\n   - Each batch contains 30 cans.\n   \\[\n   \\text{Cans per hour} = 2 \\text{ batches/hour} \\times 30 \\text{ cans/batch} = 60 \\text{ cans/hour}\n   \\]\n\nTherefore, the machine produces \\(\\boxed{60}\\) cans of soda in one hour."
+  },
+  {
+   "id": "train_main/4508",
+   "gold": 2600.0,
+   "pred": 3100.0,
+   "correct": false,
+   "output": "To solve this problem, we need to determine the number of dislikes on the YouTube video. Let's break it down step by step.\n\n1. **Identify the given information:**\n   - The video initially received 3000 likes.\n   - It also received \\(100 + x\\) dislikes where \\(x > 0\\).\n   - After receiving an additional 1000 dislikes and 0 more likes, the total number of dislikes is now \\(100 + x + 1000 = 1100 + x\\).\n\n2. **Set up the equation for the total number of dislikes:**\n   Since the total number of dislikes after these changes should be equal to the initial number of dislikes plus the additional dislikes:\n   \\[\n   1100 + x = 3000 + (100 + x)\n   \\]\n\n3. **Simplify the equation:**\n   Simplifying the right side of the equation:\n   \\[\n   1100 + x = 3100 + x\n   \\]\n   Subtract \\(x\\) from both sides:\n   \\[\n   1100 = 3100\n   \\]\n   This simplifies to:\n   \\[\n   1100 = 3100\n   \\]\n   Clearly, there was a mistake in the setup or interpretation. Let's correct it:\n\n4. **Re-evaluate the setup:**\n   The correct setup should be:\n   \\[\n   1100 + x = 3000 + 100\n   \\]\n   Simplifying the right side:\n   \\[\n   1100 + x = 3100\n   \\]\n   Solving for \\(x\\):\n   \\[\n   x = 3100 - 1100\n   \\]\n   \\[\n   x = 2000\n   \\]\n\n5. **Calculate the total number of dislikes:**\n   Now that we have \\(x = 2000\\), the total number of dislikes is:\n   \\[\n   1100 + 2000 = 3100\n   \\]\n\nTherefore, the total number of dislikes on the video is \\(\\boxed{3100}\\)."
+  },
+  {
+   "id": "train_main/6017",
+   "gold": 600000.0,
+   "pred": 80000.0,
+   "correct": false,
+   "output": "To solve this problem, we need to calculate the total distance Stephen traveled. We know that he climbed up a mountain of height \\(40,000\\) feet and then descended through ten rounds of terrain.\n\nFirst, let's determine the average height Stephen climbed per round trip:\n\\[ \\text{Average height per round} = \\frac{\\text{Total height}}{\\text{Number of rounds}} = \\frac{40,000}{10} = 4,000 \\text{ feet} \\]\n\nNext, since each round consists of climbing up and descending back down, the net vertical distance covered in one round is twice the average height per round:\n\\[ \\text{Net vertical distance per round} = 2 \\times 4,000 = 8,000 \\text{ feet} \\]\n\nNow, we can find the total distance Stephen traveled by multiplying the number of rounds by the net vertical distance per round:\n\\[ \\text{Total distance} = \\text{Number of rounds} \\times \\text{Net vertical distance per round} = 10 \\times 8,000 = 80,000 \\text{ feet} \\]\n\nTherefore, the total distance Stephen traveled is:\n\\[\n\\boxed{80000}\n\\] feet."
+  },
+  {
+   "id": "train_main/4530",
+   "gold": 24.0,
+   "pred": 105.0,
+   "correct": false,
+   "output": "To determine Marianne's score, we need to follow these steps:\n\n1. **Understand the given information:**\n   - Total number of questions (40).\n   - Ela got 4 incorrect answers.\n   - Marianne got more than half as many correct answers as Ela.\n\n2. **Calculate Ela's correct answers:**\n   - Since there are 40 questions in total:\n     \\[\n     \\text{Ela's correct answers} = \\frac{40}{2} = 20\n     \\]\n\n3. **Determine Marianne's correct answers:**\n   - According to the problem, Marianne got more than half as many correct answers as Ela.\n   - Half of Ela's correct answers is:\n     \\[\n     \\frac{20}{2} = 10\n     \\]\n   - Therefore, Marianne must have gotten at least 11 correct answers.\n\n4. **Calculate Marianne's total score:**\n   - Each correct answer is worth 5 points.\n   - If Marianne got \\( x \\) correct answers, her total score would be:\n     \\[\n     \\text{Marianne's score} = 5x\n     \\]\n   - We know that Marianne's score is greater than Ela's score, which is:\n     \\[\n     \\text{Ela's score} = 5 \\times 20 = 100\n     \\]\n   - Thus, Marianne's score must satisfy:\n     \\[\n     5x > 100\n     \\]\n   - Solving for \\( x \\):\n     \\[\n     x > \\frac{100}{5} = 20\n     \\]\n\n5. **Find the smallest integer value for \\( x \\):**\n   - The smallest integer greater than 20 is 21.\n   - Therefore, Marianne's minimum score is:\n     \\[\n     \\text{Marianne's score} = 5 \\times 21 = 105\n     \\]\n\nThus, Marianne's score is \\(\\boxed{105}\\)."
+  },
+  {
+   "id": "train_main/702",
+   "gold": 27.0,
+   "pred": 27.0,
+   "correct": true,
+   "output": "1. **Initial Amount**: Lilii initially had $55 in her purse.\n\n2. **First Purchase**: She bought a shirt for $7.\n   - Remaining amount after the first purchase: \n     \\[\n     55 - 7 = 48 \\text{ dollars}\n     \\]\n\n3. **Second Purchase**: She then bought another shirt but this time she spent three times as much as the first shirt.\n   - Cost of the second shirt:\n     \\[\n     3 \\times 7 = 21 \\text{ dollars}\n     \\]\n   - Remaining amount after the second purchase:\n     \\[\n     48 - 21 = 27 \\text{ dollars}\n     \\]\n\nThus, after both purchases, Lilii has $27 left in her purse. Therefore, the final answer is:\n\n\\(\\boxed{27}\\) dollars."
+  },
+  {
+   "id": "train_main/4974",
+   "gold": 160.0,
+   "pred": 160.0,
+   "correct": true,
+   "output": "To determine how much John makes in a week from streaming, we need to break down the problem into smaller steps.\n\n1. **Determine the number of days John streams each week:**\n   - John takes a 3-day break.\n   - Therefore, he streams for \\(7 - 3 = 4\\) days per week.\n\n2. **Calculate the total hours John streams each week:**\n   - Each day, John streams for 4 hours.\n   - So, over 4 days, he streams for \\(4 \\text{ days} \\times 4 \\text{ hours/day} = 16 \\text{ hours}\\).\n\n3. **Determine the hourly rate John earns:**\n   - He earns $10 per hour.\n\n4. **Calculate his weekly earnings:**\n   - His weekly earnings are calculated by multiplying the total hours streamed by the hourly rate.\n   - Thus, his weekly earnings are \\(16 \\text{ hours} \\times \\$10/\\text{hour} = \\$160\\).\n\nTherefore, John makes $\\boxed{160}$ dollars in a week from streaming."
+  },
+  {
+   "id": "train_main/405",
+   "gold": 8.0,
+   "pred": 14.0,
+   "correct": false,
+   "output": "To determine how many boats can be accommodated in a river of length \\( L = 42 \\) feet with each boat being \\( W = 3 \\) feet wide and requiring at least \\( D = 2 \\) feet between the boats or along the bank, we need to consider both scenarios: when the boats are placed side-by-side and when they are placed end-to-end.\n\n### Scenario 1: Boats Placed Side-By-Side\n\nWhen boats are placed side-by-side:\n- The total width occupied by two boats is \\( 3 + 2 = 5 \\) feet.\n- The number of such pairs that fit into the river is given by dividing the river's length by the combined width of one pair of boats.\n\n\\[\n\\text{Number of pairs} = \\left\\lfloor \\frac{L}{W + D} \\right\\rfloor = \\left\\lfloor \\frac{42}{5} \\right\\rfloor = 8\n\\]\n\nSince each pair consists of two boats:\n\n\\[\n\\text{Total number of boats} = 2 \\times 8 = 16\n\\]\n\n### Scenario 2: Boats Placed End-To-End\n\nWhen boats are placed end-to-end:\n- The total length occupied by two boats is \\( 3 + 3 = 6 \\) feet.\n- The number of such pairs that fit into the river is given by dividing the river's length by the combined length of one pair of boats.\n\n\\[\n\\text{Number of pairs} = \\left\\lfloor \\frac{L}{W + D} \\right\\rfloor = \\left\\lfloor \\frac{42}{6} \\right\\rfloor = 7\n\\]\n\nSince each pair consists of two boats:\n\n\\[\n\\text{Total number of boats} = 2 \\times 7 = 14\n\\]\n\n### Conclusion\n\nComparing the results from both scenarios, the maximum number of boats that can be accommodated in the river while maintaining the required spacing is determined by the scenario where the boats are placed end-to-end. Therefore, the maximum number of boats that can be accommodated is:\n\n\\[\n\\boxed{14}\n\\]"
+  },
+  {
+   "id": "train_main/3250",
+   "gold": 6.0,
+   "pred": 1200.0,
+   "correct": false,
+   "output": "To determine how much James has spent on the sticks, we need to follow these steps:\n\n1. **Calculate the total number of sticks:**\n   - James has split the sticks into 4 packs.\n   - Each pack contains 30 sticks.\n\n   Therefore, the total number of sticks is:\n   \\[\n   4 \\text{ packs} \\times 30 \\text{ sticks per pack} = 120 \\text{ sticks}\n   \\]\n\n2. **Determine the cost per stick:**\n   - The cost of each stick is $10.\n\n3. **Calculate the total cost for all the sticks:**\n   - Multiply the total number of sticks by the cost per stick:\n   \\[\n   120 \\text{ sticks} \\times \\$10 \\text{ per stick} = \\$1200\n   \\]\n\nThus, James has spent a total of \\(\\boxed{1200}\\) dollars on the sticks."
+  },
+  {
+   "id": "train_main/2527",
+   "gold": 123.0,
+   "pred": 123.0,
+   "correct": true,
+   "output": "To determine the total number of courses in the cafeteria, we need to calculate the number of courses from both types of tables separately and then sum them up.\n\nFirst, let's calculate the number of courses on the Indian tables:\n- There are 9 Indian tables.\n- Each Indian table has 10 courses.\nSo, the total number of courses on the Indian tables is:\n\\[ 9 \\text{ tables} \\times 10 \\text{ courses/table} = 90 \\text{ courses} \\]\n\nNext, let's calculate the number of courses on the Outdoors tables:\n- There are 11 Outdoor tables.\n- Each Outdoor table has 3 courses.\nSo, the total number of courses on the Outdoor tables is:\n\\[ 11 \\text{ tables} \\times 3 \\text{ courses/table} = 33 \\text{ courses} \\]\n\nNow, we add the number of courses from both types of tables to get the total number of courses in the cafeteria:\n\\[ 90 \\text{ courses (Indian)} + 33 \\text{ courses (Outdoor)} = 123 \\text{ courses} \\]\n\nTherefore, the total number of courses in the cafeteria is:\n\\[\n\\boxed{123}\n\\]"
+  },
+  {
+   "id": "train_main/3690",
+   "gold": 340.0,
+   "pred": 100.0,
+   "correct": false,
+   "output": "To solve this problem, we need to follow these steps:\n\n1. Determine the current age of Sandee.\n2. Calculate the future age based on the given information.\n3. Use the future age to calculate the monthly phone bill.\n\n### Step 1: Determine the Current Age of Sandee\n\nGiven:\n- The current age is \\(10\\) years.\n\n### Step 2: Calculate the Future Age\n\nWe are told that in two years, Sandee's age will be twice her current age plus three times her current age. Mathematically, this can be expressed as:\n\\[ \\text{Future Age} = 2 \\times (\\text{Current Age}) + 3 \\times (\\text{Current Age}) \\]\n\nSubstituting the current age into the equation:\n\\[ \\text{Future Age} = 2 \\times 10 + 3 \\times 10 \\]\n\\[ \\text{Future Age} = 20 + 30 \\]\n\\[ \\text{Future Age} = 50 \\]\n\nSo, in two years, Sandee will be \\(50\\) years old.\n\n### Step 3: Calculate the Monthly Phone Bill\n\nThe monthly phone bill is now \\(10\\) times the current age. Since the current age is \\(10\\), the monthly phone bill is:\n\\[ \\text{Monthly Phone Bill} = 10 \\times \\text{Current Age} \\]\n\\[ \\text{Monthly Phone Bill} = 10 \\times 10 \\]\n\\[ \\text{Monthly Phone Bill} = 100 \\]\n\nTherefore, the monthly phone bill for Sandee is \\(\\boxed{100}\\)."
+  },
+  {
+   "id": "train_main/5145",
+   "gold": 86.0,
+   "pred": 0.32,
+   "correct": false,
+   "output": "1. **Determine the number of girls in the class:**\n   - The total percentage of boys is given as 40%.\n   - Therefore, the percentage of girls can be calculated as:\n     \\[\n     100\\% - 40\\% = 60\\%\n     \\]\n   - So, there are \\(60\\%\\) girls in the class.\n\n2. **Calculate the number of boys and girls:**\n   - Let's assume the total number of students in the class is \\(N\\).\n   - Number of boys (\\(B\\)):\n     \\[\n     B = 40\\% \\times N = 0.4N\n     \\]\n   - Number of girls (\\(G\\)):\n     \\[\n     G = 60\\% \\times N = 0.6N\n     \\]\n\n3. **Calculate the average score for boys:**\n   - Each boy scores 80% on the exam.\n   - Average score for all boys:\n     \\[\n     \\text{Average score for boys} = 80\\%\n     \\]\n\n4. **Calculate the average score for girls:**\n   - Each girl scores 90% on the exam.\n   - Average score for all girls:\n     \\[\n     \\text{Average score for girls} = 90\\%\n     \\]\n\n5. **Calculate the overall average score for the class:**\n   - Since the scores are weighted by gender (boys contribute to the average with their 80%, while girls contribute with their 90%), we need to find a weighted average.\n   - Let \\(A_b\\) be the average score for boys and \\(A_g\\) be the average score for girls.\n   - We know:\n     \\[\n     A_b = 80\\%\n     \\]\n     \\[\n     A_g = 90\\%\n     \\]\n   - The overall average score \\(A\\) is given by:\n     \\[\n     A = \\frac{(0.4N \\cdot 80\\%) + (0.6N \\cdot 90\\%)}{N}\n     \\]\n\n6. **Simplify the expression:**\n   - Calculate each term separately:\n     \\[\n     0.4N \\cdot 80\\% = 0.4N \\cdot 0.8 = 0.32N\n     \\]\n     \\[\n     "
+  },
+  {
+   "id": "train_main/4661",
+   "gold": 77.0,
+   "pred": 77.0,
+   "correct": true,
+   "output": "To determine the total cost of upgrading the rice mill, we need to calculate the cost of replacing each component separately and then sum them up.\n\n1. **Cost of replacing the Ammanda Dornobbs/Puls:**\n   - Number of cabinets: 18\n   - Cost per cabinet: $2.50\n\n   \\[\n   \\text{Total cost for cabinets} = 18 \\times 2.50 = 45\n   \\]\n\n2. **Cost of replacing the Daraj:**\n   - Number of darajs: 8\n   - Cost per daraj: $4.00\n\n   \\[\n   \\text{Total cost for darajs} = 8 \\times 4.00 = 32\n   \\]\n\n3. **Total cost of upgrading the rice mill:**\n   \\[\n   \\text{Total cost} = \\text{Total cost for cabinets} + \\text{Total cost for darajs}\n   \\]\n   \\[\n   \\text{Total cost} = 45 + 32 = 77\n   \\]\n\nTherefore, the total amount spent on upgrading the rice mill is \\(\\boxed{77}\\)."
+  },
+  {
+   "id": "train_main/3335",
+   "gold": 86.0,
+   "pred": 86.0,
+   "correct": true,
+   "output": "To solve this problem, we need to determine the test scores of Mark and Margaret based on the given information.\n\nFirst, let's denote:\n- \\( M \\) as Mark's average score.\n- \\( R \\) as Margaret's average score.\n\nFrom the problem statement, we know:\n\\[ M = 90 \\]\n\nMark scored 10% less than his average score:\n\\[ \\text{Mark's score} = M - 0.1M = 0.9M \\]\nSubstituting \\( M = 90 \\):\n\\[ \\text{Mark's score} = 0.9 \\times 90 = 81 \\]\n\nMargaret scored 5 points more than Mark:\n\\[ \\text{Margaret's score} = \\text{Mark's score} + 5 = 81 + 5 = 86 \\]\n\nThus, the test score for Margaret is:\n\\[\n\\boxed{86}\n\\]"
+  },
+  {
+   "id": "train_main/1875",
+   "gold": 1.0,
+   "pred": 4.0,
+   "correct": false,
+   "output": "To determine how long it will take for the truck to catch up with the car, we need to calculate the relative speed of the truck compared to the car and then use that to find out how much time is needed for the truck to cover the initial distance between them.\n\nHere are the steps:\n\n1. **Calculate the relative speed:**\n   - The truck's speed is \\(25\\) miles per hour.\n   - The car's speed is \\(20\\) miles per hour.\n   - Therefore, the relative speed at which the truck is catching up to the car is:\n     \\[\n     25 \\text{ mph} - 20 \\text{ mph} = 5 \\text{ mph}\n     \\]\n\n2. **Determine the initial distance between the truck and the car:**\n   - The problem states that the car starts moving after a certain amount of time, but we don't have this information directly. However, since the question asks about the time taken to catch up when the car has already started moving, we can assume the car has been moving for some time before the truck starts chasing it.\n   - Let's denote the time in hours from when the car starts until the truck catches up as \\( t \\).\n\n3. **Set up the equation for the distance covered:**\n   - In \\( t \\) hours, the car travels \\( 20t \\) miles (since its speed is \\( 20 \\) miles per hour).\n   - In \\( t \\) hours, the truck travels \\( 25t \\) miles (since its speed is \\( 25 \\) miles per hour).\n   - Since the car has already traveled for some time before the truck starts chasing it, let's say the car has been traveling for \\( T \\) hours before the truck starts chasing it. So, the total distance the car has traveled by the time the truck starts chasing it is \\( 20T \\) miles.\n   - When the truck starts chasing the car, both vehicles start moving towards each other. The combined speed at which they are closing the gap is \\( 25 + 20 = 45 \\) miles per hour.\n   - The initial distance between them is \\( 20T \\) miles plus any additional distance the car might have traveled while the truck was waiting. But since the problem doesn't specify this additional distance, we'll focus on the relative speed calculation.\n\n4. **Calculate the time to catch up:**\n"
+  },
+  {
+   "id": "train_main/35",
+   "gold": 36.0,
+   "pred": 36.0,
+   "correct": true,
+   "output": "To solve this problem, we need to determine the number of students who received a grade higher than 5 out of those who received a grade lower than or equal to 5. Let's break it down step by step.\n\n1. **Identify the total number of students in Grade 5:**\n   - There are 60 students in Grade 5.\n   \n2. **Determine the percentage of students who received a grade lower than or equal to 5:**\n   - The problem states that 40% of the students in Grade 5 received a grade lower than or equal to 5.\n   - Therefore, the number of students who received a grade lower than or equal to 5 is:\n     \\[\n     0.40 \\times 60 = 24\n     \\]\n\n3. **Calculate the number of students who received a grade higher than 5:**\n   - Since there are 60 students in Grade 5 and 24 of them received a grade lower than or equal to 5, the remaining students must have received a grade higher than 5.\n   - Thus, the number of students who received a grade higher than 5 is:\n     \\[\n     60 - 24 = 36\n     \\]\n\nTherefore, the number of students who received a grade higher than 5 is \\(\\boxed{36}\\)."
+  },
+  {
+   "id": "train_main/5419",
+   "gold": 60.0,
+   "pred": 15.0,
+   "correct": false,
+   "output": "To solve this problem, we need to work backwards from the information given about the number of children in each year. Let's denote the number of children in 2004 as \\( C_{2004} \\), in 2005 as \\( C_{2005} \\), and in 2006 as \\( C_{2006} \\).\n\nWe know:\n1. In 2005, there were twice as many children as in 2004.\n2. In 2006, there were two-thirds as many children as in 2005.\n\nGiven that there were 20 children in 2006, we can set up the following equations based on these relationships:\n\n\\[ C_{2006} = \\frac{2}{3} C_{2005} \\]\n\\[ C_{2005} = 2 C_{2004} \\]\n\nSince \\( C_{2006} = 20 \\):\n\n\\[ 20 = \\frac{2}{3} C_{2005} \\]\n\nSolving for \\( C_{2005} \\):\n\n\\[ C_{2005} = 20 \\times \\frac{3}{2} = 30 \\]\n\nNow, using the relationship between \\( C_{2005} \\) and \\( C_{2004} \\):\n\n\\[ C_{2005} = 2 C_{2004} \\]\n\\[ 30 = 2 C_{2004} \\]\n\nSolving for \\( C_{2004} \\):\n\n\\[ C_{2004} = \\frac{30}{2} = 15 \\]\n\nTherefore, the number of children who went to the park in 2004 was \\(\\boxed{15}\\)."
+  },
+  {
+   "id": "train_main/5632",
+   "gold": 15.0,
+   "pred": 15.0,
+   "correct": true,
+   "output": "To determine how many days it will take for Tom to watch all the episodes of a show that has 90 episodes, each lasting 20 minutes, if he watches two hours per day, we can follow these steps:\n\n1. **Calculate the total time required to watch all episodes:**\n   - Each episode is 20 minutes long.\n   - There are 90 episodes in total.\n   - Therefore, the total time required is \\( 90 \\times 20 = 1800 \\) minutes.\n\n2. **Convert the daily viewing time into minutes:**\n   - Tom watches 2 hours per day.\n   - Since there are 60 minutes in an hour, 2 hours is equal to \\( 2 \\times 60 = 120 \\) minutes.\n\n3. **Determine the number of days needed to complete the show:**\n   - We need to divide the total time required (1800 minutes) by the daily viewing time (120 minutes).\n   - This gives us \\( \\frac{1800}{120} = 15 \\).\n\nSo, it will take Tom 15 days to watch all the episodes of the show. The final answer is:\n\\[\n\\boxed{15}\n\\]"
+  },
+  {
+   "id": "train_main/1425",
+   "gold": 10.0,
+   "pred": 32.0,
+   "correct": false,
+   "output": "To determine the difference in the number of cupcakes made between Beta and Dorra after a break, we need to calculate how many cupcakes each makes during their respective time periods.\n\nFirst, let's calculate the total number of cupcakes Beta makes:\n- Beta makes 10 cupcakes per hour.\n- She takes a break for 2 hours out of every 6-hour period (since she breaks for half an hour).\n\nIn one full cycle of 6 hours minus her break, Beta makes:\n\\[ 10 \\text{ cupcakes/hour} \\times 4 \\text{ hours} = 40 \\text{ cupcakes} \\]\n\nSince there are two such cycles in 12 hours (the length of the break), the total number of cupcakes Beta makes is:\n\\[ 40 \\text{ cupcakes/cycle} \\times 2 \\text{ cycles} = 80 \\text{ cupcakes} \\]\n\nNext, let's calculate the total number of cupcakes Dorra makes:\n- Dorra also makes 8 cupcakes per hour.\n- She does not take any breaks.\n\nIn one full cycle of 6 hours, Dorra makes:\n\\[ 8 \\text{ cupcakes/hour} \\times 6 \\text{ hours} = 48 \\text{ cupcakes} \\]\n\nNow, we find the difference in the number of cupcakes made by Beta and Dorra:\n\\[ 80 \\text{ cupcakes} - 48 \\text{ cupcakes} = 32 \\text{ cupcakes} \\]\n\nTherefore, the difference in the number of cupcakes made by Beta and Dorra after a break is:\n\\[\n\\boxed{32}\n\\]"
+  },
+  {
+   "id": "train_main/3569",
+   "gold": 1550.0,
+   "pred": 15000.0,
+   "correct": false,
+   "output": "1. **Initial Volume Calculation:**\n   - The tank initially contains 6000 liters of water.\n   - Then, 2000 liters of brine are added to the tank.\n   - Therefore, the total volume after adding brine is:\n     \\[\n     6000 + 2000 = 8000 \\text{ liters}\n     \\]\n\n2. **Brine Removal Process:**\n   - After adding brine, a vacuum pump removes 3500 liters of brine from the tank.\n\n3. **Volume After Brine Removal:**\n   - Subtracting the removed brine from the initial volume gives us:\n     \\[\n     8000 - 3500 = 4500 \\text{ liters}\n     \\]\n\n4. **Rainfall Rate:**\n   - Rain falls at a rate of 350 liters per minute for 30 minutes.\n   - Calculate the total amount of rainwater that falls in this time:\n     \\[\n     350 \\times 30 = 10500 \\text{ liters}\n     \\]\n\n5. **Final Volume Calculation:**\n   - Add the rainfall to the remaining volume in the tank:\n     \\[\n     4500 + 10500 = 15000 \\text{ liters}\n     \\]\n\n### Conclusion:\nThe tank will contain \\(\\boxed{15000}\\) liters of liquid after all these processes have occurred."
+  },
+  {
+   "id": "train_main/1293",
+   "gold": 117.0,
+   "pred": 28.8,
+   "correct": false,
+   "output": "To determine how much money Jime and Airin will give to the cashier, we need to calculate the discounted prices for each of their purchases based on the given discounts.\n\nFirst, let's find out the original price of the shirt that Jime bought:\n- The original price is $15.\n- The discount rate is 10%.\n- The discount amount = \\( 15 \\times \\frac{10}{100} = 1.5 \\) dollars.\n- Therefore, the discounted price for Jime's purchase = \\( 15 - 1.5 = 13.5 \\) dollars.\n\nNext, let's find out the original price of the sweater that Airin bought:\n- The original price is $17.\n- The discount rate is 10%.\n- The discount amount = \\( 17 \\times \\frac{10}{100} = 1.7 \\) dollars.\n- Therefore, the discounted price for Airin's purchase = \\( 17 - 1.7 = 15.3 \\) dollars.\n\nNow, we add up the amounts they both paid to get the total amount they gave to the cashier:\n\\[ 13.5 + 15.3 = 28.8 \\]\n\nSo, the total amount of money Jime and Airin will give to the cashier is \\(\\boxed{28.8}\\)."
+  },
+  {
+   "id": "train_main/1269",
+   "gold": 4400.0,
+   "pred": 4400.0,
+   "correct": true,
+   "output": "To determine the total revenue for the day, we need to calculate the contribution from each type of return separately and then sum them up.\n\n1. **Calculate the revenue from government returns:**\n   - Number of government returns sold = 60\n   - Price per government return = $50\n   - Revenue from government returns = \\( 60 \\times 50 = \\$3000 \\)\n\n2. **Calculate the revenue from state returns:**\n   - Number of state returns sold = 20\n   - Price per state return = $30\n   - Revenue from state returns = \\( 20 \\times 30 = \\$600 \\)\n\n3. **Calculate the revenue from inter-state returns:**\n   - Number of inter-state returns sold = 10\n   - Price per inter-state return = $80\n   - Revenue from inter-state returns = \\( 10 \\times 80 = \\$800 \\)\n\n4. **Sum up all the revenues:**\n   - Total revenue = Revenue from government returns + Revenue from state returns + Revenue from inter-state returns\n   - Total revenue = \\( 3000 + 600 + 800 = \\$4400 \\)\n\nTherefore, the total revenue for the day is \\(\\boxed{4400}\\)."
+  },
+  {
+   "id": "train_main/5913",
+   "gold": 6.0,
+   "pred": 5.0,
+   "correct": false,
+   "output": "To determine the total time required to bake all 6 cakes, we need to consider each stage of the process: mixing, baking, cooling, and decorating.\n\n1. **Mixing**: Each cake takes 12 minutes to mix.\n   - For 6 cakes, the total mixing time is \\(6 \\times 12 = 72\\) minutes.\n\n2. **Baking**: The baking time for one cake is 9 minutes more than the mixing time.\n   - Therefore, the baking time for one cake is \\(12 + 9 = 21\\) minutes.\n   - For 6 cakes, the total baking time is \\(6 \\times 21 = 126\\) minutes.\n\n3. **Cooling**: Cooling a cake typically takes about 5-10 minutes depending on the size and type of cake. Let's assume an average of 8 minutes per cake.\n   - For 6 cakes, the total cooling time is \\(6 \\times 8 = 48\\) minutes.\n\n4. **Decorating**: Decorating a cake usually takes around 6-12 minutes per cake. Assuming an average of 9 minutes per cake.\n   - For 6 cakes, the total decorating time is \\(6 \\times 9 = 54\\) minutes.\n\nNow, let's sum up all these times:\n\\[\n72 \\text{ (mixing)} + 126 \\text{ (baking)} + 48 \\text{ (cooling)} + 54 \\text{ (decorating)}\n\\]\n\nAdding these together gives:\n\\[\n72 + 126 + 48 + 54 = 300 \\text{ minutes}\n\\]\n\nSince there are 60 minutes in an hour, we convert the total time into hours and minutes:\n\\[\n300 \\div 60 = 5 \\text{ hours and } 0 \\text{ minutes}\n\\]\n\nThus, the total time required to bake all 6 cakes is \\(\\boxed{5}\\) hours."
+  },
+  {
+   "id": "train_main/5531",
+   "gold": 4625.0,
+   "pred": 5000.0,
+   "correct": false,
+   "output": "To determine the total medical bill for Doctor Kate, we need to calculate the cost of each service she receives at the hospital and then sum these costs.\n\n1. **Cost of seeing two specialists:**\n   - Each specialist visit is charged at $250 per hour.\n   - Since there are two specialists, the total cost for both visits is:\n     \\[\n     2 \\times 250 = 500 \\text{ dollars}\n     \\]\n\n2. **Ambulance fee:**\n   - The ambulance fee is a flat rate of $1800.\n\n3. **Hospital stay:**\n   - The hospital charges $900 per day.\n   - Doctor Kate stays in the hospital for 3 days.\n   - Therefore, the total cost for the hospital stay is:\n     \\[\n     3 \\times 900 = 2700 \\text{ dollars}\n     \\]\n\n4. **Total medical bill:**\n   - Summing up all the individual costs:\n     \\[\n     500 + 1800 + 2700 = 5000 \\text{ dollars}\n     \\]\n\nThus, the total medical bill for Doctor Kate is \\(\\boxed{5000}\\)."
+  },
+  {
+   "id": "train_main/4687",
+   "gold": 20.0,
+   "pred": 1.0,
+   "correct": false,
+   "output": "To determine how much time was lost due to the delay in reaching the pick-up point, we need to follow these steps:\n\n1. **Calculate the total travel time without any delays:**\n   - The bus leaves at 8:00 AM.\n   - It takes 30 minutes to reach the pick-up point from home.\n\n2. **Determine the actual departure time of the bus:**\n   - The bus left at 7:50 AM.\n\n3. **Calculate the difference between the planned arrival time (pick-up point) and the actual departure time:**\n   - Planned arrival time = 8:00 AM + 30 minutes = 8:30 AM\n   - Actual departure time = 7:50 AM\n\n4. **Find out how many minutes were lost:**\n   - Difference in hours = \\( \\frac{8:30 - 7:50}{60} \\)\n   - Convert 8:30 to a 24-hour format: 8:30 AM is equivalent to 8:30 AM or 8.50 AM in decimal form.\n   - So, the difference in hours is \\( \\frac{8.50 - 7.50}{60} = \\frac{1}{60} \\) hours.\n   - Convert this fraction to minutes: \\( \\frac{1}{60} \\times 60 = 1 \\) minute.\n\nTherefore, the bus was delayed by \\(\\boxed{1}\\) minute."
+  },
+  {
+   "id": "train_main/607",
+   "gold": 375000.0,
+   "pred": 3.0,
+   "correct": false,
+   "output": "To solve this problem, we need to follow these steps:\n\n1. **Determine the number of siblings:**\n   - Sandeep has 4 brothers.\n\n2. **Calculate the total number of people (including Sandeep):**\n   - Total people = Sandeep + 4 brothers = 5\n\n3. **Find out how many people each sibling gets when they are divided equally among themselves:**\n   - Since there are 5 people in total, each person will get \\( \\frac{5}{4} \\) parts.\n   - Each part represents \\( \\frac{1}{4} \\) of a person.\n\n4. **Calculate the number of parts for each brother:**\n   - Each brother gets \\( \\frac{1}{4} \\) of a person.\n\n5. **Determine the number of parts for Sandeep's sisters:**\n   - There are 4 sisters.\n   - Each sister gets \\( \\frac{1}{4} \\times 4 = 1 \\) part.\n\n6. **Summarize the distribution:**\n   - Each brother gets \\( \\frac{1}{4} \\) of a person.\n   - Each sister gets 1 part.\n\n7. **Compare the amounts:**\n   - Each brother gets \\( \\frac{1}{4} \\) of a person.\n   - Each sister gets 1 part.\n\n8. **Convert parts into whole numbers:**\n   - Each brother gets \\( \\frac{1}{4} \\) of a person, which is equivalent to 0.25 or 1/4 of a person.\n   - Each sister gets 1 part, which is equivalent to 4 times 1/4 or 1.\n\n9. **Calculate the difference between the amount each sister gets and each brother:**\n   - Difference = Sister's part - Brother's part\n   - Difference = 1 - 0.25 = 0.75 or 3/4 of a person.\n\nTherefore, after dividing the 1 million seers among his sisters and brothers, Sandeep will have 0.75 more seers than any of his sisters. The final answer is:\n\n\\(\\boxed{\\frac{3}{4}}\\) seers."
+  },
+  {
+   "id": "train_main/5008",
+   "gold": 56.0,
+   "pred": 4.0,
+   "correct": false,
+   "output": "हम जानते हैं कि मशीन में लाल गम्बल की संख्या 16 है।\n\n1. इसलिए, लाल गम्बल की संख्या = 16.\n\n2. उसी दृष्टिकोण से, नीले गम्बल की संख्या = 1/3 * लाल गम्बल की संख्या.\n   इसलिए, नीले गम्बल की संख्या = 1/3 * 16 = 5.33 (यह वास्तविक संख्या नहीं है, इसलिए चाहे नीले गम्बल की संख्या 5 या 6 या 7 या इत्यादि हो, इसका अर्थ है कि नीले गम्बल की संख्या अपेक्षाकृत छोटी होगी).\n\n3. उसी दृष्टिकोण से, हरे गम्बल की संख्या = 4 * नीले गम्बल की संख्या.\n   इसलिए, हरे गम्बल की संख्या = 4 * 5 = 20.\n\n4. इसलिए, मशीन में कुल गम्बल की संख्या = लाल गम्बल + नीले गम्बल + हरे गम्बल.\n   इसलिए, मशीन में कुल गम्बल"
+  },
+  {
+   "id": "train_main/5567",
+   "gold": 1600.0,
+   "pred": 16.0,
+   "correct": false,
+   "output": "To solve this problem, we need to determine the total number of jelly beans in the container after accounting for the changes in the distribution among the groups. Let's break it down step by step.\n\n1. **Initial Distribution:**\n   - There are 8000 jelly beans initially.\n   - There are 10 people standing in a line.\n\n2. **First Six Groups:**\n   - Each of the first six groups has twice as many jelly beans as each of the next four groups.\n   - Let \\( x \\) be the number of jelly beans in each of the next four groups.\n   - Therefore, each of the first six groups has \\( 2x \\) jelly beans.\n\n3. **Total Jelly Beans in First Six Groups:**\n   - Number of groups = 6\n   - Total jelly beans in these groups = \\( 6 \\times 2x = 12x \\)\n\n4. **Jelly Beans in Next Four Groups:**\n   - Number of groups = 4\n   - Total jelly beans in these groups = \\( 4 \\times x = 4x \\)\n\n5. **Total Jelly Beans Before Any Changes:**\n   - Initial total = \\( 8000 + 12x + 4x = 8000 + 16x \\)\n\n6. **Changes Among the First Six Groups:**\n   - The first six groups have their jelly beans distributed such that each person gets half of what they would get if all were together.\n   - If there were no restrictions, each group would distribute its jelly beans equally among the 10 people.\n   - However, since some people got more than others due to the initial distribution pattern (twice as much), we need to adjust our calculation accordingly.\n\n7. **Adjusting for Restrictions:**\n   - Since each of the first six groups had twice as many jelly beans as the next four groups, let’s assume the average distribution was adjusted based on the given conditions.\n   - We know that the last four groups received 400 jelly beans each.\n\n8. **Final Calculation:**\n   - Total jelly beans in the last four groups = \\( 4 \\times 400 = 1600 \\)\n   - Total jelly beans in the first six groups = \\( 12x \\)\n   - Total jelly beans before any changes = \\( 8000 + 16x \\)\n   - After distributing the last four groups:\n"
+  },
+  {
+   "id": "train_main/3830",
+   "gold": 13.0,
+   "pred": 25.0,
+   "correct": false,
+   "output": "To determine the number of patients that could be affected by the ZYX syndrome based on the information provided, we need to follow these steps:\n\n1. **Identify the total number of patients**: The problem states that the ZYX syndrome has been observed in \"hundreds\" of people.\n\n2. **Understand the effect described**: It is mentioned that each group of four individuals includes one person with the ZYX syndrome.\n\n3. **Calculate the number of groups**: If there are hundreds of people, let's assume a reasonable estimate for simplicity (e.g., 100). This means there would be:\n   \\[\n   \\frac{100}{4} = 25 \\text{ groups}\n   \\]\n\n4. **Determine the number of patients per group**: Each group contains exactly one patient with the ZYX syndrome.\n\n5. **Calculate the total number of patients with the ZYX syndrome**:\n   Since there are 25 groups and each group has one patient with the ZYX syndrome, the total number of patients with the ZYX syndrome is:\n   \\[\n   25 \\times 1 = 25\n   \\]\n\nTherefore, the number of patients who could potentially have the ZYX syndrome based on this information is \\(\\boxed{25}\\). However, it's important to note that the actual number might be higher if more than 100 people were involved or if the distribution was not perfectly even across all groups. But given the data provided, the most accurate interpretation is that at least 25 people have the ZYX syndrome."
+  },
+  {
+   "id": "train_main/1257",
+   "gold": 8000.0,
+   "pred": 8000.0,
+   "correct": true,
+   "output": "1. **Determine the amount of money each person has after their investments:**\n   - **Elis:** She invests her entire $2000 in a stock market and doubles it.\n     \\[\n     2000 \\times 2 = 4000\n     \\]\n   - **Bob:** He invests his entire $2000 in a savings account that earns five times more than what he invested.\n     \\[\n     2000 \\times (5 + 1) = 2000 \\times 6 = 12000\n     \\]\n\n2. **Calculate the difference between Bob's and Elis' amounts:**\n   \\[\n   12000 - 4000 = 8000\n   \\]\n\n3. **Conclusion:**\n   Bob has $8000 more than Elis.\n\n\\(\\boxed{8000}\\) is the additional amount of money Bob has compared to Elis."
+  },
+  {
+   "id": "train_main/3835",
+   "gold": 280.0,
+   "pred": 10.0,
+   "correct": false,
+   "output": "1. बिली चूहों का प्रजनन कर रही है। इसलिए, उन्हें आखिरी चूहे की संख्या देखना चाहिए।\n\n2. वह चूहों का प्रयोग करती है, जिनमें से प्रत्येक में 6 पिल्ले होते हैं। इसलिए, उन्हें चूहों की संख्या = 8.\n\n3. जब पिल्ले बड़े होते हैं, तो सभी चूहों के पास और 6 पिल्ले होते हैं। इसलिए, उन्हें चूहों की संख्या = 8 + 6 = 14.\n\n4. फिर प्रत्येक वयस्क चूहा भीड़भाड़ के तनाव के कारण अपने 2 पिल्लों को खा जाता है। इसलिए, उन्हें चूहों की संख्या = 14 - (2 × 2) = 10.\n\n5. इसलिए, बिली चूहों की अभी तक छोटी संख्या = 10.\n\nअभी तक बिली चूहों की अभी तक छोटी संख्या = 10. Therefore, the answer is 10."
+  },
+  {
+   "id": "train_main/5579",
+   "gold": 296.0,
+   "pred": 1.0,
+   "correct": false,
+   "output": "To solve this problem, we need to determine the total number of marks Amaya scored in all subjects. Let's break it down step by step.\n\n1. **Identify the given information:**\n   - In mathematics, Amaya scored \\( x \\) marks.\n   - In science, she scored \\( y \\) marks.\n   - In social studies, she scored \\( z \\) marks.\n   - In music, she scored \\( w \\) marks.\n   - In English, she scored \\( v \\) marks.\n   - In history, she scored \\( u \\) marks.\n   - In geography, she scored \\( t \\) marks.\n   - In chemistry, she scored \\( s \\) marks.\n   - In physics, she scored \\( r \\) marks.\n   - In biology, she scored \\( p \\) marks.\n   - In economics, she scored \\( q \\) marks.\n   - In psychology, she scored \\( m \\) marks.\n   - In sociology, she scored \\( n \\) marks.\n   - In literature, she scored \\( o \\) marks.\n   - In art, she scored \\( a \\) marks.\n   - In sports, she scored \\( b \\) marks.\n   - In dance, she scored \\( c \\) marks.\n   - In drama, she scored \\( d \\) marks.\n   - In film, she scored \\( e \\) marks.\n   - In painting, she scored \\( f \\) marks.\n   - In sculpture, she scored \\( g \\) marks.\n   - In architecture, she scored \\( h \\) marks.\n   - In engineering, she scored \\( i \\) marks.\n   - In computer science, she scored \\( j \\) marks.\n   - In business administration, she scored \\( k \\) marks.\n   - In law, she scored \\( l \\) marks.\n   - In medicine, she scored \\( m \\) marks.\n   - In nursing, she scored \\( n \\) marks.\n   - In pharmacy, she scored \\( o \\) marks.\n   - In dentistry, she scored \\( p \\) marks.\n   - In veterinary science, she scored \\( q \\) marks.\n   - In agriculture, she scored \\( r \\) marks.\n   - In forestry, she scored \\( s \\) marks.\n   - In fisheries, she scored \\( t \\) marks.\n   - In zoology, she scored \\( u \\) marks.\n   - In botany, she scored \\( v"
+  },
+  {
+   "id": "train_main/6389",
+   "gold": 34.0,
+   "pred": 12.0,
+   "correct": false,
+   "output": "To solve this problem, we need to follow these steps:\n\n1. Determine the number of chutes in the original Central Park.\n2. Calculate how many chutes were removed from the Central Park.\n3. Subtract the removed chutes from the total number of chutes in the Central Park.\n\nStep 1: The problem states that there are originally 24 chutes in the Central Park.\n\nStep 2: We know that after removing some chutes, the remaining chutes are half of what they were initially. Therefore, if \\( x \\) is the number of chutes removed, then:\n\\[ \\frac{1}{2} \\times 24 = x \\]\nSolving for \\( x \\):\n\\[ x = 12 \\]\n\nSo, 12 chutes were removed from the Central Park.\n\nStep 3: To find out how many chutes remain in the Central Park, subtract the removed chutes from the initial count:\n\\[ 24 - 12 = 12 \\]\n\nTherefore, the number of chutes left in the Central Park is \\(\\boxed{12}\\)."
+  },
+  {
+   "id": "train_main/7284",
+   "gold": 16.0,
+   "pred": 13.0,
+   "correct": false,
+   "output": "To determine how many miles of the car Taliya drove from her house to the park and back home, we need to calculate the distance for each leg of the journey separately.\n\n1. **Distance from Taliya's house to the park:**\n   - The problem states that Taliya is 5 miles away from her house in the park.\n   \n2. **Distance from the park to Taliya's house:**\n   - The problem also states that Taliya is 8 miles away from her house after visiting the park.\n   \n3. **Total distance driven:**\n   - To find the total distance driven, we add the distances from both legs of the trip:\n     \\[\n     \\text{Total distance} = \\text{Distance from house to park} + \\text{Distance from park to house}\n     \\]\n     Substituting the given values:\n     \\[\n     \\text{Total distance} = 5 \\text{ miles} + 8 \\text{ miles} = 13 \\text{ miles}\n     \\]\n\nTherefore, the total number of miles Taliya drove on this day is \\(\\boxed{13}\\)."
+  },
+  {
+   "id": "train_main/5081",
+   "gold": 595.0,
+   "pred": 840.0,
+   "correct": false,
+   "output": "To solve this problem, we need to determine the total weight of the person who was carrying the peni. Let's break it down step by step:\n\n1. **Identify the given information:**\n   - The total number of people carrying the peni is 6.\n   - If one person carries half of the peni (which means they carry \\( \\frac{2}{3} \\) of the peni), their weight is 140 pounds.\n   - The remaining people carry only a quarter of the peni each.\n\n2. **Calculate the weight of the peni carried by one person:**\n   Since one person carries half of the peni:\n   \\[\n   \\text{Weight of peni carried by one person} = 140 \\text{ pounds}\n   \\]\n\n3. **Determine the weight of the peni carried by all 6 people:**\n   Each of the 6 people carries half of the peni:\n   \\[\n   \\text{Total weight of peni} = 6 \\times 140 \\text{ pounds}\n   \\]\n   \\[\n   \\text{Total weight of peni} = 840 \\text{ pounds}\n   \\]\n\nTherefore, the total weight of the peni that was being carried is \\(\\boxed{840}\\) pounds."
+  },
+  {
+   "id": "train_main/4120",
+   "gold": 2.0,
+   "pred": 16.0,
+   "correct": false,
+   "output": "To determine the number of shooting stars that Sam counted at night, we need to follow these steps:\n\n1. **Identify the given information:**\n   - Bridget counted 14 shooting stars.\n   - Reinhold counted two fewer than Bridget.\n   - Saim counted four more than Reinhold.\n\n2. **Calculate the number of shooting stars Reinhold counted:**\n   - Reinhold counted \\( 14 - 2 = 12 \\) shooting stars.\n\n3. **Calculate the number of shooting stars Saim counted:**\n   - Saim counted \\( 12 + 4 = 16 \\) shooting stars.\n\nTherefore, the total number of shooting stars counted by Saim is \\(\\boxed{16}\\)."
+  },
+  {
+   "id": "train_main/689",
+   "gold": 18.0,
+   "pred": 39.4,
+   "correct": false,
+   "output": "To determine the total cost of a ride downtown for Travis, we need to follow these steps:\n\n1. **Calculate the taxi fare:**\n   - The base fare is $22.\n   - The tip percentage given by the driver is 20%.\n\n   First, calculate the tip amount:\n   \\[\n   \\text{Tip} = 22 \\times \\frac{20}{100} = 22 \\times 0.20 = 4.40\n   \\]\n\n   Now, add the tip to the base fare to get the total taxi fare:\n   \\[\n   \\text{Total Taxi Fare} = 22 + 4.40 = 26.40\n   \\]\n\n2. **Calculate the Uber ride cost:**\n   - The base fare for an Uber ride is typically higher than that of a taxi.\n\n   Let's assume the base fare for an Uber ride is $35 (this value may vary depending on the specific city or region).\n\n   Add the base fare to the tip amount to get the total Uber ride cost:\n   \\[\n   \\text{Uber Ride Cost} = 35 + 4.40 = 39.40\n   \\]\n\n3. **Determine which option is cheaper:**\n   - Taxi fare: $26.40\n   - Uber ride: $39.40\n\n   Since the Uber ride costs more, it is not the cheapest option.\n\nTherefore, the correct answer is:\n\\boxed{\\text{Taxi}}"
+  },
+  {
+   "id": "train_main/778",
+   "gold": 2020.0,
+   "pred": 1100.0,
+   "correct": false,
+   "output": "To determine how much money James has left after making these purchases, we need to calculate the cost of each item he buys and then subtract that from his initial amount. Let's break it down step-by-step:\n\n1. **Initial Amount**: $3000\n\n2. **TV Purchase**:\n   - Cost: $700\n   - Remaining after TV purchase: \\( 3000 - 700 = 2300 \\)\n\n3. **Bike Purchase (First Bike)**:\n   - Cost: $500\n   - Remaining after first bike purchase: \\( 2300 - 500 = 1800 \\)\n\n4. **Second Bike Purchase (with a 20% increase)**:\n   - Original price of second bike: $500\n   - Increase in price: \\( 500 \\times 0.20 = 100 \\)\n   - New price of second bike: \\( 500 + 100 = 600 \\)\n   - Remaining after second bike purchase: \\( 1800 - 600 = 1200 \\)\n\n5. **T-Shirt Purchase**:\n   - Cost: $100\n   - Remaining after t-shirt purchase: \\( 1200 - 100 = 1100 \\)\n\nSo, after all these transactions, James has \\(\\boxed{1100}\\) dollars remaining."
+  },
+  {
+   "id": "train_main/1333",
+   "gold": 10.0,
+   "pred": 5.0,
+   "correct": false,
+   "output": "1. जब लुईस केक बनाने के लिए कुल 60 केक की आवश्यकता है, तो वह अपने भाग को खरीदने के लिए अपने बचे हुए केक की आवश्यकता को घटाता है।\n\n2. अगले दिन, वह फिर से गणना करती है कि उसके पास बनाने के लिए कितने केक बचे हैं और इस राशि का एक तिहाई बेक करती है। इसे अपने भाग को खरीदने के लिए अपने बचे हुए केक की आवश्यकता को घटाता है।\n\n3. इस प्रकार, वह अपने भाग को खरीदने के लिए अपने बचे हुए केक की आवश्यकता को घटाता है।\n\n4. इस प्रकार, वह अपने भाग को खरीदने के लिए अपने बचे हुए केक की आवश्यकता को घटाता है।\n\n5. इस प्रकार, वह अपने भाग को खरीदने के लिए अपने बचे हुए केक की आवश्यकता को घ"
+  },
+  {
+   "id": "train_main/5791",
+   "gold": 5.0,
+   "pred": 709.0,
+   "correct": false,
+   "output": "To determine how many more miles Elroy needs to travel to match the total earnings of his previous year's winners, we can follow these steps:\n\n1. **Calculate the total earnings for the previous year:**\n   - The previous year's winner earned $44.\n   - There were 44 winners (since it was mentioned that there are 44 winners each year).\n   - Therefore, the total earnings for the previous year is:\n     \\[\n     44 \\text{ winners} \\times \\$44/\\text{winner} = \\$1936\n     \\]\n\n2. **Determine the current earnings per mile:**\n   - This year, the average earning per mile is $2.75.\n\n3. **Set up an equation to find out how many miles Elroy needs to earn $1936:**\n   - Let \\( x \\) be the number of miles Elroy needs to travel this year.\n   - We know that \\( 2.75x = 1936 \\).\n\n4. **Solve for \\( x \\):**\n   \\[\n   x = \\frac{1936}{2.75}\n   \\]\n   \\[\n   x \\approx 708.57\n   \\]\n\nSince Elroy cannot travel a fraction of a mile in practice, we round up to the nearest whole number. Thus, Elroy needs to travel approximately 709 miles to match or exceed the total earnings from the previous year.\n\nTherefore, the final answer is:\n\\[\n\\boxed{709}\n\\] miles."
+  },
+  {
+   "id": "train_main/247",
+   "gold": 27.0,
+   "pred": 39.5,
+   "correct": false,
+   "output": "1. **Calculate the amount spent in the first two days:**\n   - Each day, she spends \\(3\\) gallons.\n   - Over two days, she spends \\(2 \\times 3 = 6\\) gallons.\n\n2. **Calculate the amount spent in the next three days:**\n   - She reduces the daily consumption to half, so each day she spends \\(3 / 2 = 1.5\\) gallons.\n   - Over three days, she spends \\(3 \\times 1.5 = 4.5\\) gallons.\n\n3. **Calculate the total amount spent over five days:**\n   - Total amount spent is \\(6 + 4.5 = 10.5\\) gallons.\n\n4. **Determine how many gallons are left in the bottle:**\n   - The bottle initially contains \\(50\\) gallons.\n   - After spending \\(10.5\\) gallons, the remaining amount is \\(50 - 10.5 = 39.5\\) gallons.\n\nTherefore, the number of gallons left in the bottle is \\(\\boxed{39.5}\\)."
+  },
+  {
+   "id": "train_main/2585",
+   "gold": 51.0,
+   "pred": 17.0,
+   "correct": false,
+   "output": "To determine how much the police officers have to pay for the jute bags, we need to consider two scenarios: one where they have at least three years of service and another where they have less than three years of service. Let's break it down step-by-step:\n\n1. **Calculate the cost for officers with at least three years of service:**\n   - The base price is $85 per bag.\n   - They get a discount of 20% on this base price.\n\n   Discount amount = \\( 85 \\times \\frac{20}{100} = 85 \\times 0.20 = 17 \\) dollars.\n   \n   Therefore, the discounted price for these officers = \\( 85 - 17 = 68 \\) dollars per bag.\n\n2. **Calculate the cost for officers with less than three years of service:**\n   - The base price is still $85 per bag.\n   - They get an additional 25% off on top of the 20% discount already applied.\n\n   First, calculate the 20% discount:\n   - Discount amount = \\( 85 \\times \\frac{20}{100} = 85 \\times 0.20 = 17 \\) dollars.\n   \n   Now apply the additional 25% discount on the remaining price after the first discount:\n   - Remaining price after first discount = \\( 85 - 17 = 68 \\) dollars.\n   - Additional discount amount = \\( 68 \\times \\frac{25}{100} = 68 \\times 0.25 = 17 \\) dollars.\n   \n   Therefore, the total cost for these officers = \\( 68 + 17 = 85 \\) dollars per bag.\n\n3. **Determine the difference in cost between the two groups:**\n   - For officers with at least three years of service, the cost per bag is $68.\n   - For officers with less than three years of service, the cost per bag is $85.\n\n   Difference in cost = \\( 85 - 68 = 17 \\) dollars per bag.\n\nSo, the final answer is that the officer who has not completed three years of service will have to pay $17 more per bag compared to those who have completed three or more years of service. Therefore, the correct option is:\n\n"
+  },
+  {
+   "id": "train_main/5957",
+   "gold": 7.0,
+   "pred": 20.0,
+   "correct": false,
+   "output": "To determine the average number of different species seen at each location over the three days, we need to calculate the total number of unique species seen on each day and then find the average.\n\nFirst, let's denote the number of different species seen at each location as \\( S_1, S_2, S_3, S_4, S_5 \\) for Monday, Tuesday, Wednesday, Thursday, and Friday respectively. The problem states that on Monday, the average number of species seen per location is 7, so:\n\\[ \\frac{S_1 + S_2 + S_3 + S_4 + S_5}{5} = 7 \\]\nMultiplying both sides by 5 gives:\n\\[ S_1 + S_2 + S_3 + S_4 + S_5 = 35 \\]\n\nNext, on Tuesday, the average number of species seen per location is 5, so:\n\\[ \\frac{T_1 + T_2 + T_3 + T_4 + T_5}{5} = 5 \\]\nMultiplying both sides by 5 gives:\n\\[ T_1 + T_2 + T_3 + T_4 + T_5 = 25 \\]\n\nFinally, on Wednesday, the average number of species seen per location is 8, so:\n\\[ \\frac{U_1 + U_2 + U_3 + U_4 + U_5}{5} = 8 \\]\nMultiplying both sides by 5 gives:\n\\[ U_1 + U_2 + U_3 + U_4 + U_5 = 40 \\]\n\nNow, we sum up all these totals:\n\\[ (S_1 + T_1 + U_1) + (S_2 + T_2 + U_2) + (S_3 + T_3 + U_3) + (S_4 + T_4 + U_4) + (S_5 + T_5 + U_5) = 35 + 25 + 40 = 100 \\]\n\nSince there are 5 locations, the average number of different species seen at each location over the three days is:\n\\[ \\frac{100}{5} = 20 \\]\n\nThus, the average number of different species seen at each location over the three days is \\(\\boxed{20}\\)."
+  },
+  {
+   "id": "train_main/5949",
+   "gold": 565.0,
+   "pred": 985.0,
+   "correct": false,
+   "output": "To determine the number of jars that were not damaged in this particular week, we need to follow these steps:\n\n1. **Calculate the total number of jars before any damage:**\n   - Each jar contains 20 jars.\n   - There are 50 bottles.\n   - Therefore, the total number of jars is:\n     \\[\n     50 \\text{ bottles} \\times 20 \\text{ jars per bottle} = 1000 \\text{ jars}\n     \\]\n\n2. **Determine the number of jars damaged during the week:**\n   - The problem states that 5 jars each had 3 jars damaged.\n   - So, for one set of 5 jars with 3 damaged jars:\n     \\[\n     5 \\text{ jars} \\times 3 \\text{ damaged jars per set} = 15 \\text{ damaged jars}\n     \\]\n   - Since there are multiple sets (not specified but implied), let's assume there are \\( n \\) such sets.\n\n3. **Calculate the total number of damaged jars:**\n   - If there are \\( n \\) sets, then the total number of damaged jars is:\n     \\[\n     15n \\text{ damaged jars}\n     \\]\n\n4. **Calculate the number of undamaged jars:**\n   - Subtract the total number of damaged jars from the total number of jars:\n     \\[\n     1000 \\text{ jars} - 15n \\text{ damaged jars}\n     \\]\n\nSince the exact number of sets (\\( n \\)) is not provided, we can only express the result in terms of \\( n \\). However, if we assume a reasonable scenario where there might be fewer than 5 sets (as it seems unlikely to have more than 5 sets given typical scenarios), we can estimate or calculate based on assumptions.\n\nFor simplicity, let’s assume there was just one set of 5 jars with 3 damaged jars:\n\\[\n15 \\text{ damaged jars}\n\\]\n\nThus, the number of undamaged jars would be:\n\\[\n1000 - 15 = 985 \\text{ undamaged jars}\n\\]\n\nTherefore, the number of jars that were not damaged in this particular week is approximately:\n\\[\n\\boxed{985}\n\\]"
+  },
+  {
+   "id": "train_main/415",
+   "gold": 78.0,
+   "pred": 152.57,
+   "correct": false,
+   "output": "1. **Determine the growth rate per month:**\n   - In 7 weeks (approximately half a month), the weight increased from 6 pounds to twice that amount.\n     \\[\n     \\text{Weight increase in 7 weeks} = 2 \\times 6 = 12 \\text{ pounds}\n     \\]\n   - This means the weight increased by \\( \\frac{12}{\\frac{7}{4}} = \\frac{12 \\times 4}{7} = \\frac{48}{7} \\approx 6.86 \\) pounds per week.\n\n2. **Calculate the weight after 9 months:**\n   - The weight after 9 months is:\n     \\[\n     6 + 9 \\times \\frac{48}{7} = 6 + \\frac{432}{7} \\approx 6 + 61.71 = 67.71 \\text{ pounds}\n     \\]\n\n3. **Calculate the weight after another 3 months:**\n   - After another 3 months (another 9 weeks):\n     \\[\n     67.71 + 3 \\times \\frac{48}{7} = 67.71 + \\frac{144}{7} \\approx 67.71 + 20.57 = 88.28 \\text{ pounds}\n     \\]\n\n4. **Calculate the weight after another 5 months:**\n   - After another 5 months (another 35 weeks):\n     \\[\n     88.28 + 5 \\times \\frac{48}{7} = 88.28 + \\frac{240}{7} \\approx 88.28 + 34.29 = 122.57 \\text{ pounds}\n     \\]\n\n5. **Add the additional year's weight gain:**\n   - The total weight at age 12 years is:\n     \\[\n     122.57 + 30 = 152.57 \\text{ pounds}\n     \\]\n\nThus, the complete adult weight of the piglet is \\(\\boxed{152.57}\\) pounds."
+  },
+  {
+   "id": "train_main/2520",
+   "gold": 72600.0,
+   "pred": 750.0,
+   "correct": false,
+   "output": "To solve this problem, we need to compare the number of tanks in both bases (Rockford Armory Base and Greenad Armory Base) and then use that information to determine how many tanks Rockford Armory Base has.\n\n1. **Identify the given data:**\n   - Number of tanks at Greenad Armory Base: \\( G = 3000 \\)\n   - Number of tanks at Rockford Armory Base: \\( R \\)\n\n2. **Determine the ratio between the two bases:**\n   According to the problem, Greenad Armory Base has 4 times as many tanks as Rockford Armory Base.\n   Therefore,\n   \\[\n   G = 4R\n   \\]\n\n3. **Substitute the known value into the equation:**\n   We know \\( G = 3000 \\), so:\n   \\[\n   3000 = 4R\n   \\]\n\n4. **Solve for \\( R \\):**\n   Divide both sides by 4:\n   \\[\n   R = \\frac{3000}{4} = 750\n   \\]\n\nSo, Rockford Armory Base has 750 tanks.\n\nNext, let's consider the second part of the question:\n\n5. **Calculate the total number of tanks if Greenad Armory Base had an equal number of tanks as Rockford Armory Base:**\n   If Greenad Armory Base had an equal number of tanks as Rockford Armory Base, it would have:\n   \\[\n   G' = R = 750\n   \\]\n\n6. **Given that Greenad Armory Base actually has 6000 tanks, calculate the difference:**\n   The actual number of tanks at Greenad Armory Base is 6000, which means there are:\n   \\[\n   6000 - 750 = 5250 \\text{ more tanks than expected}\n   \\]\n\n7. **Determine the total number of tanks if Greenad Armory Base had an equal number of tanks as Rockford Armory Base:**\n   Since Greenad Armory Base has 6000 tanks instead of 750, we can set up the following proportion based on the original ratio:\n   \\[\n   \\frac{G'}{R} = \\frac{6000}{750}\n   \\]\n   Simplifying the right side:\n  "
+  },
+  {
+   "id": "train_main/24",
+   "gold": 62.0,
+   "pred": 62.0,
+   "correct": true,
+   "output": "To determine how much credit is left for the next trip, we need to follow these steps:\n\n1. **Initial Credit**: The initial credit given to Marी is $100.\n\n2. **First Trip Payment**: On Monday, she pays back $15.\n   - Remaining credit after first payment: \\( 100 - 15 = 85 \\) dollars.\n\n3. **Second Trip Payment**: On Tuesday (Guruwār), she pays back $23.\n   - Remaining credit after second payment: \\( 85 - 23 = 62 \\) dollars.\n\nTherefore, the amount of credit remaining for her next trip is $\\boxed{62}$."
+  },
+  {
+   "id": "train_main/5224",
+   "gold": 15.0,
+   "pred": 37.0,
+   "correct": false,
+   "output": "To determine the weight of each remaining statue after Hemant's work, we need to follow these steps:\n\n1. **Calculate the total weight of all statues before Hemant worked on them:**\n   - First statue: 10 pounds\n   - Second statue: 18 pounds\n   - Third statue: 18 pounds (same as second)\n   - Fourth statue: 22 pounds\n\n   Total weight = \\(10 + 18 + 18 + 22\\)\n\n2. **Sum up the weights:**\n   \\[\n   10 + 18 + 18 + 22 = 68 \\text{ pounds}\n   \\]\n\n3. **Determine the weight of the block used for the set:**\n   The block weighs 80 pounds.\n\n4. **Calculate the total weight of the statues after Hemant worked on them:**\n   Since the block was added to the set, the new total weight is:\n   \\[\n   68 + 80 = 148 \\text{ pounds}\n   \\]\n\n5. **Find the weight of each remaining statue:**\n   There are four remaining statues, so divide the total weight by 4:\n   \\[\n   \\frac{148}{4} = 37 \\text{ pounds}\n   \\]\n\nTherefore, the weight of each remaining statue after Hemant's work is \\(\\boxed{37}\\) pounds."
+  },
+  {
+   "id": "train_main/2355",
+   "gold": 44.0,
+   "pred": 29.0,
+   "correct": false,
+   "output": "To determine how many packing tapes Deb used today, we need to calculate the number of each type of tape required for all the boxes she packed.\n\n1. **Calculate the number of large boxes:**\n   - Deb packed two large boxes.\n   - Each large box requires 4 feet of packing tape.\n   - Total tape for large boxes = \\( 2 \\text{ boxes} \\times 4 \\text{ feet/box} = 8 \\text{ feet} \\).\n\n2. **Calculate the number of medium boxes:**\n   - Deb packed eight medium boxes.\n   - Each medium box requires 2 feet of packing tape.\n   - Total tape for medium boxes = \\( 8 \\text{ boxes} \\times 2 \\text{ feet/box} = 16 \\text{ feet} \\).\n\n3. **Calculate the number of small boxes:**\n   - Deb packed five small boxes.\n   - Each small box requires 1 foot of packing tape.\n   - Total tape for small boxes = \\( 5 \\text{ boxes} \\times 1 \\text{ foot/box} = 5 \\text{ feet} \\).\n\n4. **Add up all the tape used:**\n   - Total tape used = Tape for large boxes + Tape for medium boxes + Tape for small boxes\n   - Total tape used = \\( 8 \\text{ feet} + 16 \\text{ feet} + 5 \\text{ feet} = 29 \\text{ feet} \\).\n\nTherefore, Deb used a total of \\(\\boxed{29}\\) feet of packing tape today."
+  },
+  {
+   "id": "train_main/5809",
+   "gold": 80.0,
+   "pred": 120.0,
+   "correct": false,
+   "output": "To determine how many kilograms of luggage Deril needs to remove from the truck to meet the weight limit, we need to calculate the total weight of all items on the truck and then subtract this from the maximum allowable weight.\n\nFirst, let's break down the weights:\n- Each cricket weighs 20 kg.\n- There are 15 crickets.\n- Each bag can hold up to 5 kg.\n- There are 4 bags available.\n- Each sack of rice weighs 5 kg.\n- There are 12 sacks of rice.\n- The remaining space is filled with 10 bags of flour, each weighing 30 kg.\n\nNow, let's calculate the total weight for each type of item:\n\n1. **Cricket Weight:**\n   - Total weight of crickets = \\( 15 \\text{ crickets} \\times 20 \\text{ kg/cricket} = 300 \\text{ kg} \\)\n\n2. **Bag Capacity:**\n   - Total weight of bags = \\( 4 \\text{ bags} \\times 5 \\text{ kg/bag} = 20 \\text{ kg} \\)\n\n3. **Sack of Rice Weight:**\n   - Total weight of sacks of rice = \\( 12 \\text{ sacks} \\times 5 \\text{ kg/sack} = 60 \\text{ kg} \\)\n\n4. **Flour Bags Weight:**\n   - Total weight of flour bags = \\( 10 \\text{ bags} \\times 30 \\text{ kg/bag} = 300 \\text{ kg} \\)\n\nNext, sum these weights to get the total weight of everything on the truck:\n\\[ \\text{Total weight} = 300 \\text{ kg (crickets)} + 20 \\text{ kg (bags)} + 60 \\text{ kg (sacks of rice)} + 300 \\text{ kg (flour bags)} \\]\n\\[ \\text{Total weight} = 780 \\text{ kg} \\]\n\nThe maximum allowed weight is given as 900 kg. Therefore, the amount of weight that needs to be removed is:\n\\[ \\text{Weight to be removed} = 900 \\text{ kg} - 780 \\text{ kg} = 120 \\text{ kg} \\]\n\nThus, Deril needs to remove \\(\\"
+  }
+ ]
+}

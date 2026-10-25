@@ -1,0 +1,12 @@
+{"generation": 1, "evals_done": 16, "best": 0.3125, "gen_best": 0.3125, "gen_mean": 0.25390625, "time": 1792840534.5222998}
+{"generation": 2, "evals_done": 30, "best": 0.3125, "gen_best": 0.3125, "gen_mean": 0.26450892857142855, "time": 1792841986.383463}
+{"generation": 3, "evals_done": 44, "best": 0.328125, "gen_best": 0.328125, "gen_mean": 0.25111607142857145, "time": 1792843425.8094177}
+{"generation": 4, "evals_done": 58, "best": 0.328125, "gen_best": 0.296875, "gen_mean": 0.2689732142857143, "time": 1792844865.432135}
+{"generation": 5, "evals_done": 72, "best": 0.328125, "gen_best": 0.296875, "gen_mean": 0.23883928571428573, "time": 1792846309.654867}
+{"generation": 6, "evals_done": 86, "best": 0.328125, "gen_best": 0.3125, "gen_mean": 0.25558035714285715, "time": 1792847751.2421741}
+{"generation": 7, "evals_done": 100, "best": 0.328125, "gen_best": 0.328125, "gen_mean": 0.26450892857142855, "time": 1792849201.3762934}
+{"generation": 8, "evals_done": 114, "best": 0.328125, "gen_best": 0.328125, "gen_mean": 0.27901785714285715, "time": 1792850655.773674}
+{"generation": 9, "evals_done": 128, "best": 0.328125, "gen_best": 0.328125, "gen_mean": 0.28013392857142855, "time": 1792852099.5259871}
+{"generation": 10, "evals_done": 142, "best": 0.328125, "gen_best": 0.3125, "gen_mean": 0.29464285714285715, "time": 1792853549.5626051}
+{"generation": 11, "evals_done": 156, "best": 0.328125, "gen_best": 0.328125, "gen_mean": 0.3046875, "time": 1792855011.0051703}
+{"generation": 12, "evals_done": 170, "best": 0.328125, "gen_best": 0.328125, "gen_mean": 0.296875, "time": 1792856476.4266949}

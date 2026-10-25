@@ -1,0 +1,65 @@
+{
+ "name": "ties",
+ "method": "ties",
+ "split": "train_main",
+ "n": 8,
+ "accuracy": 0.375,
+ "records": [
+  {
+   "id": "train_main/6924",
+   "gold": 12.0,
+   "pred": 9.0,
+   "correct": false,
+   "output": "To determine the number of males in the competition, we can follow these steps:\n\n1. **Identify the total number of participants:**\n   The problem states that there are a total of 18 participants.\n\n2. **Determine the proportion of females:**\n   It is given that half of the participants are women. Therefore, the number of female participants is:\n   \\[\n   \\frac{1}{2} \\times 18 = 9\n   \\]\n\n3. **Calculate the number of male participants:**\n   Since the rest of the participants are men, we subtract the number of female participants from the total number of participants:\n   \\[\n   18 - 9 = 9\n   \\]\n\nThus, the number of males in the competition is \\(\\boxed{9}\\)."
+  },
+  {
+   "id": "train_main/3843",
+   "gold": 2.0,
+   "pred": 8.0,
+   "correct": false,
+   "output": "To determine how many pieces of paper Nainsi has left after giving some to her friends, we need to follow these steps:\n\n1. **Determine the total number of pieces initially:**\n   Nainsi bought a pack of 8 pieces.\n\n2. **Calculate the number of pieces given to each friend:**\n   - She gave \\( \\frac{1}{2} \\) piece to Orsini.\n   - She gave \\( \\frac{1}{4} \\) piece to Karl.\n\n3. **Find the total number of pieces given away:**\n   \\[\n   \\text{Total pieces given away} = \\frac{1}{2} + \\frac{1}{4}\n   \\]\n\n4. **Add the fractions:**\n   To add these fractions, find a common denominator:\n   \\[\n   \\frac{1}{2} = \\frac{2}{4}\n   \\]\n   So,\n   \\[\n   \\frac{1}{2} + \\frac{1}{4} = \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4}\n   \\]\n\n5. **Subtract the total pieces given away from the initial number of pieces:**\n   \\[\n   \\text{Pieces remaining} = 8 - \\frac{3}{4}\n   \\]\n\n6. **Convert 8 into a fraction with the same denominator as \\( \\frac{3}{4} \\):**\n   \\[\n   8 = \\frac{32}{4}\n   \\]\n\n7. **Perform the subtraction:**\n   \\[\n   \\frac{32}{4} - \\frac{3}{4} = \\frac{32 - 3}{4} = \\frac{29}{4}\n   \\]\n\n8. **Convert the improper fraction back to a"
+  },
+  {
+   "id": "train_main/3208",
+   "gold": 92.0,
+   "pred": 92.0,
+   "correct": true,
+   "output": "To determine the total number of pens that Soma has, we need to calculate the number of pens she bought each day and then sum them up.\n\nFirst, let's find out how many pens Soma bought on Monday:\n\\[ \\text{Pens bought on Monday} = 20 \\]\n\nNext, let's find out how many pens Soma bought on Tuesday:\n\\[ \\text{Pens bought on Tuesday} = 18 \\]\n\nNow, let's find out how many pens Soma bought on Wednesday. According to the problem, she bought three times as many pens on Wednesday as she did on Tuesday:\n\\[ \\text{Pens bought on Wednesday} = 3 \\times 18 = 54 \\]\n\nFinally, we add up all the pens bought over these three days to get the total number of pens:\n\\[ \\text{Total pens} = 20 + 18 + 54 \\]\n\\[ \\text{Total pens} = 92 \\]\n\nTherefore, the total number of pens Soma has is \\(\\boxed{92}\\)."
+  },
+  {
+   "id": "train_main/6017",
+   "gold": 600000.0,
+   "pred": 400000.0,
+   "correct": false,
+   "output": "To determine the total distance Stephen traveled, we need to calculate the sum of the distances he covered on each trip. Let's break it down step by step.\n\n1. **Identify the height of the mountain:**\n   The mountain is 40,000 feet high.\n\n2. **Determine the average height covered per round trip:**\n   Stephen covers a portion of the mountain's height in each round trip. Specifically, he travels up to \\( \\frac{3}{4} \\) of the mountain's height and then back down to the starting point.\n   \n   Therefore, for one round trip:\n   - Upward journey: \\( \\frac{3}{4} \\times 40,000 = 30,000 \\) feet\n   - Downward journey: \\( \\frac{1}{4} \\times 40,000 = 10,000 \\) feet\n\n3. **Calculate the total distance for one round trip:**\n   The total distance for one round trip is the sum of the upward and downward journeys:\n   \\[\n   30,000 + 10,000 = 40,000 \\text{ feet}\n   \\]\n\n4. **Determine the number of trips made:**\n   Stephen made 10 rounds of the trip.\n\n5. **Calculate the total distance for all trips:**\n   Since each round trip is 40,000 feet and he made 10 such trips, the total distance is:\n   \\[\n   40,000 \\times 10 = 400,000 \\text{ feet}\n   \\]\n\nThus, the total distance Stephen traveled is \\(\\boxed{400000}\\) feet."
+  },
+  {
+   "id": "train_main/4530",
+   "gold": 24.0,
+   "pred": 19.0,
+   "correct": false,
+   "output": "1. **Identify the given information:**\n   - Total number of questions (40).\n   - Ela got 4 incorrect answers.\n   - Marianne got more than half as many correct answers as Ela.\n\n2. **Calculate Ela's score:**\n   - Since Ela got 4 incorrect answers out of 40:\n     \\[\n     \\text{Ela's correct answers} = 40 - 4 = 36\n     \\]\n\n3. **Determine the relationship between Marianne's and Ela's scores:**\n   - Marianne got more than half as many correct answers as Ela.\n   - Half of Ela's correct answers is:\n     \\[\n     \\frac{36}{2} = 18\n     \\]\n   - Therefore, Marianne's score must be greater than 18.\n\n4. **Set up an inequality to find Marianne's score:**\n   - Let \\( M \\) represent Marianne's score.\n   - According to the problem, Marianne's score is more than half of Ela's score:\n     \\[\n     M > \\frac{36}{2}\n     \\]\n     Simplifying this:\n     \\[\n     M > 18\n     \\]\n\n5. **Conclusion:**\n   - The minimum possible score for Marianne is just above 18.\n   - Given that the total score should sum to 40, we need to check if a score slightly higher than 18 could work.\n\nSince the exact distribution isn't specified further in the problem statement, we can conclude that Marianne's score must be at least 19 or higher to satisfy all conditions.\n\nThus, the final answer is:\n\n\\(\\boxed{19}\\)"
+  },
+  {
+   "id": "train_main/3335",
+   "gold": 86.0,
+   "pred": 86.0,
+   "correct": true,
+   "output": "To determine the test score of Margarita, we need to follow these steps:\n\n1. **Calculate Mark's Test Score:**\n   - The average test score for the previous week was 90.\n   - Mark scored 10% less than this average.\n   - To find 10% of 90:\n     \\[\n     0.10 \\times 90 = 9\n     \\]\n   - Therefore, Mark's score is:\n     \\[\n     90 - 9 = 81\n     \\]\n\n2. **Determine Margarita's Test Score:**\n   - Margarita scored 5 more points than Mark.\n   - Since Mark scored 81, Margarita's score is:\n     \\[\n     81 + 5 = 86\n     \\]\n\nThus, Margarita's test score was \\(\\boxed{86}\\)."
+  },
+  {
+   "id": "train_main/4120",
+   "gold": 2.0,
+   "pred": 15.0,
+   "correct": false,
+   "output": "To determine the number of shooting stars that Sam counted, we need to follow these steps:\n\n1. **Identify the given information:**\n   - Bridget counted 14 shooting stars.\n   - Reinhold counted two fewer than Bridget.\n   - Saim counted three more than Reinhold.\n\n2. **Calculate the number of shooting stars Reinhold counted:**\n   - Reinhold counted two fewer than Bridget:\n     \\[\n     \\text{Reinhold's count} = 14 - 2 = 12\n     \\]\n\n3. **Calculate the number of shooting stars Saim counted:**\n   - Saim counted three more than Reinhold:\n     \\[\n     \\text{Saim's count} = 12 + 3 = 15\n     \\]\n\nThus, the number of shooting stars that Saim counted is \\(\\boxed{15}\\)."
+  },
+  {
+   "id": "train_main/2585",
+   "gold": 51.0,
+   "pred": 51.0,
+   "correct": true,
+   "output": "To determine how much the police officers have to pay for the jute bags, we need to calculate the cost based on their tenure. Let's break it down step by step:\n\n1. **Calculate the reduced price for those with at least three years of service:**\n   - Original price = $85\n   - Discount percentage = 20%\n   - Reduced price = \\( 85 \\times (1 - 0.20) = 85 \\times 0.80 = 68 \\)\n\n2. **Calculate the additional discount for those with more than three years of service:**\n   - Additional discount percentage = 25%\n   - Price after first discount = $68\n   - Additional discount amount = \\( 68 \\times 0.25 = 17 \\)\n   - Final price = \\( 68 - 17 = 51 \\)\n\nTherefore, the total payment required is \\(\\boxed{51}\\)."
+  }
+ ]
+}

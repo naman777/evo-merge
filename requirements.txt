@@ -1,0 +1,9 @@
+torch>=2.1
+transformers>=4.45
+huggingface-hub>=0.24
+safetensors
+datasets
+cma
+numpy
+matplotlib
+pytest

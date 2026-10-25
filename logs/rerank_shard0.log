@@ -1,0 +1,26 @@
+shard 0/2: 16 candidates, 16 to score
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Generating train split:   0%|          | 0/7473 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 7473/7473 [00:00<00:00, 447599.27 examples/s]
+Generating test split:   0%|          | 0/1319 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1319/1319 [00:00<00:00, 294239.28 examples/s]
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:01<06:47,  1.21s/it]Loading weights:  43%|████▎     | 147/338 [00:01<00:01, 150.63it/s]Loading weights:  63%|██████▎   | 214/338 [00:01<00:00, 159.05it/s]Loading weights:  77%|███████▋  | 259/338 [00:02<00:00, 149.50it/s]Loading weights:  86%|████████▌ | 291/338 [00:02<00:00, 151.50it/s]Loading weights:  94%|█████████▍| 318/338 [00:02<00:00, 146.53it/s]Loading weights: 100%|██████████| 338/338 [00:02<00:00, 132.76it/s]
+loading weights: base=Qwen/Qwen2.5-1.5B a=Qwen/Qwen2.5-1.5B-Instruct b=sunblaze-ucb/Qwen2.5-1.5B-GRPO-MATH-1EPOCH
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files:  33%|███▎      | 2/6 [00:00<00:00, 15.30it/s]Fetching 6 files:  83%|████████▎ | 5/6 [00:00<00:00, 22.36it/s]Fetching 6 files: 100%|██████████| 6/6 [00:06<00:00,  1.07s/it]
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files: 100%|██████████| 6/6 [00:00<00:00, 900.87it/s]
+Fetching 8 files:   0%|          | 0/8 [00:00<?, ?it/s]Fetching 8 files:  38%|███▊      | 3/8 [00:00<00:00, 26.73it/s]Fetching 8 files:  88%|████████▊ | 7/8 [00:12<00:01,  1.97s/it]Fetching 8 files: 100%|██████████| 8/8 [00:13<00:00,  1.93s/it]Fetching 8 files: 100%|██████████| 8/8 [00:13<00:00,  1.73s/it]
+model ready: 28 layers, rope_theta=1000000.0, genome size 60
+ga_seed0/eval36              search=0.328125 val=0.244 (552s)
+ga_seed0/eval108             search=0.328125 val=0.264 (564s)
+ga_seed0/eval150             search=0.328125 val=0.244 (529s)
+ga_seed0/eval157             search=0.328125 val=0.252 (546s)
+ga_seed0/eval14              search=  0.3125 val=0.208 (693s)
+cmaes_seed0/eval139          search=0.390625 val=0.232 (655s)
+cmaes_seed0/eval125          search=   0.375 val=0.196 (693s)
+cmaes_seed0/eval41           search=0.359375 val=0.252 (693s)
+cmaes_seed0/eval116          search=0.359375 val=0.216 (661s)
+cmaes_seed0/eval153          search=0.359375 val=0.220 (665s)
+random_seed0/eval160         search=   0.375 val=0.264 (607s)
+random_seed0/eval80          search= 0.34375 val=0.240 (610s)
+random_seed0/eval54          search=0.328125 val=0.232 (667s)
+random_seed0/eval71          search=0.328125 val=0.252 (590s)
+random_seed0/eval143         search=0.328125 val=0.228 (609s)
+baseline/average             search=       - val=0.240 (623s)

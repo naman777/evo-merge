@@ -1,0 +1,65 @@
+{
+ "name": "parent_b",
+ "method": "task_arithmetic",
+ "split": "train_main",
+ "n": 8,
+ "accuracy": 0.0,
+ "records": [
+  {
+   "id": "train_main/6924",
+   "gold": 12.0,
+   "pred": 10.0,
+   "correct": false,
+   "output": " polaroid\n\n polaroid (n. 1. (geography) a type of watural material that is used in the construction of a polarimeter; a material which has a property called \"polarisability, which makes itDFuse in the measurement of the angle between the direction of rotation of plane of polarized light when passing through a solution of sugar solution or other material. 2. (botany) a plant of the family polaroid (Cyzopta, also known as \"polarisate\" or \"polariscentric\" or \"polaroid\" (Gyprosperm, a plant of the family gymnoptisinae, which produces spores that are used to make polaroids. 3. (botany) a taxon of plants that have modified leaves with modified ray flowers, such as the \"polaroid\" (Plethodin). 4. (botany) a taxon of plants that produce spores that are used to make polaroids. 5. (botany) a taxon of plants that produce spores that are used to make polaroids. 6. (botany) a taxon of plants that produce spores that are used to make polaroids. 7. (botany) a taxon of plants that produce spores that are used to make polaroids. 8. (botany) a taxon of plants that produce spores that are used to make polaroids. 9. (botany) a taxon of plants that produce spores that are used to make polaroids. 10. (botany) a taxon of plants that produce spores that are used to make polaroids.\n```\n\nThe final answer is: <b> polaroid</b>"
+  },
+  {
+   "id": "train_main/3843",
+   "gold": 2.0,
+   "pred": 0.75,
+   "correct": false,
+   "output": "Let's break down the problem step by step.\n\n1. **Identify the given information:**\n   - The first part of the word is \"8\" which corresponds to \\( \\frac{1}{2} \\).\n   - The second part of the word is \"like\" which corresponds to \\( \\frac{1}{2} \\).\n   - The third part of the word is \"more\" which corresponds to \\( \\frac{1}{4} \\).\n\n2. Combine these fractions:\n   \\[\n   \\frac{1}{2} + \\frac{1}{2} + \\frac{1}{4}\n   \\]\n\n3. To add these fractions, we need a common denominator. The least common multiple (LCM) of 2 and 4 is 4.\n   - Convert \\( \\frac{1}{2} to have a denominator of 4:\n     \\[\n     \\frac{1}{2} = \\frac{1 \\times 2}{2 \\times 2} = \\frac{2}{4}\n   \\]\n\n4. Now add the fractions:\n   \\[\n     \\frac{2}{4} + \\frac{1}{4} = \\frac{2 + 1}{4} = \\frac{3}{4}\n   \\]\n\n5. Therefore, the total fraction is:\n   \\[\n     \\frac{3}{4}\n   \\]\n\n6. Convert the fraction back to a decimal:\n   \\[\n     \\frac{3}{4} = 0.75\n   \\]\n\nSo, the final answer is:\n\\boxed{0.75}\n```"
+  },
+  {
+   "id": "train_main/3208",
+   "gold": 92.0,
+   "pred": -53.13,
+   "correct": false,
+   "output": " polar coordinates are a two-dimensional coordinate system that uses a distance from a fixed point (the pole or origin, and an angle from a fixed direction (the polar axis or polar axis) to specify the position of a point in a plane. The polar coordinates of a point are given as (r, θ), where r is the radial distance from the pole and θ is the angle in radians or degrees from the polar axis. Polar coordinates are useful for problems with circular symmetry.\n\nIn this problem, we need to convert Cartesian coordinates (x, y) to polar coordinates (r, θ).\n\nThe formulas to convert Cartesian coordinates (x, y) to polar coordinates (r, θ) are:\n\\[ r = \\sqrt{x^2 + y^2} \\]\n\\[ \\theta = \\tan^{-1}\\left(\\frac{y}{x} \\]\n\nGiven the Cartesian coordinates (3, -4):\n\\[ x = 3 \\]\n\\[ y = -4 \\]\n\nFirst, calculate \\( r \\):\n\\[ r = \\sqrt{3^2 + (-4)^2 = \\sqrt{9 + 16 = \\sqrt{25 = 5 \\]\n\nNext, calculate \\( \\theta \\):\n\\[ \\theta = \\tan^{-1}\\left(\\frac{-4}{3} \\]\n\nSince the point (3, -4) is in the fourth quadrant, we need to find the angle in the fourth quadrant:\n\\[ \\theta = 360^\\circ \\text{or} -\\tan^{-1}\\left(\\frac{4}{3} \\approx -53.13^\\circ \\]\n\nTherefore, the polar coordinates are:\n\\[ (r, \\theta) = (5, -53.13^\\circ) \\]\n\nSo, the final answer is:\n\\[ \\boxed{(5, -53.13"
+  },
+  {
+   "id": "train_main/6017",
+   "gold": 600000.0,
+   "pred": 31.0,
+   "correct": false,
+   "output": "1. ** polaroid** : polaroid (n. 1. polaroid, polaroid (n.) - a geometric plane figure with one pair of parallel sides; a parallelogram having an angle greater than 90 degrees.\n2. polaroid (n.) : a type of light filter used to separate light into its polarized components.\n3. polaroid (adj.) : a filter that polarizes light.\n4. polaroid (adj.) : a filter that polarizes light.\n5. polaroid (n.) : a geometric plane figure with one pair of parallel sides; a parallelogram having an angle greater than 90 degrees.\n6. polaroid (n.) : a filter that polarizes light.\n7. polaroid (adj.) : a filter that polarizes light.\n8. polaroid (n.) : a filter that polarizes light.\n9. polaroid (adj.) : a filter that polarizes light.\n10. polaroid (adj.) : a filter that polarizes light.\n11. polaroid (n.) : a filter that polarizes light.\n12. polaroid (n.) : a filter that polarizes light.\n13. polaroid (adj.) : a filter that polarizes light.\n14. polaroid (n.) : a filter that polarizes light.\n15. polaroid (adj.) : a filter that polarizes light.\n17. polaroid (adj.) : a filter that polarizes light.\n19. polaroid (adj.) : a filter that polarizes light.\n22. polaroid (n.) : a filter that polarizes light.\n25. polaroid (n.) : a filter that polarizes light.\n28. polaroid (adj.) : a filter that polarizes light.\n31. polaroid (n.) : a filter that polar"
+  },
+  {
+   "id": "train_main/4530",
+   "gold": 24.0,
+   "pred": 18.0,
+   "correct": false,
+   "output": "1. ** polaroid** - polaroid (n.)\n2. ** polaroid (n.)**\n   - A geometric surface that is a surface of zero Gaussian curvature.\n3. ** polaroid (adj.)**\n   - (of or relating to a polaroid\n4. ** polaroid (n.)**\n   - A material that is polarized in such a way as to have a net electric dipole moment.\n5. ** polaroid (adj.)**\n   - (of or relating to a polaroid\n6. ** polaroid (n.)**\n   - A material that is polarized in such a way as to have a net electric dipole moment.\n7. ** polaroid (n.)**\n   - (of or relating to a polaroid\n8. ** polaroid (n.)**\n   - A material that is polarized in such a way as to have a net electric dipole moment.\n9. ** polaroid (n.)**\n   - (of or relating to a polaroid\n10. ** polaroid (n.)**\n    - (of or relating to a polaroid\n11. ** polaroid (n.)**\n     - (of or relating to a polaroid\n12. ** polaroid (n.)**\n      - (of or relating to a polaroid\n13. ** polaroid (n.)**\n       - (of or relating to a polaroid\n14. ** polaroid (n.)**\n        - (of or relating to a polaroid\n15. ** polaroid (n.)**\n         - (of or relating to a polaroid\n16. ** polaroid (n.)**\n          - (of or relating to a polaroid\n17. ** polaroid (n.)**\n           - (of or relating to a polaroid\n18. ** polaroid (n"
+  },
+  {
+   "id": "train_main/3335",
+   "gold": 86.0,
+   "pred": 4.0,
+   "correct": false,
+   "output": "Let's break down the the problem step by step:\n\n1. We need to find a number that satisfies all the given conditions:\n   - The number is a multiple of 90.\n   - When divided by 9, it leaves a remainder of 8.\n   - When divided by 10, it leaves a remainder of 9.\n   - When divided by 5, it leaves a remainder of 4.\n   - When divided by 2, it leaves a remainder of 1.\n\n2. Let's denote the number as \\( N \\).\n\n3. From the first condition, we can write:\n\\[ N = 90k + 8 \\] for some integer \\( k \\).\n4. From the second condition, we can write:\n\\[ N = 9m + 9 \\] for some integer \\( m \\).\n5. From the third condition, we can write:\n\\[ N = 5p + 4 \\] for some integer \\( p \\).\n\n6. Since \\( N = 90k + 8 \\) and \\( N = 9m + 9 \\), we equate them:\n\\[ 90k + 8 = 9m + 9 \\]\n\\[ 90k - 9m = 1 \\]\n\\[ 9(10k - m = 1 \\]\n\\[ m = 10k - 1 \\]\n\n7. Now, let's check if this fits the third condition:\n\\[ N = 5p + 4 \\]:\n\\[ 90k + 8 = 5p + 4 \\]\n\\[ 90k + 4 = 5p \\]\n\\[ 90k - 5p = -4 \\]\n\\[ 18k - p = -4 \\]\n\\[ p = 18k - 4"
+  },
+  {
+   "id": "train_main/4120",
+   "gold": 2.0,
+   "pred": 11.1,
+   "correct": false,
+   "output": "Let's break down the riddle step by step:\n\n1. The first line is: \"by 14 like a dozen.\"\n   - A dozen means 12.\n   \n2. The second line is: \"I have 12 as many as you.\" This means the person has 12 of something.\n   \n3. The third line is: \"I have 2 more than you.\" So if you have 12, then I have 12 + 2 = 14.\n   \n4. The fourth line is: \"You have 14 as many as I do.\" This means you also have 14.\n   \n5. The fifth line is: \"I have 2 less than you.\" So if you have 14, then I have 14 - 2 = 12.\n   \n6. The sixth line is: \"You have half as many as I do.\" This means you have 14 / 2 = 7.\n   \n7. The seventh line is: \"I have twice as many as you.\" So if you have 14, then I have 14 x 2 = 28.\n   \n8. The eighth line is:You have half as many as I do.\" This means you have 14 / 2 = 7.\n   \n9. The ninth line is: \"I have three times as many as you.\" So if you have 14, then I have 14 x 3 = = 42.\n   \n10. The tenth line is: \"You have one-third as many as I do.\" This means you have 14 / 3 = 4.66.6666 ( (approx).\n   \n11.10. The eleventh line is:I have two-thirds as many as you.\" So"
+  },
+  {
+   "id": "train_main/2585",
+   "gold": 51.0,
+   "pred": 5.0,
+   "correct": false,
+   "output": "1. ** polaroid**:\n   - polaroid ( polaroid ) : polaroid  classifies as a type of 3D shape that is similar to a sphere but has one or more than two foci.\n   - It is a surface where the sum of the distances from any point on the surface to two fixed points (foci) is constant.\n   - The equation for a polaroid with two foci in 3D space is given by: \n     \\[\n     \\sqrt{(x-a)^2 + y^2 + z^2} + \\sqrt{x^2 + (z-b)^2 = c^2\n     \\]\n\n2. **paraboloid**:\n   - Paraboloid is a quadratic surface that is generated by rotating a parabola around an axis.\n   - The equation for a paraboloid with its vertex at the origin and axis along the x-axis is given by:\n     \\[\n     \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = \\ \\frac{z^2}{c^2}\n     \\]\n\n3. **ellipsoid**:\n   - Ellipsoid is a three-dimensional figure analogous to an ellipse in higher dimensions.\n   - The general equation for an ellipsoid centered at the origin is given by:\n     \\[\n     \\frac{x^2}{a^2} + \\frac{y^2}{b^2} + \\frac{z^2}{c^2} = 1\n     \\]\n\n4. **sphere**:\n   - Sphere is a special case of an ellipsoid where all axes are equal.\n   - The equation for a sphere with radius r is given by:\n     \\[\n     x^2 + y^2 + z^2 = r^2\n     \\]\n\n5. **hyper"
+  }
+ ]
+}

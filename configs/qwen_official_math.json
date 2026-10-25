@@ -1,0 +1,6 @@
+{
+  "_comment": "Negative result: Qwen2.5-Math-1.5B-Instruct drifted too far from the base (task vector ~130% of the base weights) and uses rope_theta 10000, so merges with it collapse. Kept for the report's diagnosis step only.",
+  "base_model": "Qwen/Qwen2.5-1.5B",
+  "model_a": "Qwen/Qwen2.5-1.5B-Instruct",
+  "model_b": "Qwen/Qwen2.5-Math-1.5B-Instruct"
+}

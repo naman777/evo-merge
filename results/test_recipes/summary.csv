@@ -1,0 +1,4 @@
+name,method,split,n,max_new_tokens,accuracy,seconds,config_from
+ga_seed0,task_arithmetic,test_main,250,1024,0.224,600,a
+cmaes_seed0,task_arithmetic,test_main,250,1024,0.212,639,a
+random_seed0,task_arithmetic,test_main,250,1024,0.216,570,a

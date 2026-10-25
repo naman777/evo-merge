@@ -1,0 +1,2 @@
+name,method,split,n,max_new_tokens,accuracy,seconds,config_from
+random_seed0_reranked,task_arithmetic,test_main,250,1024,0.2,549,a

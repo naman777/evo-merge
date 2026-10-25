@@ -1,0 +1,196 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Generating train_main split:   0%|          | 0/7473 [00:00<?, ? examples/s]Generating train_main split: 100%|██████████| 7473/7473 [00:00<00:00, 79602.08 examples/s]
+Generating test_main split:   0%|          | 0/1319 [00:00<?, ? examples/s]Generating test_main split: 100%|██████████| 1319/1319 [00:00<00:00, 246789.80 examples/s]
+Generating train_socratic split:   0%|          | 0/7473 [00:00<?, ? examples/s]Generating train_socratic split: 100%|██████████| 7473/7473 [00:00<00:00, 300310.75 examples/s]
+Generating test_socratic split:   0%|          | 0/1319 [00:00<?, ? examples/s]Generating test_socratic split: 100%|██████████| 1319/1319 [00:00<00:00, 225292.68 examples/s]
+Generating train split:   0%|          | 0/7473 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 7473/7473 [00:00<00:00, 473174.63 examples/s]
+Generating test split:   0%|          | 0/1319 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1319/1319 [00:00<00:00, 380906.57 examples/s]
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:01<07:52,  1.40s/it]Loading weights:  47%|████▋     | 159/338 [00:01<00:01, 135.06it/s]Loading weights:  62%|██████▏   | 208/338 [00:01<00:00, 135.82it/s]Loading weights:  71%|███████▏  | 241/338 [00:02<00:00, 141.96it/s]Loading weights:  79%|███████▉  | 268/338 [00:02<00:00, 133.12it/s]Loading weights:  86%|████████▌ | 291/338 [00:02<00:00, 128.71it/s]Loading weights:  91%|█████████▏| 309/338 [00:02<00:00, 134.11it/s]Loading weights:  97%|█████████▋| 328/338 [00:02<00:00, 143.19it/s]Loading weights: 100%|██████████| 338/338 [00:02<00:00, 119.96it/s]
+loading weights: base=Qwen/Qwen2.5-1.5B a=Qwen/Qwen2.5-1.5B-Instruct b=sunblaze-ucb/Qwen2.5-1.5B-GRPO-MATH-1EPOCH
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files:  33%|███▎      | 2/6 [00:00<00:00, 19.24it/s]Fetching 6 files:  67%|██████▋   | 4/6 [00:00<00:00, 18.25it/s]Fetching 6 files: 100%|██████████| 6/6 [00:05<00:00,  1.31s/it]Fetching 6 files: 100%|██████████| 6/6 [00:05<00:00,  1.03it/s]
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files: 100%|██████████| 6/6 [00:00<00:00, 1098.22it/s]
+Fetching 8 files:   0%|          | 0/8 [00:00<?, ?it/s]Fetching 8 files:  12%|█▎        | 1/8 [00:00<00:01,  5.17it/s]Fetching 8 files:  50%|█████     | 4/8 [00:00<00:00, 15.10it/s]Fetching 8 files:  75%|███████▌  | 6/8 [00:00<00:00, 14.14it/s]Fetching 8 files: 100%|██████████| 8/8 [00:14<00:00,  2.70s/it]Fetching 8 files: 100%|██████████| 8/8 [00:14<00:00,  1.79s/it]
+model ready: 28 layers, rope_theta=1000000.0, genome size 60
+[ga] gen 0 eval 1/170 acc=0.172 (86s)
+[ga] gen 0 eval 2/170 acc=0.203 (89s)
+[ga] gen 0 eval 3/170 acc=0.250 (91s)
+[ga] gen 0 eval 4/170 acc=0.250 (91s)
+[ga] gen 0 eval 5/170 acc=0.297 (90s)
+[ga] gen 0 eval 6/170 acc=0.281 (90s)
+[ga] gen 0 eval 7/170 acc=0.250 (90s)
+[ga] gen 0 eval 8/170 acc=0.297 (90s)
+[ga] gen 0 eval 9/170 acc=0.234 (89s)
+[ga] gen 0 eval 10/170 acc=0.219 (88s)
+[ga] gen 0 eval 11/170 acc=0.297 (88s)
+[ga] gen 0 eval 12/170 acc=0.234 (88s)
+[ga] gen 0 eval 13/170 acc=0.234 (89s)
+[ga] gen 0 eval 14/170 acc=0.312 (89s)
+[ga] gen 0 eval 15/170 acc=0.266 (90s)
+[ga] gen 0 eval 16/170 acc=0.266 (91s)
+[ga] generation 1 done: best=0.312 mean=0.254
+[ga] gen 1 eval 17/170 acc=0.234 (91s)
+[ga] gen 1 eval 18/170 acc=0.234 (91s)
+[ga] gen 1 eval 19/170 acc=0.266 (91s)
+[ga] gen 1 eval 20/170 acc=0.281 (91s)
+[ga] gen 1 eval 21/170 acc=0.266 (91s)
+[ga] gen 1 eval 22/170 acc=0.312 (90s)
+[ga] gen 1 eval 23/170 acc=0.250 (89s)
+[ga] gen 1 eval 24/170 acc=0.234 (88s)
+[ga] gen 1 eval 25/170 acc=0.297 (88s)
+[ga] gen 1 eval 26/170 acc=0.297 (88s)
+[ga] gen 1 eval 27/170 acc=0.266 (88s)
+[ga] gen 1 eval 28/170 acc=0.266 (89s)
+[ga] gen 1 eval 29/170 acc=0.250 (89s)
+[ga] gen 1 eval 30/170 acc=0.250 (90s)
+[ga] generation 2 done: best=0.312 mean=0.265
+[ga] gen 2 eval 31/170 acc=0.250 (92s)
+[ga] gen 2 eval 32/170 acc=0.250 (91s)
+[ga] gen 2 eval 33/170 acc=0.281 (90s)
+[ga] gen 2 eval 34/170 acc=0.250 (90s)
+[ga] gen 2 eval 35/170 acc=0.281 (90s)
+[ga] gen 2 eval 36/170 acc=0.328 (90s)
+[ga] gen 2 eval 37/170 acc=0.234 (89s)
+[ga] gen 2 eval 38/170 acc=0.203 (88s)
+[ga] gen 2 eval 39/170 acc=0.234 (88s)
+[ga] gen 2 eval 40/170 acc=0.250 (88s)
+[ga] gen 2 eval 41/170 acc=0.281 (88s)
+[ga] gen 2 eval 42/170 acc=0.234 (89s)
+[ga] gen 2 eval 43/170 acc=0.203 (90s)
+[ga] gen 2 eval 44/170 acc=0.234 (90s)
+[ga] generation 3 done: best=0.328 mean=0.251
+[ga] gen 3 eval 45/170 acc=0.266 (91s)
+[ga] gen 3 eval 46/170 acc=0.281 (91s)
+[ga] gen 3 eval 47/170 acc=0.203 (91s)
+[ga] gen 3 eval 48/170 acc=0.297 (91s)
+[ga] gen 3 eval 49/170 acc=0.297 (90s)
+[ga] gen 3 eval 50/170 acc=0.234 (90s)
+[ga] gen 3 eval 51/170 acc=0.281 (89s)
+[ga] gen 3 eval 52/170 acc=0.281 (88s)
+[ga] gen 3 eval 53/170 acc=0.297 (88s)
+[ga] gen 3 eval 54/170 acc=0.297 (88s)
+[ga] gen 3 eval 55/170 acc=0.297 (88s)
+[ga] gen 3 eval 56/170 acc=0.266 (89s)
+[ga] gen 3 eval 57/170 acc=0.250 (89s)
+[ga] gen 3 eval 58/170 acc=0.219 (90s)
+[ga] generation 4 done: best=0.328 mean=0.269
+[ga] gen 4 eval 59/170 acc=0.234 (90s)
+[ga] gen 4 eval 60/170 acc=0.234 (90s)
+[ga] gen 4 eval 61/170 acc=0.172 (91s)
+[ga] gen 4 eval 62/170 acc=0.297 (91s)
+[ga] gen 4 eval 63/170 acc=0.219 (90s)
+[ga] gen 4 eval 64/170 acc=0.234 (90s)
+[ga] gen 4 eval 65/170 acc=0.219 (89s)
+[ga] gen 4 eval 66/170 acc=0.281 (88s)
+[ga] gen 4 eval 67/170 acc=0.297 (88s)
+[ga] gen 4 eval 68/170 acc=0.219 (87s)
+[ga] gen 4 eval 69/170 acc=0.250 (88s)
+[ga] gen 4 eval 70/170 acc=0.250 (89s)
+[ga] gen 4 eval 71/170 acc=0.203 (89s)
+[ga] gen 4 eval 72/170 acc=0.234 (90s)
+[ga] generation 5 done: best=0.328 mean=0.239
+[ga] gen 5 eval 73/170 acc=0.234 (90s)
+[ga] gen 5 eval 74/170 acc=0.266 (90s)
+[ga] gen 5 eval 75/170 acc=0.219 (91s)
+[ga] gen 5 eval 76/170 acc=0.203 (90s)
+[ga] gen 5 eval 77/170 acc=0.266 (90s)
+[ga] gen 5 eval 78/170 acc=0.266 (90s)
+[ga] gen 5 eval 79/170 acc=0.250 (89s)
+[ga] gen 5 eval 80/170 acc=0.312 (88s)
+[ga] gen 5 eval 81/170 acc=0.234 (88s)
+[ga] gen 5 eval 82/170 acc=0.266 (88s)
+[ga] gen 5 eval 83/170 acc=0.281 (88s)
+[ga] gen 5 eval 84/170 acc=0.234 (89s)
+[ga] gen 5 eval 85/170 acc=0.266 (90s)
+[ga] gen 5 eval 86/170 acc=0.281 (91s)
+[ga] generation 6 done: best=0.328 mean=0.256
+[ga] gen 6 eval 87/170 acc=0.281 (90s)
+[ga] gen 6 eval 88/170 acc=0.312 (90s)
+[ga] gen 6 eval 89/170 acc=0.250 (90s)
+[ga] gen 6 eval 90/170 acc=0.250 (90s)
+[ga] gen 6 eval 91/170 acc=0.281 (90s)
+[ga] gen 6 eval 92/170 acc=0.328 (90s)
+[ga] gen 6 eval 93/170 acc=0.250 (89s)
+[ga] gen 6 eval 94/170 acc=0.234 (88s)
+[ga] gen 6 eval 95/170 acc=0.266 (88s)
+[ga] gen 6 eval 96/170 acc=0.266 (89s)
+[ga] gen 6 eval 97/170 acc=0.219 (89s)
+[ga] gen 6 eval 98/170 acc=0.266 (89s)
+[ga] gen 6 eval 99/170 acc=0.281 (90s)
+[ga] gen 6 eval 100/170 acc=0.219 (91s)
+[ga] generation 7 done: best=0.328 mean=0.265
+[ga] gen 7 eval 101/170 acc=0.266 (91s)
+[ga] gen 7 eval 102/170 acc=0.312 (91s)
+[ga] gen 7 eval 103/170 acc=0.281 (91s)
+[ga] gen 7 eval 104/170 acc=0.297 (91s)
+[ga] gen 7 eval 105/170 acc=0.297 (91s)
+[ga] gen 7 eval 106/170 acc=0.266 (91s)
+[ga] gen 7 eval 107/170 acc=0.234 (90s)
+[ga] gen 7 eval 108/170 acc=0.328 (89s)
+[ga] gen 7 eval 109/170 acc=0.266 (89s)
+[ga] gen 7 eval 110/170 acc=0.250 (88s)
+[ga] gen 7 eval 111/170 acc=0.266 (88s)
+[ga] gen 7 eval 112/170 acc=0.266 (88s)
+[ga] gen 7 eval 113/170 acc=0.297 (89s)
+[ga] gen 7 eval 114/170 acc=0.281 (90s)
+[ga] generation 8 done: best=0.328 mean=0.279
+[ga] gen 8 eval 115/170 acc=0.297 (91s)
+[ga] gen 8 eval 116/170 acc=0.266 (91s)
+[ga] gen 8 eval 117/170 acc=0.281 (91s)
+[ga] gen 8 eval 118/170 acc=0.297 (91s)
+[ga] gen 8 eval 119/170 acc=0.266 (90s)
+[ga] gen 8 eval 120/170 acc=0.266 (90s)
+[ga] gen 8 eval 121/170 acc=0.234 (90s)
+[ga] gen 8 eval 122/170 acc=0.234 (89s)
+[ga] gen 8 eval 123/170 acc=0.250 (88s)
+[ga] gen 8 eval 124/170 acc=0.297 (88s)
+[ga] gen 8 eval 125/170 acc=0.297 (88s)
+[ga] gen 8 eval 126/170 acc=0.312 (88s)
+[ga] gen 8 eval 127/170 acc=0.297 (89s)
+[ga] gen 8 eval 128/170 acc=0.328 (89s)
+[ga] generation 9 done: best=0.328 mean=0.280
+[ga] gen 9 eval 129/170 acc=0.312 (91s)
+[ga] gen 9 eval 130/170 acc=0.312 (90s)
+[ga] gen 9 eval 131/170 acc=0.312 (90s)
+[ga] gen 9 eval 132/170 acc=0.281 (90s)
+[ga] gen 9 eval 133/170 acc=0.281 (91s)
+[ga] gen 9 eval 134/170 acc=0.250 (91s)
+[ga] gen 9 eval 135/170 acc=0.297 (90s)
+[ga] gen 9 eval 136/170 acc=0.297 (89s)
+[ga] gen 9 eval 137/170 acc=0.266 (88s)
+[ga] gen 9 eval 138/170 acc=0.281 (88s)
+[ga] gen 9 eval 139/170 acc=0.312 (88s)
+[ga] gen 9 eval 140/170 acc=0.312 (89s)
+[ga] gen 9 eval 141/170 acc=0.312 (89s)
+[ga] gen 9 eval 142/170 acc=0.297 (90s)
+[ga] generation 10 done: best=0.328 mean=0.295
+[ga] gen 10 eval 143/170 acc=0.297 (91s)
+[ga] gen 10 eval 144/170 acc=0.312 (91s)
+[ga] gen 10 eval 145/170 acc=0.297 (91s)
+[ga] gen 10 eval 146/170 acc=0.281 (91s)
+[ga] gen 10 eval 147/170 acc=0.312 (91s)
+[ga] gen 10 eval 148/170 acc=0.297 (90s)
+[ga] gen 10 eval 149/170 acc=0.312 (90s)
+[ga] gen 10 eval 150/170 acc=0.328 (89s)
+[ga] gen 10 eval 151/170 acc=0.312 (88s)
+[ga] gen 10 eval 152/170 acc=0.281 (88s)
+[ga] gen 10 eval 153/170 acc=0.312 (88s)
+[ga] gen 10 eval 154/170 acc=0.328 (88s)
+[ga] gen 10 eval 155/170 acc=0.297 (89s)
+[ga] gen 10 eval 156/170 acc=0.297 (90s)
+[ga] generation 11 done: best=0.328 mean=0.305
+[ga] gen 11 eval 157/170 acc=0.328 (90s)
+[ga] gen 11 eval 158/170 acc=0.312 (90s)
+[ga] gen 11 eval 159/170 acc=0.297 (92s)
+[ga] gen 11 eval 160/170 acc=0.297 (91s)
+[ga] gen 11 eval 161/170 acc=0.297 (91s)
+[ga] gen 11 eval 162/170 acc=0.281 (91s)
+[ga] gen 11 eval 163/170 acc=0.281 (90s)
+[ga] gen 11 eval 164/170 acc=0.266 (90s)
+[ga] gen 11 eval 165/170 acc=0.281 (89s)
+[ga] gen 11 eval 166/170 acc=0.297 (88s)
+[ga] gen 11 eval 167/170 acc=0.312 (88s)
+[ga] gen 11 eval 168/170 acc=0.297 (89s)
+[ga] gen 11 eval 169/170 acc=0.328 (89s)
+[ga] gen 11 eval 170/170 acc=0.281 (89s)
+[ga] generation 12 done: best=0.328 mean=0.297
+finished: best search accuracy 0.328; recipe in runs/ga_seed0/best_recipe.json

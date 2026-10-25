@@ -1,0 +1,28 @@
+shard 1/2: 16 candidates, 16 to score
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Generating train_main split:   0%|          | 0/7473 [00:00<?, ? examples/s]Generating train_main split:  13%|█▎        | 1000/7473 [00:00<00:01, 6433.37 examples/s]Generating train_main split: 100%|██████████| 7473/7473 [00:00<00:00, 45292.36 examples/s]
+Generating test_main split:   0%|          | 0/1319 [00:00<?, ? examples/s]Generating test_main split: 100%|██████████| 1319/1319 [00:00<00:00, 192126.65 examples/s]
+Generating train_socratic split:   0%|          | 0/7473 [00:00<?, ? examples/s]Generating train_socratic split: 100%|██████████| 7473/7473 [00:00<00:00, 309607.40 examples/s]
+Generating test_socratic split:   0%|          | 0/1319 [00:00<?, ? examples/s]Generating test_socratic split: 100%|██████████| 1319/1319 [00:00<00:00, 220392.28 examples/s]
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:01<08:24,  1.50s/it]Loading weights:  47%|████▋     | 159/338 [00:01<00:01, 131.48it/s]Loading weights:  64%|██████▍   | 218/338 [00:02<00:00, 137.64it/s]Loading weights:  76%|███████▌  | 257/338 [00:02<00:00, 125.02it/s]Loading weights:  84%|████████▍ | 285/338 [00:02<00:00, 133.01it/s]Loading weights:  91%|█████████▏| 309/338 [00:02<00:00, 144.05it/s]Loading weights: 100%|██████████| 338/338 [00:02<00:00, 121.33it/s]
+loading weights: base=Qwen/Qwen2.5-1.5B a=Qwen/Qwen2.5-1.5B-Instruct b=sunblaze-ucb/Qwen2.5-1.5B-GRPO-MATH-1EPOCH
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files:  17%|█▋        | 1/6 [00:00<00:00,  8.41it/s]Fetching 6 files:  83%|████████▎ | 5/6 [00:00<00:00, 25.04it/s]Fetching 6 files: 100%|██████████| 6/6 [00:06<00:00,  1.07s/it]
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files: 100%|██████████| 6/6 [00:00<00:00, 911.11it/s]
+Fetching 8 files:   0%|          | 0/8 [00:00<?, ?it/s]Fetching 8 files:  25%|██▌       | 2/8 [00:00<00:00, 14.92it/s]Fetching 8 files:  88%|████████▊ | 7/8 [00:12<00:01,  1.88s/it]Fetching 8 files: 100%|██████████| 8/8 [00:13<00:00,  1.86s/it]Fetching 8 files: 100%|██████████| 8/8 [00:13<00:00,  1.73s/it]
+model ready: 28 layers, rope_theta=1000000.0, genome size 60
+ga_seed0/eval92              search=0.328125 val=0.260 (592s)
+ga_seed0/eval128             search=0.328125 val=0.256 (564s)
+ga_seed0/eval154             search=0.328125 val=0.268 (608s)
+ga_seed0/eval169             search=0.328125 val=0.236 (596s)
+ga_seed0/eval22              search=  0.3125 val=0.208 (756s)
+cmaes_seed0/eval91           search=   0.375 val=0.232 (718s)
+cmaes_seed0/eval133          search=   0.375 val=0.248 (756s)
+cmaes_seed0/eval42           search=0.359375 val=0.244 (756s)
+cmaes_seed0/eval132          search=0.359375 val=0.224 (757s)
+cmaes_seed0/eval154          search=0.359375 val=0.232 (663s)
+random_seed0/eval97          search=0.359375 val=0.272 (591s)
+random_seed0/eval35          search=0.328125 val=0.264 (561s)
+random_seed0/eval70          search=0.328125 val=0.244 (626s)
+random_seed0/eval75          search=0.328125 val=0.200 (678s)
+random_seed0/eval166         search=0.328125 val=0.236 (646s)
+baseline/task_arithmetic     search=       - val=0.236 (596s)

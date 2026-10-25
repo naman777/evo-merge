@@ -1,0 +1,4 @@
+name,method,split,n,accuracy,seconds,config_from
+parent_a,task_arithmetic,train_main,8,0.375,120,a
+parent_b,task_arithmetic,train_main,8,0.0,40,a
+average,task_arithmetic,train_main,8,0.0,37,a

@@ -1,0 +1,65 @@
+{
+ "name": "task_arithmetic",
+ "method": "task_arithmetic",
+ "split": "train_main",
+ "n": 8,
+ "accuracy": 0.375,
+ "records": [
+  {
+   "id": "train_main/6924",
+   "gold": 12.0,
+   "pred": 9.0,
+   "correct": false,
+   "output": "To determine the number of males in the competition, we can follow these steps:\n\n1. **Identify the total number of participants:**\n   The problem states that there are a total of 18 participants.\n\n2. **Determine the proportion of females:**\n   It is given that half of the participants are women. Therefore, the number of women is:\n   \\[\n   \\frac{1}{2} \\times 18 = 9\n   \\]\n\n3. **Calculate the number of men:**\n   Since the total number of participants is the sum of the number of women and the number of men, we can find the number of men by subtracting the number of women from the total number of participants:\n   \\[\n   18 - 9 = 9\n   \\]\n\nThus, the number of males in the competition is \\(\\boxed{9}\\)."
+  },
+  {
+   "id": "train_main/3843",
+   "gold": 2.0,
+   "pred": 8.0,
+   "correct": false,
+   "output": "To determine how many pieces of paper Nainsi has left after giving some to her friends, we need to follow these steps:\n\n1. **Determine the total number of pieces initially:**\n   Nainsi bought a pack of 8 pieces.\n\n2. **Calculate the number of pieces given to each friend:**\n   - She gave \\( \\frac{1}{2} \\) piece to Orsini.\n   - She gave \\( \\frac{1}{4} \\) piece to Karl.\n\n3. **Find the total number of pieces given away:**\n   \\[\n   \\text{Total pieces given away} = \\frac{1}{2} + \\frac{1}{4}\n   \\]\n\n4. **Add the fractions:**\n   To add these fractions, find a common denominator:\n   \\[\n   \\frac{1}{2} = \\frac{2}{4}\n   \\]\n   So,\n   \\[\n   \\frac{1}{2} + \\frac{1}{4} = \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4}\n   \\]\n\n5. **Subtract the total pieces given away from the initial number of pieces:**\n   \\[\n   \\text{Pieces remaining} = 8 - \\frac{3}{4}\n   \\]\n\n6. **Convert 8 into a fraction with a denominator of 4:**\n   \\[\n   8 = \\frac{32}{4}\n   \\]\n\n7. **Perform the subtraction:**\n   \\[\n   \\frac{32}{4} - \\frac{3}{4} = \\frac{32 - 3}{4} = \\frac{29}{4}\n   \\]\n\n8. **Convert the improper fraction back to a mixed number if necessary:**\n   \\"
+  },
+  {
+   "id": "train_main/3208",
+   "gold": 92.0,
+   "pred": 92.0,
+   "correct": true,
+   "output": "To determine the total number of pens that the person has, we need to calculate the number of pens she bought each day and then sum them up.\n\nFirst, let's find out how many pens she bought on Monday:\n- She bought 20 pens on Monday.\n- Therefore, the number of pens bought on Monday is \\(20\\).\n\nNext, let's find out how many pens she bought on Tuesday:\n- On Tuesday, she bought 18 pens.\n- Therefore, the number of pens bought on Tuesday is \\(18\\).\n\nNow, let's find out how many pens she bought on Wednesday:\n- On Wednesday, she bought three times as many pens as she did on Tuesday.\n- Since she bought 18 pens on Tuesday, on Wednesday she bought \\(3 \\times 18 = 54\\) pens.\n- Therefore, the number of pens bought on Wednesday is \\(54\\).\n\nFinally, let's sum up all the pens bought over these three days:\n- Pens bought on Monday: \\(20\\)\n- Pens bought on Tuesday: \\(18\\)\n- Pens bought on Wednesday: \\(54\\)\n\nAdding these together gives us the total number of pens:\n\\[20 + 18 + 54 = 92\\]\n\nSo, the total number of pens the person has is \\(\\boxed{92}\\)."
+  },
+  {
+   "id": "train_main/6017",
+   "gold": 600000.0,
+   "pred": 4.0,
+   "correct": false,
+   "output": "To determine the total distance Stephen traveled, we need to calculate the sum of the distances he climbed up and down each time. Let's break it down step by step.\n\nFirst, let's define the variables:\n- \\( h \\) is the height of the mountain in feet.\n- The height of the mountain is given as 40,000 feet.\n- Each round trip consists of climbing up and then descending back down.\n- The average height reached during a single climb (up or down) is \\(\\frac{h}{4}\\).\n\nNow, let's calculate the distance for one round trip:\n- When Stephen climbs up, he reaches \\(\\frac{h}{4}\\) feet above the starting point.\n- When he descends, he returns to the starting point, which is at ground level.\n\nSo, the distance for one round trip is:\n\\[ \\text{Distance per round trip} = \\left( \\frac{h}{4} + \\frac{h}{4} \\right) + \\left( -\\frac{h}{4} - \\frac{h}{4} \\right) = \\frac{2h}{4} - \\frac{2h}{4} = 0 \\]\n\nThis calculation seems incorrect because it suggests no net movement, but this is due to the fact that the problem setup might have an error in interpretation. Instead, let's consider the correct approach:\n\nEach time Stephen climbs up, he reaches \\(\\frac{h}{4}\\) feet above the starting point, and each time he descends, he returns to the starting point. Therefore, the effective distance covered each time he makes a round trip is actually the difference between his maximum height and the starting point, which is simply half the height of the mountain.\n\nSo, the distance for one round trip is:\n\\[ \\text{Distance per round trip} ="
+  },
+  {
+   "id": "train_main/4530",
+   "gold": 24.0,
+   "pred": 170.0,
+   "correct": false,
+   "output": "To determine Marianne's score, we need to follow these steps:\n\n1. **Understand the given information:**\n   - The total number of questions is 40.\n   - Ela got 4 incorrect answers.\n   - Marianne got \\( \\frac{1}{2} \\) as many incorrect answers as Ela.\n\n2. **Calculate the number of incorrect answers for Marianne:**\n   Since Ela got 4 incorrect answers, Marianne got:\n   \\[\n   \\text{Incorrect answers for Marianne} = \\frac{1}{2} \\times 4 = 2\n   \\]\n\n3. **Determine the number of correct answers for each:**\n   - Total questions: 40\n   - Incorrect answers: 4 (Ela) + 2 (Marianne) = 6\n\n   Therefore, the number of correct answers is:\n   \\[\n   \\text{Correct answers} = 40 - 6 = 34\n   \\]\n\n4. **Calculate Marianne's score:**\n   Each correct answer is worth 5 points. Thus, Marianne's score is:\n   \\[\n   \\text{Score} = 34 \\times 5 = 170\n   \\]\n\nTherefore, Marianne's score is \\(\\boxed{170}\\)."
+  },
+  {
+   "id": "train_main/3335",
+   "gold": 86.0,
+   "pred": 86.0,
+   "correct": true,
+   "output": "To determine the test score of Margarita, we need to follow these steps:\n\n1. **Calculate Mark's Test Score:**\n   - The average test score in previous tests was 90.\n   - Mark scored 10% less than this average.\n   - To find 10% of 90:\n     \\[\n     0.10 \\times 90 = 9\n     \\]\n   - Therefore, Mark's score is:\n     \\[\n     90 - 9 = 81\n     \\]\n\n2. **Determine Margarita's Test Score:**\n   - Margarita scored 5 points more than Mark.\n   - Since Mark's score is 81, Margarita's score is:\n     \\[\n     81 + 5 = 86\n     \\]\n\nThus, Margarita's test score is \\(\\boxed{86}\\)."
+  },
+  {
+   "id": "train_main/4120",
+   "gold": 2.0,
+   "pred": 5.0,
+   "correct": false,
+   "output": "To determine the number of shooting stars that Sam counted at night, we need to follow these steps:\n\n1. **Identify the given information:**\n   - Bridget counted 14 shooting stars.\n   - Reinhold counted two fewer than Bridget.\n   - Saim counted three more than Reinhold.\n\n2. **Calculate the number of shooting stars Reinhold counted:**\n   - Reinhold counted two fewer than Bridget:\n     \\[\n     \\text{Reinhold's count} = 14 - 2 = 12\n     \\]\n\n3. **Calculate the number of shooting stars Saim counted:**\n   - Saim counted three more than Reinhold:\n     \\[\n     \\text{Saim's count} = 12 + 3 = 15\n     \\]\n\n4. **Determine the average number of shooting stars counted by Saim:**\n   - The problem states that the average number of shooting stars counted by Saim is the sum of his counts divided by the number of counts (which is 3):\n     \\[\n     \\text{Average count} = \\frac{\\text{Sum of Saim's counts}}{\\text{Number of counts}} = \\frac{15}{3} = 5\n     \\]\n\nTherefore, the average number of shooting stars that Saim counted is \\(\\boxed{5}\\)."
+  },
+  {
+   "id": "train_main/2585",
+   "gold": 51.0,
+   "pred": 51.0,
+   "correct": true,
+   "output": "To determine how much the police officers have to pay for the jute bags, we need to break down the costs based on their tenure. Let's go through this step-by-step:\n\n1. **Calculate the cost without any discount:**\n   - The base price of each jute bag is $85.\n\n2. **Apply the first discount (if they have at least one year of service):**\n   - If an officer has at least one year of service, they get a 20% discount.\n   - Discount amount = \\( 85 \\times 0.20 = 17 \\) dollars.\n   - Cost after the first discount = \\( 85 - 17 = 68 \\) dollars.\n\n3. **Apply the second discount (if they have three years or more of service):**\n   - If an officer has three years or more of service, they get an additional 25% discount on the already discounted price.\n   - First, calculate the price after the first discount:\n     - Price after first discount = $68.\n   - Second discount amount = \\( 68 \\times 0.25 = 17 \\) dollars.\n   - Final cost after both discounts = \\( 68 - 17 = 51 \\) dollars.\n\nTherefore, if an officer has three years or more of service, they will have to pay \\(\\boxed{51}\\) dollars for the jute bags."
+  }
+ ]
+}

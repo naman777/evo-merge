@@ -1,0 +1,7 @@
+name,method,split,n,max_new_tokens,accuracy,seconds,config_from
+parent_a,task_arithmetic,test_main,250,1024,0.18,813,a
+parent_b,task_arithmetic,test_main,250,1024,0.22,606,a
+average,task_arithmetic,test_main,250,1024,0.26,675,a
+task_arithmetic,task_arithmetic,test_main,250,1024,0.26,720,a
+ties,ties,test_main,250,1024,0.244,645,a
+dare_ties,dare_ties,test_main,250,1024,0.24,693,a

@@ -1,0 +1,15 @@
+{
+  "base_model": "Qwen/Qwen2.5-1.5B",
+  "model_a": "Qwen/Qwen2.5-1.5B-Instruct",
+  "model_b": "sunblaze-ucb/Qwen2.5-1.5B-GRPO-MATH-1EPOCH",
+  "config_from": "a",
+  "dtype": "float16",
+  "search_n": 64,
+  "test_n": 250,
+  "max_new_tokens": 512,
+  "test_max_new_tokens": 1024,
+  "batch_size": 32,
+  "merge_method": "task_arithmetic",
+  "weight_hi": 2.0,
+  "max_evals": 170
+}

@@ -1,0 +1,13 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:00<04:14,  1.33it/s]Loading weights:  41%|████      | 138/338 [00:00<00:00, 218.98it/s]Loading weights:  64%|██████▍   | 218/338 [00:01<00:00, 210.51it/s]Loading weights:  80%|████████  | 271/338 [00:01<00:00, 205.98it/s]Loading weights:  92%|█████████▏| 311/338 [00:01<00:00, 215.70it/s]Loading weights: 100%|██████████| 338/338 [00:01<00:00, 190.08it/s]
+loading weights: base=Qwen/Qwen2.5-1.5B a=Qwen/Qwen2.5-1.5B-Instruct b=sunblaze-ucb/Qwen2.5-1.5B-GRPO-MATH-1EPOCH
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files: 100%|██████████| 6/6 [00:00<00:00, 894.85it/s]
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files: 100%|██████████| 6/6 [00:00<00:00, 990.43it/s]
+Fetching 8 files:   0%|          | 0/8 [00:00<?, ?it/s]Fetching 8 files: 100%|██████████| 8/8 [00:00<00:00, 985.36it/s]
+model ready: 28 layers, rope_theta=1000000.0, genome size 60
+parent_a             task_arithmetic  acc=0.180  (813s)
+parent_b             task_arithmetic  acc=0.220  (606s)
+average              task_arithmetic  acc=0.260  (675s)
+task_arithmetic      task_arithmetic  acc=0.260  (720s)
+ties                 ties             acc=0.244  (645s)
+dare_ties            dare_ties        acc=0.240  (693s)

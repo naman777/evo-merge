@@ -1,0 +1,65 @@
+{
+ "name": "parent_b",
+ "method": "task_arithmetic",
+ "split": "train_main",
+ "n": 8,
+ "accuracy": 0.125,
+ "records": [
+  {
+   "id": "train_main/6924",
+   "gold": 12.0,
+   "pred": 36.0,
+   "correct": false,
+   "output": "1. **Understanding the problem:**\n   - We are given that \\( \\text{Kujo} = 18 \\).\n   - We need to find the value of \\( \\text{Kujo} + \\text{Kujo} \\).\n\n2. **Setting up the equation:**\n   - Since \\( \\text{Kujo} = 18 \\), we substitute this value into the expression \\( \\text{Kujo} + \\text{Kujo} \\).\n\n3. **Performing the addition:**\n   \\[\n   \\text{Kujo} + \\text{Kujo} = 18 + 18\n   \\]\n\n4. **Calculating the result:**\n   \\[\n   18 + 18 = 36\n   \\]\n\n5. **Conclusion:**\n   - Therefore, the value of \\( \\text{Kujo} + \\text{Kujo} \\) is \\( 36 \\).\n\n\\[\n\\boxed{36}\n\\]"
+  },
+  {
+   "id": "train_main/3843",
+   "gold": 2.0,
+   "pred": 2.0,
+   "correct": true,
+   "output": "Let's break down the problem step by step.\n\n1. **Identify the total number of students:**\n   - We know that 8 students are in the class.\n\n2. **Determine the number of students who like math:**\n   - Half of the students like math.\n   - Therefore, the number of students who like math is \\( \\frac{1}{2} \\times 8 = 4 \\).\n\n3. **Determine the number of students who like science:**\n   - A quarter of the students like science.\n   - Therefore, the number of students who like science is \\( \\frac{1}{4} \\times 8 = 2 \\).\n\n4. **Calculate the number of students who like neither math nor science:**\n   - The total number of students is 8.\n   - The number of students who like math is 4.\n   - The number of students who like science is 2.\n   - The number of students who like either math or science or both is \\( 4 + 2 = 6 \\).\n   - Therefore, the number of students who like neither math nor science is \\( 8 - 6 = 2 \\).\n\nSo, the number of students who like neither math nor science is \\(\\boxed{2}\\)."
+  },
+  {
+   "id": "train_main/3208",
+   "gold": 92.0,
+   "pred": 52.0,
+   "correct": false,
+   "output": "1. Let's denote the number of days in a month as \\( D \\).\n2. Let's denote the number of days in a year as \\( Y \\).\n3. Let's denote the number of days in a week as \\( W \\).\n\nFrom the problem, we know:\n- \\( D = 30 \\) (since it's given that there are 30 days in a month)\n- \\( Y = 365 \\) (since it's given that there are 365 days in a year)\n- \\( W = 7 \\) (since it's given that there are 7 days in a week)\n\n4. We need to find the number of weeks in a year. This can be calculated as:\n   \\[\n   \\text{Number of weeks in a year} = \\frac{Y}{W} = \\frac{365}{7}\n   \\]\n\n5. Performing the division:\n   \\[\n   \\frac{365}{7} = 52.14285714285714\n   \\]\n\n6. Since we are asked to find the number of weeks in a year, we round this to the nearest whole number:\n   \\[\n   \\text{Number of weeks in a year} \\approx 52\n   \\]\n\nTherefore, the number of weeks in a year is \\(\\boxed{52}\\)."
+  },
+  {
+   "id": "train_main/6017",
+   "gold": 600000.0,
+   "pred": 5.33,
+   "correct": false,
+   "output": "Let's break down the problem step by step.\n\n1. **Identify the total amount of money:**\n   The total amount of money is Rs. 40,000.\n\n2. **Identify the amount of money given to each son:**\n   Each son receives Rs. 10,000.\n\n3. **Determine the number of sons:**\n   Since the total amount of money is Rs. 40,000 and each son receives Rs. 10,000, the number of sons is:\n   \\[\n   \\frac{40,000}{10,000} = 4\n   \\]\n   So, there are 4 sons.\n\n4. **Identify the fraction of the total amount given to each daughter:**\n   Each daughter receives \\(\\frac{3}{4}\\) of the total amount given to each son. Since each son receives Rs. 10,000, each daughter receives:\n   \\[\n   \\frac{3}{4} \\times 10,000 = 7,500\n   \\]\n\n5. **Determine the number of daughters:**\n   Since the total amount of money is Rs. 40,000 and each daughter receives Rs. 7,500, the number of daughters is:\n   \\[\n   \\frac{40,000}{7,500} = \\frac{40,000 \\div 500}{7,500 \\div 500} = \\frac{80}{15} = \\frac{16}{3} \\approx 5.33\n   \\]\n   However, since the number of daughters must be a whole number, we need to"
+  },
+  {
+   "id": "train_main/4530",
+   "gold": 24.0,
+   "pred": 8.0,
+   "correct": false,
+   "output": "Let's break down the problem step by step.\n\n1. **Identify the total number of letters in the word \"MOM\"**:\n   The word \"MOM\" has 3 letters.\n\n2. **Identify the number of letters in the word \"MOM\" that are vowels**:\n   The word \"MOM\" has 2 vowels (the first and the last letters are 'O', which are not vowels, and the middle letter is 'M', which is not a vowel). So, there are 0 vowels in \"MOM\".\n\n3. **Identify the number of letters in the word \"MOM\" that are consonants**:\n   The word \"MOM\" has 3 consonants (all letters in \"MOM\" are consonants).\n\n4. **Identify the number of letters in the word \"MOM\" that are not vowels**:\n   The word \"MOM\" has 3 letters in total, and since there are no vowels, all 3 letters are not vowels.\n\n5. **Identify the number of letters in the word \"MOM\" that are not consonants**:\n   The word \"MOM\" has 0 letters that are not consonants (since all letters are consonants).\n\n6. **Identify the number of letters in the word \"MOM\" that are neither vowels nor consonants**:\n   The word \"MOM\" has 0 letters that are neither vowels nor consonants (since all letters are either vowels or consonants).\n\n7. **Identify the number of letters in the word \"MOM\" that are neither vowels nor consonants**:\n   The word \"MOM\" has 0 letters that are neither vowels nor consonants (since all letters are either vowels or consonants).\n\n8. **Identify the number of letters in the word \"MOM\" that"
+  },
+  {
+   "id": "train_main/3335",
+   "gold": 86.0,
+   "pred": 9.0,
+   "correct": false,
+   "output": "Let's break down the problem step by step.\n\n1. **Understanding the Problem:**\n   - We have a total of 90 letters.\n   - We need to form words using these letters.\n   - Each word must have exactly 10 letters.\n   - We can use each letter at most once in a word.\n   - We need to form as many words as possible, and after forming the maximum number of words, we need to use the remaining letters to form as many more words as possible, but with the condition that each word must have exactly 5 letters.\n\n2. **Forming the First Set of Words:**\n   - Since each word must have 10 letters, the maximum number of 10-letter words we can form is \\( \\left\\lfloor \\frac{90}{10} \\right\\rfloor = 9 \\) words.\n   - After forming these 9 words, we use \\( 9 \\times 10 = 90 \\) letters, which means we have used all the letters.\n\n3. **Forming the Second Set of Words:**\n   - Since we have used all the letters, we cannot form any more words with the remaining letters.\n   - However, the problem states that we need to use the remaining letters to form as many more words as possible, but with the condition that each word must have exactly 5 letters.\n   - Since we have used all the letters, the remaining letters are 0, and we cannot form any more words.\n\n4. **Conclusion:**\n   - The maximum number of words we can form is 9 words of 10 letters each, and 0 words of 5 letters each.\n\nTherefore, the answer is \\(\\boxed{9}\\)."
+  },
+  {
+   "id": "train_main/4120",
+   "gold": 2.0,
+   "pred": 146.032,
+   "correct": false,
+   "output": "1. **Identify the total number of minutes in a day:**\n   \\[\n   24 \\text{ minutes}\n   \\]\n\n2. **Determine the number of minutes in one hour:**\n   \\[\n   60 \\text{ minutes}\n   \\]\n\n3. **Calculate the number of hours in a day:**\n   \\[\n   \\frac{24 \\text{ minutes}}{60 \\text{ minutes/hour}} = 0.4 \\text{ hours}\n   \\]\n\n4. **Determine the number of days in a week:**\n   \\[\n   7 \\text{ days}\n   \\]\n\n5. **Calculate the total number of hours in a week:**\n   \\[\n   0.4 \\text{ hours/day} \\times 7 \\text{ days} = 2.8 \\text{ hours}\n   \\]\n\n6. **Determine the number of days in a year:**\n   \\[\n   365 \\text{ days}\n   \\]\n\n7. **Calculate the total number of hours in a year:**\n   \\[\n   2.8 \\text{ hours/day} \\times 365 \\text{ days} = 1022 \\text{ hours}\n   \\]\n\n8. **Determine the number of weeks in a year:**\n   \\[\n   \\frac{365 \\text{ days}}{7 \\text{ days/week}} \\approx 52.14 \\text{ weeks}\n   \\]\n\n9. **Calculate the total number of hours in a year using weeks:**\n   \\[\n   2.8 \\text{ hours/day} \\times 52.14 \\text{ weeks} = 146.032 \\text{ hours}\n   \\]\n\n"
+  },
+  {
+   "id": "train_main/2585",
+   "gold": 51.0,
+   "pred": 40.0,
+   "correct": false,
+   "output": "Let's break down the problem step by step.\n\n1. **Understanding the problem:**\n   - We have 85 apples.\n   - We need to distribute these apples into two groups.\n   - The first group will receive 20 apples.\n   - The second group will receive 25 apples.\n   - We need to find out how many apples will be left after distributing these two groups.\n\n2. **Calculating the total number of apples distributed:**\n   - The first group receives 20 apples.\n   - The second group receives 25 apples.\n   - Total apples distributed = 20 + 25 = 45 apples.\n\n3. **Calculating the number of apples left:**\n   - Total apples initially = 85.\n   - Apples distributed = 45.\n   - Apples left = 85 - 45 = 40.\n\nSo, the number of apples left after distributing the two groups is \\(\\boxed{40}\\)."
+  }
+ ]
+}

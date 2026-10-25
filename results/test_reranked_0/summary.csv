@@ -1,0 +1,3 @@
+name,method,split,n,max_new_tokens,accuracy,seconds,config_from
+ga_seed0_reranked,task_arithmetic,test_main,250,1024,0.208,621,a
+cmaes_seed0_reranked,task_arithmetic,test_main,250,1024,0.24,688,a

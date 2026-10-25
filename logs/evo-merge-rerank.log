@@ -1,0 +1,73 @@
+[{"stream_name":"stderr","time":10.863524962,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":10.863563505,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":12.506517682,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":12.506547469000001,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":12.506553046,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":12.506557364,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":13.322838384,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":13.322880369,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":13.322884905,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":13.322895472999999,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":24.696239576,"data":"runs: ['cmaes_seed0', 'ga_seed0', 'random_seed0']\n"}
+,{"stream_name":"stdout","time":29.759192711,"data":"name, memory.total [MiB]\r\n"}
+,{"stream_name":"stdout","time":29.759232859,"data":"Tesla T4, 15360 MiB\r\n"}
+,{"stream_name":"stdout","time":29.759236706,"data":"Tesla T4, 15360 MiB\r\n"}
+,{"stream_name":"stdout","time":90.642255749,"data":"\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m                                          [100%]\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":90.642293649,"data":"\u001b[32m\u001b[32m\u001b[1m31 passed\u001b[0m\u001b[32m in 58.56s\u001b[0m\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":98.950279211,"data":"[GPU 0] python -m evomerge.rerank score --config configs/qwen_hindi_math.json --runs runs/ga_seed0 runs/cmaes_seed0 runs/random_seed0 --shard 0 --num-shards 2\n"}
+,{"stream_name":"stdout","time":98.950326312,"data":"[GPU 1] python -m evomerge.rerank score --config configs/qwen_hindi_math.json --runs runs/ga_seed0 runs/cmaes_seed0 runs/random_seed0 --shard 1 --num-shards 2\n"}
+,{"stream_name":"stdout","time":938.924416891,"data":" 0.26 h | rerank_shard0.log: ga_seed0/eval36              search=0.328125 val=0.244 (552s)\n"}
+,{"stream_name":"stdout","time":938.925794615,"data":" 0.26 h | rerank_shard1.log: ga_seed0/eval92              search=0.328125 val=0.260 (592s)\n"}
+,{"stream_name":"stdout","time":1838.933525785,"data":" 0.51 h | rerank_shard0.log: ga_seed0/eval108             search=0.328125 val=0.264 (564s)\n"}
+,{"stream_name":"stdout","time":1838.934534476,"data":" 0.51 h | rerank_shard1.log: ga_seed0/eval128             search=0.328125 val=0.256 (564s)\n"}
+,{"stream_name":"stdout","time":2738.941721527,"data":" 0.76 h | rerank_shard0.log: ga_seed0/eval157             search=0.328125 val=0.252 (546s)\n"}
+,{"stream_name":"stdout","time":2738.942736301,"data":" 0.76 h | rerank_shard1.log: ga_seed0/eval169             search=0.328125 val=0.236 (596s)\n"}
+,{"stream_name":"stdout","time":3638.950720321,"data":" 1.01 h | rerank_shard0.log: ga_seed0/eval14              search=  0.3125 val=0.208 (693s)\n"}
+,{"stream_name":"stdout","time":3638.951749046,"data":" 1.01 h | rerank_shard1.log: ga_seed0/eval22              search=  0.3125 val=0.208 (756s)\n"}
+,{"stream_name":"stdout","time":4538.957947212,"data":" 1.26 h | rerank_shard0.log: cmaes_seed0/eval125          search=   0.375 val=0.196 (693s)\n"}
+,{"stream_name":"stdout","time":4538.958964834,"data":" 1.26 h | rerank_shard1.log: cmaes_seed0/eval91           search=   0.375 val=0.232 (718s)\n"}
+,{"stream_name":"stdout","time":5438.967452971,"data":" 1.51 h | rerank_shard0.log: cmaes_seed0/eval41           search=0.359375 val=0.252 (693s)\n"}
+,{"stream_name":"stdout","time":5438.967644978,"data":" 1.51 h | rerank_shard1.log: cmaes_seed0/eval133          search=   0.375 val=0.248 (756s)\n"}
+,{"stream_name":"stdout","time":6338.976460681,"data":" 1.76 h | rerank_shard0.log: cmaes_seed0/eval116          search=0.359375 val=0.216 (661s)\n"}
+,{"stream_name":"stdout","time":6338.977387838,"data":" 1.76 h | rerank_shard1.log: cmaes_seed0/eval42           search=0.359375 val=0.244 (756s)\n"}
+,{"stream_name":"stdout","time":7238.984598654,"data":" 2.01 h | rerank_shard0.log: random_seed0/eval160         search=   0.375 val=0.264 (607s)\n"}
+,{"stream_name":"stdout","time":7238.985721881,"data":" 2.01 h | rerank_shard1.log: cmaes_seed0/eval154          search=0.359375 val=0.232 (663s)\n"}
+,{"stream_name":"stdout","time":8138.990998234,"data":" 2.26 h | rerank_shard0.log: random_seed0/eval80          search= 0.34375 val=0.240 (610s)\n"}
+,{"stream_name":"stdout","time":8138.992074141,"data":" 2.26 h | rerank_shard1.log: random_seed0/eval97          search=0.359375 val=0.272 (591s)\n"}
+,{"stream_name":"stdout","time":9038.998963912,"data":" 2.51 h | rerank_shard0.log: random_seed0/eval54          search=0.328125 val=0.232 (667s)\n"}
+,{"stream_name":"stdout","time":9039.000092372,"data":" 2.51 h | rerank_shard1.log: random_seed0/eval70          search=0.328125 val=0.244 (626s)\n"}
+,{"stream_name":"stdout","time":9939.009158046,"data":" 2.76 h | rerank_shard0.log: random_seed0/eval143         search=0.328125 val=0.228 (609s)\n"}
+,{"stream_name":"stdout","time":9939.010222431,"data":" 2.76 h | rerank_shard1.log: random_seed0/eval75          search=0.328125 val=0.200 (678s)\n"}
+,{"stream_name":"stdout","time":10839.015324264,"data":" 3.01 h | rerank_shard0.log: baseline/average             search=       - val=0.240 (623s)\n"}
+,{"stream_name":"stdout","time":10839.016248937,"data":" 3.01 h | rerank_shard1.log: random_seed0/eval166         search=0.328125 val=0.236 (646s)\n"}
+,{"stream_name":"stdout","time":10869.014479408,"data":"rerank_shard0.log: exit code 0 | baseline/average             search=       - val=0.240 (623s)\n"}
+,{"stream_name":"stdout","time":10869.01451181,"data":"rerank_shard1.log: exit code 0 | baseline/task_arithmetic     search=       - val=0.236 (596s)\n"}
+,{"stream_name":"stdout","time":10870.819026929,"data":"run            scored  picked by validation       search    val   search winner              its val\r\n"}
+,{"stream_name":"stdout","time":10870.819111981,"data":"ga_seed0           10  ga_seed0/eval154            0.328  0.268   ga_seed0/eval154             0.268\r\n"}
+,{"stream_name":"stdout","time":10870.819122225,"data":"cmaes_seed0        10  cmaes_seed0/eval41          0.359  0.252   cmaes_seed0/eval139          0.232\r\n"}
+,{"stream_name":"stdout","time":10870.81913929,"data":"random_seed0       10  random_seed0/eval97         0.359  0.272   random_seed0/eval160         0.264\r\n"}
+,{"stream_name":"stdout","time":10870.819143714,"data":"baseline/average             val=0.240\r\n"}
+,{"stream_name":"stdout","time":10870.819147676,"data":"baseline/task_arithmetic     val=0.236\r\n"}
+,{"stream_name":"stdout","time":10871.325334948,"data":"[GPU 0] python -m evomerge.evaluate --config configs/qwen_hindi_math.json --baselines --recipes results/rerank/ga_seed0_reranked results/rerank/cmaes_seed0_reranked --out results/test_reranked_0\n"}
+,{"stream_name":"stdout","time":10871.325372015,"data":"[GPU 1] python -m evomerge.evaluate --config configs/qwen_hindi_math.json --baselines --recipes results/rerank/random_seed0_reranked --out results/test_reranked_1\n"}
+,{"stream_name":"stdout","time":11741.313640908,"data":" 3.26 h | test_reranked_0.log: ga_seed0_reranked    task_arithmetic  acc=0.208  (621s)\n"}
+,{"stream_name":"stdout","time":11741.314593538,"data":" 3.26 h | test_reranked_1.log: random_seed0_reranked task_arithmetic  acc=0.200  (549s)\n"}
+,{"stream_name":"stdout","time":12251.32061192,"data":"test_reranked_0.log: exit code 0 | cmaes_seed0_reranked task_arithmetic  acc=0.240  (688s)\n"}
+,{"stream_name":"stdout","time":12251.320645669,"data":"test_reranked_1.log: exit code 0 | random_seed0_reranked task_arithmetic  acc=0.200  (549s)\n"}
+,{"stream_name":"stdout","time":12251.320651805,"data":"name,method,split,n,max_new_tokens,accuracy,seconds,config_from\n"}
+,{"stream_name":"stdout","time":12251.320656527,"data":"ga_seed0_reranked,task_arithmetic,test_main,250,1024,0.208,621,a\n"}
+,{"stream_name":"stdout","time":12251.320661316,"data":"cmaes_seed0_reranked,task_arithmetic,test_main,250,1024,0.24,688,a\n"}
+,{"stream_name":"stdout","time":12251.320665865,"data":"\n"}
+,{"stream_name":"stdout","time":12251.320670104,"data":"name,method,split,n,max_new_tokens,accuracy,seconds,config_from\n"}
+,{"stream_name":"stdout","time":12251.320674538,"data":"random_seed0_reranked,task_arithmetic,test_main,250,1024,0.2,549,a\n"}
+,{"stream_name":"stdout","time":12251.320679274,"data":"\n"}
+,{"stream_name":"stdout","time":12251.320683489,"data":"ALL DONE\n"}
+,{"stream_name":"stderr","time":12254.290292292,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":12254.290331825,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":12254.578160617,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":12254.578188105,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":12255.444055565,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":12255.531660257,"data":"[NbConvertApp] Writing 16826 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":12257.987867455,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":12258.553252898,"data":"[NbConvertApp] Writing 302236 bytes to __results__.html\n"}
+]

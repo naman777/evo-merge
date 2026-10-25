@@ -1,0 +1,7 @@
+name,method,split,n,accuracy,seconds,config_from
+parent_a,task_arithmetic,train_main,8,0.375,41,a
+parent_b,task_arithmetic,train_main,8,0.125,36,a
+average,task_arithmetic,train_main,8,0.25,34,a
+task_arithmetic,task_arithmetic,train_main,8,0.375,38,a
+ties,ties,train_main,8,0.375,36,a
+dare_ties,dare_ties,train_main,8,0.375,37,a

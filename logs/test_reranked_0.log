@@ -1,0 +1,9 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:00<05:12,  1.08it/s]Loading weights:  40%|████      | 136/338 [00:01<00:01, 168.80it/s]Loading weights:  56%|█████▌    | 188/338 [00:01<00:00, 159.79it/s]Loading weights:  66%|██████▌   | 223/338 [00:01<00:00, 152.89it/s]Loading weights:  74%|███████▍  | 250/338 [00:01<00:00, 151.80it/s]Loading weights:  81%|████████  | 273/338 [00:02<00:00, 147.41it/s]Loading weights:  87%|████████▋ | 293/338 [00:02<00:00, 143.29it/s]Loading weights:  92%|█████████▏| 311/338 [00:02<00:00, 145.72it/s]Loading weights:  97%|█████████▋| 328/338 [00:02<00:00, 124.60it/s]Loading weights: 100%|██████████| 338/338 [00:02<00:00, 133.59it/s]
+loading weights: base=Qwen/Qwen2.5-1.5B a=Qwen/Qwen2.5-1.5B-Instruct b=sunblaze-ucb/Qwen2.5-1.5B-GRPO-MATH-1EPOCH
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files: 100%|██████████| 6/6 [00:00<00:00, 1155.46it/s]
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files: 100%|██████████| 6/6 [00:00<00:00, 1417.07it/s]
+Fetching 8 files:   0%|          | 0/8 [00:00<?, ?it/s]Fetching 8 files: 100%|██████████| 8/8 [00:00<00:00, 1438.62it/s]
+model ready: 28 layers, rope_theta=1000000.0, genome size 60
+ga_seed0_reranked    task_arithmetic  acc=0.208  (621s)
+cmaes_seed0_reranked task_arithmetic  acc=0.240  (688s)

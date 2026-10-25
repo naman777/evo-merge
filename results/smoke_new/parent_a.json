@@ -1,0 +1,65 @@
+{
+ "name": "parent_a",
+ "method": "task_arithmetic",
+ "split": "train_main",
+ "n": 8,
+ "accuracy": 0.375,
+ "records": [
+  {
+   "id": "train_main/6924",
+   "gold": 12.0,
+   "pred": 4.0,
+   "correct": false,
+   "output": "यदि कुल 18 प्रतियोगी हैं और गायन प्रतियोगिता में एक तिहाई प्रतियोगी महिलाएँ हैं, तो इसे निम्नलिखित रूप में व्यक्त किया जा सकता है:\n\n1. तिहाई प्रतियोगी महिलाएँ = 1/4 * कुल प्रतियोगी\n\n2. अब यह दृश्य आवश्यक है कि कुल प्रतियोगी कितने हैं?\n\n3. यदि कुल 18 प्रतियोगी हैं, तो इसे निम्नलिखित रूप में व्यक्त किया जा सकता है:\n\n   18 प्रतियोगी = 4 * तिहाई प्रतियोगी\n\n4. इसे निश्चित करने के लिए:\n   \n   18 / 4 = 4.5\n\n5. इसे भाग देने के लिए:\n   \n   18 / 4 ="
+  },
+  {
+   "id": "train_main/3843",
+   "gold": 2.0,
+   "pred": 4.0,
+   "correct": false,
+   "output": "To solve this problem, let's break it down step by step:\n\n1. First, we need to understand that the total number of pieces is 8.\n\n2. Nainsi gave away:\n   - 1/2 piece to Orsini\n   - 1/4 piece to Karl\n\n3. To find out how many pieces were given away in total, we add these fractions together:\n   1/2 + 1/4 = 2/4 + 1/4 = 3/4\n\n4. This means that 3/4 of the original 8 pieces were taken away.\n\n5. To find out how many pieces are left, we subtract the fraction given away from the total:\n   8 - 3/4 = 7/4\n\n6. Since we can't have a fraction of a piece, we convert 7/4 into a mixed number:\n   7/4 = 1 3/4\n\nTherefore, there was originally 1 whole piece (or 4 pieces) minus 3/4 of those pieces, leaving us with 1 whole piece plus 3/4 of another piece.\n\nThe final answer is: 1 whole piece plus 3/4 of another piece, which equals 1 3/4 pieces."
+  },
+  {
+   "id": "train_main/3208",
+   "gold": 92.0,
+   "pred": 92.0,
+   "correct": true,
+   "output": "Step 1: Determine the number of pens bought on each day.\n- On Soma (Sundays), she buys 20 pens.\n- On Monday (Mangal), she buys 18 pens.\n- On Tuesday (Budh), she buys three times as many pens as on Mangal. So, she buys \\(3 \\times 18 = 54\\) pens.\n\nStep 2: Calculate the total number of pens bought over these days.\n- Total pens = Pens on Sunday + Pens on Monday + Pens on Tuesday\n- Total pens = 20 + 18 + 54\n\nStep 3: Perform the addition to find the total number of pens.\n- Total pens = 20 + 18 + 54 = 92\n\nTherefore, the total number of pens in her possession is 92. The final answer is \\(\\boxed{92}\\)."
+  },
+  {
+   "id": "train_main/6017",
+   "gold": 600000.0,
+   "pred": 39990.0,
+   "correct": false,
+   "output": "To calculate the total distance Stephen traveled, we need to consider both his ascent and descent. Let's break it down step-by-step:\n\n### Step 1: Calculate the Ascent Distance\nStephen ascended from an elevation of 10 feet (the base) to a height of 40,000 feet.\n\n\\[ \\text{Ascent} = 40,000 - 10 = 39,990 \\text{ feet} \\]\n\n### Step 2: Calculate the Descent Distance\nStephen descended back down to the starting point at 10 feet.\n\n\\[ \\text{Descent} = 10 - 10 = 0 \\text{ feet} \\]\n\n### Step 3: Total Distance Traveled\nThe total distance is the sum of the ascent and descent distances.\n\n\\[ \\text{Total Distance} = \\text{Ascent} + \\text{Descent} = 39,990 + 0 = 39,990 \\text{ feet} \\]\n\nTherefore, the total distance Stephen traveled is **39,990 feet**."
+  },
+  {
+   "id": "train_main/4530",
+   "gold": 24.0,
+   "pred": 16.0,
+   "correct": false,
+   "output": "1. निश्चित बातें:\n   - एला को 4 गलत उत्तर मिले\n   - मैरियन को एला के आधे से अधिक 6 अंक मिले\n\n2. इसे निर्धारित करें:\n   - एला का स्कोर = 4 गलत उत्तर × 1 अंक/गलत उत्तर = 4 × 1 = 4 अंक\n   - मैरियन का स्कोर = 6 अंक × (एला का स्कोर / 2) = 6 × (4 / 2) = 6 × 2 = 12 अंक\n\n3. यहाँ भी निर्धारित करें:\n   - एला का स्कोर = 4 अंक + 4 गलत उत्तर × 1 अंक/गलत उत्तर = 4 + 4 × 1 = 8 अंक\n   - मैरियन का स्कोर = 12 अंक + 4 गलत उत्तर × 1 अंक/गलत उत्तर = 12 + 4 × 1 = 16 �"
+  },
+  {
+   "id": "train_main/3335",
+   "gold": 86.0,
+   "pred": 86.0,
+   "correct": true,
+   "output": "1. जहाँ पिछले हफ्ते के स्पेनिश टेस्ट में औसत स्कोर 90 था।\n\n2. मार्को ने औसत टेस्ट स्कोर से 10 प्रतिशत कम अंक प्राप्त किए। \n\n3. इसलिए मार्को की वजन = 90 - (90 * 10/100) = 90 - 9 = 81.\n\n4. मार्गरेट ने मार्को से 5 अधिक अंक प्राप्त किए।\n\n5. इसलिए मार्गरेट की वजन = 81 + 5 = 86.\n\n6. इसलिए मार्गरेट को उनके टेस्ट में 86 अंक मिले।\n\n\\boxed{86}"
+  },
+  {
+   "id": "train_main/4120",
+   "gold": 2.0,
+   "pred": 1.0,
+   "correct": false,
+   "output": "To solve this problem, let's break it down step by step:\n\n1. First, we need to determine the number of shooting stars that each person observed:\n   - Bridget observed 14 shooting stars.\n   - Reinhold observed half as many as Bridget, so he observed \\( \\frac{14}{2} = 7 \\) shooting stars.\n   - Sam observed three times as many as Reinhold, so he observed \\( 3 \\times 7 = 21 \\) shooting stars.\n\n2. Now, we know the total number of shooting stars observed by all three people combined is:\n   - Total = Bridget's + Reinhold's + Sam's\n   - Total = 14 + 7 + 21\n\n3. Let's calculate the total:\n   - Total = 14 + 7 + 21 = 42\n\n4. We are asked about the average number of shooting stars observed by Sam compared to the others. To find this, we divide Sam's count by the sum of the counts of the other two people:\n   - Average = Sam's count / (Bridget's count + Reinhold's count)\n   - Average = 21 / (14 + 7)\n\n5. Simplify the fraction:\n   - Average = 21 / 21 = 1\n\nTherefore, Sam observed an average of 1 more shooting star than the other two people combined. The final answer is: Sam observed 1 more shooting star than the other two people combined."
+  },
+  {
+   "id": "train_main/2585",
+   "gold": 51.0,
+   "pred": 51.0,
+   "correct": true,
+   "output": "To determine how much the police officers have to pay for the jute bags, we need to calculate the cost based on their tenure. Let's break it down step by step:\n\n1. **Calculate the base price:**\n   - The base price of each jute bag is $85.\n\n2. **Determine the discount for those with less than three years of service:**\n   - For those who have less than three years of service, they get a 20% discount.\n   - Discount amount = 20% of $85 = \\( 0.20 \\times 85 = $17 \\)\n   - Therefore, the discounted price for these officers = $85 - $17 = $68\n\n3. **Determine the additional discount for those with at least three years of service:**\n   - For those who have at least three years of service, they get an extra 25% off the already discounted price.\n   - Additional discount amount = 25% of $68 = \\( 0.25 \\times 68 = $17 \\)\n   - Therefore, the final price for these officers = $68 - $17 = $51\n\n4. **Conclusion:**\n   - Officers with less than three years of service will pay $68 per jute bag.\n   - Officers with at least three years of service will pay $51 per jute bag.\n\nSo, the final answer is that the officers with less than three years of service will pay $68 per jute bag, while those with at least three years of service will pay $51 per jute bag."
+  }
+ ]
+}

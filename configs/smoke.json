@@ -1,0 +1,17 @@
+{
+  "base_model": "Qwen/Qwen2.5-1.5B",
+  "model_a": "Qwen/Qwen2.5-1.5B-Instruct",
+  "model_b": "sunblaze-ucb/Qwen2.5-1.5B-GRPO-MATH-1EPOCH",
+  "config_from": "a",
+  "dtype": "bfloat16",
+  "search_n": 8,
+  "test_n": 8,
+  "max_new_tokens": 384,
+  "test_max_new_tokens": 384,
+  "batch_size": 8,
+  "weight_hi": 2.0,
+  "max_evals": 8,
+  "ga": {"pop_size": 4, "elite": 1, "tournament_k": 2, "crossover_rate": 0.9, "blx_alpha": 0.3,
+         "mutation_rate": 0.15, "mutation_sigma": 0.15, "sigma_decay": 0.95},
+  "cmaes": {"pop_size": 4, "sigma0": 0.25}
+}
